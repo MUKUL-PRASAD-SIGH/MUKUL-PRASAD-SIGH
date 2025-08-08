@@ -20,19 +20,13 @@ AWS · Docker · Git
 **Data & Analytics:**  
 SQL · MongoDB · Matplotlib · Seaborn
 
----
+## 📊 GitHub Stats & Activity
 
-### 🚀 Innovation Driven
+![Mukul's GitHub stats](https://github-readme-stats.vercel.app/api?username=MUKUL-PRASAD-SIGH&show_icons=true&theme=radical)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=MUKUL-PRASAD-SIGH&layout=compact&theme=radical)
+![GitHub Streak](https://streak-stats.demolab.com?user=MUKUL-PRASAD-SIGH&theme=radical)
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=MUKUL-PRASAD-SIGH&theme=radical)
 
-I constantly seek opportunities to learn, grow, and contribute my skills to innovative projects that create a positive impact. My goal is to bridge the gap between emerging technologies and real-world solutions.
-
----
-
-### ☁️ Cloud Computing Enthusiast
-
-As a Core Member of the AWS Club at MSRIT, I actively contribute to cloud computing initiatives and community-driven projects.
-
----
 
 ### 📈 Featured Projects
 
