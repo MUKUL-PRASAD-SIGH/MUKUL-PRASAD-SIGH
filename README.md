@@ -44,19 +44,6 @@ okay so,
 
 ## 🌐 Deployed Projects & Demo Videos
 
-Here are some deployed projects and demos you can check out:
-
-- **HealthCare System Dashboard Web App:**  
-  [Live Demo](https://hackathon-dashboard-mukul.netlify.app/login)
-
-- **Project Presentation/Demo Video:**  
-  [Watch on Google Drive](https://drive.usercontent.google.com/download?id=1uGGnBQxBxcWNA8_PzvGS9T-nNgl0lraX&export=download&authuser=0)
-
-- **Hackathon Dashboard Website:**  
-  [Hands on](https://hackathon-dashboard-mukul.netlify.app)
----
-## 🌐 Deployed Projects & Demo Videos
-
 <table>
   <tr>
     <td>
@@ -80,7 +67,8 @@ Here are some deployed projects and demos you can check out:
         <li>
           <b>Project Presentation/Demo Video</b><br>
           <a href="https://drive.usercontent.google.com/download?id=1uGGnBQxBxcWNA8_PzvGS9T-nNgl0lraX&export=download&authuser=0">▶️ Watch on Google Drive</a><br>
-          <i>Walkthrough and in-depth explanation of the HealthCare System Dashboard, highlighting its features and real-world applications.</i>
+          <i>Walkthrough and in-depth explanation of the Clipbait (Epitychia) - AI-Powered Smart Clipboard
+Transform your clipboard into an intelligent assistant with AI-powered suggestions and cross-platform synchronization..</i>
         </li>
       </ul>
     </td>
@@ -107,13 +95,17 @@ Here are some deployed projects and demos you can check out:
 
 Also, ### 🚀 Featured Projects
 
-- [GlamGlow](https://github.com/MUKUL-PRASAD-SIGH/GlamGlow) – A smart beauty product recommender leveraging ML to personalize your glow-up journey.
-- [HealthCare-System-Dashboard](https://github.com/MUKUL-PRASAD-SIGH/HealthCare-System-Dashboard) – Empowering healthcare analytics and insights using real-time ML-powered dashboards.
-- [URBAN-PLANNING](https://github.com/MUKUL-PRASAD-SIGH/URBAN-PLANNING) – Optimizing city layouts and urban solutions through intelligent AI modeling.
-- [Clipbait](https://github.com/MUKUL-PRASAD-SIGH/Clipbait) – Effortlessly capture, analyze, and share trending video moments using machine learning and deep learning (ML & DL)—not just TypeScript!
-- [DonorConnectT](https://github.com/MUKUL-PRASAD-SIGH/DonorConnectT) – Harnesses ML & DL to intelligently match donors and recipients in real time for life-saving connections.
-- [PROJECT_ENTANGLEMENT](https://github.com/MUKUL-PRASAD-SIGH/PROJECT_ENTANGLEMENT) – SIH 2025: Unraveling complex challenges with innovative ML & DL-powered collaborative tools.
+### 🚀 Featured Projects
 
+| Project | Description |
+| ------- | ----------- |
+| [GlamGlow](https://github.com/MUKUL-PRASAD-SIGH/GlamGlow) | A smart beauty product recommender leveraging ML to personalize your glow-up journey. |
+| [HealthCare-System-Dashboard](https://github.com/MUKUL-PRASAD-SIGH/HealthCare-System-Dashboard) | Empowering healthcare analytics and insights using real-time ML-powered dashboards. |
+| [URBAN-PLANNING](https://github.com/MUKUL-PRASAD-SIGH/URBAN-PLANNING) | Optimizing city layouts and urban solutions through intelligent AI modeling. |
+| [Clipbait](https://github.com/MUKUL-PRASAD-SIGH/Clipbait) | Effortlessly capture, analyze, and share trending video moments using machine learning and deep learning (ML & DL)—not just TypeScript! |
+| [DonorConnectT](https://github.com/MUKUL-PRASAD-SIGH/DonorConnectT) | Harnesses ML & DL to intelligently match donors and recipients in real time for life-saving connections. |
+| [PROJECT_ENTANGLEMENT](https://github.com/MUKUL-PRASAD-SIGH/PROJECT_ENTANGLEMENT) | SIH 2025: Unraveling complex challenges with innovative ML & DL-powered collaborative tools. |
+| [Hackathon-Dashboard](https://github.com/MUKUL-PRASAD-SIGH/Hackathon-Dashboard) | A real-time dashboard to streamline and manage hackathon events and submissions. |
 **Note:** These projects are powered by machine learning, artificial intelligence, and deep learning techniques—not just mere words of codes!  
 
 ---
