@@ -6,7 +6,8 @@ Just pushing some things that I build.
 
 ---
 
-okay so,### 💻 Technical Skills
+okay so,
+### 💻 Technical Skills
 
 **Programming & Development:**  
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
@@ -51,7 +52,7 @@ Here are some deployed projects and demos you can check out:
 - **Project Presentation/Demo Video:**  
   [Watch on Google Drive](https://drive.usercontent.google.com/download?id=1uGGnBQxBxcWNA8_PzvGS9T-nNgl0lraX&export=download&authuser=0)
 
--**Hackathon Dashboard Website:**  
+- **Hackathon Dashboard Website:**  
   [Hands on](https://hackathon-dashboard-mukul.netlify.app)
 ---
 
