@@ -6,7 +6,7 @@ Just pushing some things that I build.
 
 ---
 
-### 💻 Technical Skills
+okay so,### 💻 Technical Skills
 
 **Programming & Development:**  
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
@@ -51,6 +51,8 @@ Here are some deployed projects and demos you can check out:
 - **Project Presentation/Demo Video:**  
   [Watch on Google Drive](https://drive.usercontent.google.com/download?id=1uGGnBQxBxcWNA8_PzvGS9T-nNgl0lraX&export=download&authuser=0)
 
+-**Hackathon Dashboard Website:**  
+  [Hands on](https://hackathon-dashboard-mukul.netlify.app)
 ---
 
 ### 📊 GitHub Stats & Activity
@@ -72,7 +74,7 @@ Here are some deployed projects and demos you can check out:
 
 ---
 
-### 🚀 Featured Projects
+Also, ### 🚀 Featured Projects
 
 - [GlamGlow](https://github.com/MUKUL-PRASAD-SIGH/GlamGlow) – A smart beauty product recommender leveraging ML to personalize your glow-up journey.
 - [HealthCare-System-Dashboard](https://github.com/MUKUL-PRASAD-SIGH/HealthCare-System-Dashboard) – Empowering healthcare analytics and insights using real-time ML-powered dashboards.
@@ -81,7 +83,7 @@ Here are some deployed projects and demos you can check out:
 - [DonorConnectT](https://github.com/MUKUL-PRASAD-SIGH/DonorConnectT) – Harnesses ML & DL to intelligently match donors and recipients in real time for life-saving connections.
 - [PROJECT_ENTANGLEMENT](https://github.com/MUKUL-PRASAD-SIGH/PROJECT_ENTANGLEMENT) – SIH 2025: Unraveling complex challenges with innovative ML & DL-powered collaborative tools.
 
-**Note:** These projects are powered by machine learning, artificial intelligence, and deep learning techniques—not just TypeScript!  
+**Note:** These projects are powered by machine learning, artificial intelligence, and deep learning techniques—not just mere words of codes!  
 
 ---
 
