@@ -74,6 +74,7 @@ Transform your clipboard into an intelligent assistant with AI-powered suggestio
     </td>
   </tr>
 </table>
+
 ### 📊 GitHub Stats & Activity
 
 ![Mukul's GitHub Stats](https://github-readme-stats.vercel.app/api?username=MUKUL-PRASAD-SIGH&show_icons=true&theme=radical&count_private=true&hide=prs,issues&include_all_commits=true)
@@ -93,7 +94,7 @@ Transform your clipboard into an intelligent assistant with AI-powered suggestio
 
 ---
 
-Also, 
+Also,
 ### 🚀 Featured Projects
 
 | Project | Description |
