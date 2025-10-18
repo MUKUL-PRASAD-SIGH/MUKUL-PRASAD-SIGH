@@ -55,7 +55,37 @@ Here are some deployed projects and demos you can check out:
 - **Hackathon Dashboard Website:**  
   [Hands on](https://hackathon-dashboard-mukul.netlify.app)
 ---
+## 🌐 Deployed Projects & Demo Videos
 
+<table>
+  <tr>
+    <td>
+      <h4>🟢 <b>Deployed Project</b></h4>
+      <ul>
+        <li>
+          <b>HealthCare System Dashboard Web App</b><br>
+          <a href="https://hackathon-dashboard-mukul.netlify.app/login">🔗 Live Demo</a><br>
+          <i>A comprehensive dashboard for managing healthcare data and analytics, enabling seamless hospital and patient monitoring.</i>
+        </li>
+        <li>
+          <b>Hackathon Dashboard Website</b><br>
+          <a href="https://hackathon-dashboard-mukul.netlify.app/login">🔗 Hands-on Demo</a><br>
+          <i>Interactive platform for hackathon tracking, participant analysis, and real-time event management.</i>
+        </li>
+      </ul>
+    </td>
+    <td>
+      <h4>🎬 <b>Demo Videos</b></h4>
+      <ul>
+        <li>
+          <b>Project Presentation/Demo Video</b><br>
+          <a href="https://drive.usercontent.google.com/download?id=1uGGnBQxBxcWNA8_PzvGS9T-nNgl0lraX&export=download&authuser=0">▶️ Watch on Google Drive</a><br>
+          <i>Walkthrough and in-depth explanation of the HealthCare System Dashboard, highlighting its features and real-world applications.</i>
+        </li>
+      </ul>
+    </td>
+  </tr>
+</table>
 ### 📊 GitHub Stats & Activity
 
 ![Mukul's GitHub Stats](https://github-readme-stats.vercel.app/api?username=MUKUL-PRASAD-SIGH&show_icons=true&theme=radical&count_private=true&hide=prs,issues&include_all_commits=true)
