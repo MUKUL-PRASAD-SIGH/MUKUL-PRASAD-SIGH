@@ -104,7 +104,10 @@ Also,
 | [URBAN-PLANNING](https://github.com/MUKUL-PRASAD-SIGH/URBAN-PLANNING) | Optimizing city layouts and urban solutions through intelligent AI modeling. |
 | [Clipbait](https://github.com/MUKUL-PRASAD-SIGH/Clipbait) | Effortlessly capture, analyze, and share trending video moments using machine learning and deep learning (ML & DL)—not just TypeScript! |
 | [DonorConnectT](https://github.com/MUKUL-PRASAD-SIGH/DonorConnectT) | Harnesses ML & DL to intelligently match donors and recipients in real time for life-saving connections. |
-| [PROJECT_ENTANGLEMENT](https://github.com/MUKUL-PRASAD-SIGH/PROJECT_ENTANGLEMENT) | SIH 2025: Unraveling complex challenges with innovative ML & DL-powered collaborative tools. |
+| [PROJECT_ENTANGLEMENT](https://github.com/MUKUL-PRASAD-SIGH/PROJECT_ENTANGLEMENT) | SIH 2025: 🚀 **Project Astraeus** — an **AI-powered Mission Control System** fusing **Digital Twin simulation**, **Graph Neural Networks**, and **Reinforcement Learning** to revolutionize satellite scheduling and eliminate the “traffic jam in the sky.” 🌌
+🧠 Trained on **100,000+ orbital scenarios**, Astraeus achieves **+23% efficiency**, delivering **superhuman constellation optimization** with real-time 3D visualization.
+🌍 Built for **ISRO’s next-gen mega-constellations**, it ensures **faster data delivery, smarter bandwidth use**, and **autonomous, future-ready space operations.**
+. |
 | [Hackathon-Dashboard](https://github.com/MUKUL-PRASAD-SIGH/Hackathon-Dashboard) | A real-time dashboard to streamline and manage hackathon events and submissions. |
 **Note:** These projects are powered by machine learning, artificial intelligence, and deep learning techniques—not just mere words of codes!  
 
