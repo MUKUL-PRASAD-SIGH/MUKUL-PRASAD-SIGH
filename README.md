@@ -84,7 +84,7 @@ Transform your clipboard into an intelligent assistant with AI-powered suggestio
 ![Profile Views](https://komarev.com/ghpvc/?username=MUKUL-PRASAD-SIGH&style=flat-square)
 ![Followers](https://img.shields.io/github/followers/MUKUL-PRASAD-SIGH?label=Followers&style=social)
 ![Stars](https://img.shields.io/github/stars/MUKUL-PRASAD-SIGH?label=Stars&style=social)
-![Public Repos](https://img.shields.io/github/repos/MUKUL-PRASAD-SIGH?label=Public%20Repos&style=flat-square)
+![Public Repos](https://img.shields.io/github/user/public_repos/MUKUL-PRASAD-SIGH?label=Public%20Repos&style=flat-square)
 
 [![trophy](https://github-profile-trophy.vercel.app/?username=MUKUL-PRASAD-SIGH&theme=radical&column=7&margin-w=10&no-frame=true)](https://github.com/ryo-ma/github-profile-trophy)
 ![Contribution Snake](https://github.com/MUKUL-PRASAD-SIGH/MUKUL-PRASAD-SIGH/blob/output/github-contribution-grid-snake.svg)
@@ -93,8 +93,7 @@ Transform your clipboard into an intelligent assistant with AI-powered suggestio
 
 ---
 
-Also, ### 🚀 Featured Projects
-
+Also, 
 ### 🚀 Featured Projects
 
 | Project | Description |
