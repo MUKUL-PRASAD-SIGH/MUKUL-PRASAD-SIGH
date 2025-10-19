@@ -102,7 +102,7 @@ Also,
 | [GlamGlow](https://github.com/MUKUL-PRASAD-SIGH/GlamGlow) | A smart beauty product recommender leveraging ML to personalize your glow-up journey. |
 | [HealthCare-System-Dashboard](https://github.com/MUKUL-PRASAD-SIGH/HealthCare-System-Dashboard) | Empowering healthcare analytics and insights using real-time ML-powered dashboards. |
 | [URBAN-PLANNING](https://github.com/MUKUL-PRASAD-SIGH/URBAN-PLANNING) | Optimizing city layouts and urban solutions through intelligent AI modeling. |
-| [Clipbait](https://github.com/MUKUL-PRASAD-SIGH/Clipbait) | Effortlessly capture, analyze, and share trending video moments using machine learning and deep learning (ML & DL)—not just TypeScript! |
+| [Clipbait](https://github.com/MUKUL-PRASAD-SIGH/Clipbait) | Effortlessly capture, analyze, and realise copied text moments using machine learning and deep learning (ML & DL)—not just TypeScript! |
 | [DonorConnectT](https://github.com/MUKUL-PRASAD-SIGH/DonorConnectT) | Harnesses ML & DL to intelligently match donors and recipients in real time for life-saving connections. |
 | [PROJECT_ENTANGLEMENT](https://github.com/MUKUL-PRASAD-SIGH/PROJECT_ENTANGLEMENT) | SIH 2025: 🚀 **Project Astraeus** — an **AI-powered Mission Control System** fusing **Digital Twin simulation**, **Graph Neural Networks**, and **Reinforcement Learning** to revolutionize satellite scheduling and eliminate the “traffic jam in the sky.” 🌌
 . |
