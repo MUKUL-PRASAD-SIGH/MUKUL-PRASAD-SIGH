@@ -14,7 +14,7 @@ import os
 import sys
 import argparse
 import requests
-from datetime import datetime, date
+from datetime import datetime, date, timedelta
 from calendar import monthrange
 
 GRAPHQL_URL = "https://api.github.com/graphql"
@@ -78,6 +78,18 @@ def month_ranges_for_last_n(n, end_date=None):
     ranges.reverse()
     return ranges
 
+def fetch_total_contributions(token, login, start_date, end_date):
+    """Fetch contributions in <=365-day chunks and return total count."""
+    total = 0
+    chunk_start = start_date
+    while chunk_start <= end_date:
+        chunk_end = min(chunk_start + timedelta(days=365), end_date)
+        weeks = post_graphql(token, login, iso_datetime(chunk_start, False), iso_datetime(chunk_end, True))
+        total += sum_weeks(weeks)
+        # move to the next day after chunk_end
+        chunk_start = chunk_end + timedelta(days=1)
+    return total
+
 def update_readme(path, new_block):
     if os.path.exists(path):
         with open(path, "r", encoding="utf-8") as f:
@@ -115,15 +127,15 @@ def main():
         sys.exit(2)
 
     today = date.today()
-    from_dt = iso_datetime(start_date, False)
-    to_dt = iso_datetime(today, True)
-    try:
-        weeks = post_graphql(args.token, args.username, from_dt, to_dt)
-    except Exception as e:
-        print("GraphQL query failed:", str(e), file=sys.stderr)
-        sys.exit(1)
-    all_time_total = sum_weeks(weeks)
 
+    # All-time total (chunked to <= 1 year per GraphQL call)
+    try:
+        all_time_total = fetch_total_contributions(args.token, args.username, start_date, today)
+    except Exception as e:
+        print("GraphQL query failed while fetching all-time total:", str(e), file=sys.stderr)
+        sys.exit(1)
+
+    # Per-month for last N months
     month_ranges = month_ranges_for_last_n(args.months, end_date=today)
     month_stats = []
     for first, last in month_ranges:
@@ -135,6 +147,7 @@ def main():
         cnt = sum_weeks(weeks)
         month_stats.append((first.strftime("%Y-%m"), cnt))
 
+    # Build markdown block
     md_lines = []
     md_lines.append("## Commit stats")
     md_lines.append("")
