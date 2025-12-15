@@ -99,16 +99,20 @@ Also,
 
 | Project | Description |
 | ------- | ----------- |
+| [NEURACITY](https://github.com/MUKUL-PRASAD-SIGH/NEURACITY) | Neural/ML toolkit for city modelling and visualization — tools for traffic, zoning and optimisation. |
+| [VAAYA-PROJECT](https://github.com/MUKUL-PRASAD-SIGH/VAAYA-PROJECT) | VAAYA is a travel platform that combines Google Maps + TikTok Reels + Pokémon GO–style quests to help travelers explore smarter and help locals earn. |
+| [VoOTEX](https://github.com/MUKUL-PRASAD-SIGH/VoOTEX) | Voice-to-text transcription pipeline with speaker diarization and post-processing. |
+| [X-FORECAST](https://github.com/MUKUL-PRASAD-SIGH/X-FORECAST) | Time-series forecasting models and dashboards for demand & trend prediction. |
+| [finance-bud](https://github.com/MUKUL-PRASAD-SIGH/finance-bud) | Personal finance manager: budgeting, expense tracking, and visual analytics. |
 | [GlamGlow](https://github.com/MUKUL-PRASAD-SIGH/GlamGlow) | A smart beauty product recommender leveraging ML to personalize your glow-up journey. |
 | [HealthCare-System-Dashboard](https://github.com/MUKUL-PRASAD-SIGH/HealthCare-System-Dashboard) | Empowering healthcare analytics and insights using real-time ML-powered dashboards. |
 | [URBAN-PLANNING](https://github.com/MUKUL-PRASAD-SIGH/URBAN-PLANNING) | Optimizing city layouts and urban solutions through intelligent AI modeling. |
-| [Clipbait](https://github.com/MUKUL-PRASAD-SIGH/Clipbait) | Effortlessly capture, analyze, and realise copied text moments using machine learning and deep learning (ML & DL)—not just TypeScript! |
-| [DonorConnectT](https://github.com/MUKUL-PRASAD-SIGH/DonorConnectT) | Harnesses ML & DL to intelligently match donors and recipients in real time for life-saving connections. |
-| [PROJECT_ENTANGLEMENT](https://github.com/MUKUL-PRASAD-SIGH/PROJECT_ENTANGLEMENT) | SIH 2025: 🚀 **Project Astraeus** — an **AI-powered Mission Control System** fusing **Digital Twin simulation**, **Graph Neural Networks**, and **Reinforcement Learning** to revolutionize satellite scheduling and eliminate the “traffic jam in the sky.” 🌌
-. |
+| [Clipbait](https://github.com/MUKUL-PRASAD-SIGH/Clipbait) | Effortlessly capture, analyze, and realise copied text moments using ML & DL. |
+| [DonorConnectT](https://github.com/MUKUL-PRASAD-SIGH/DonorConnectT) | Harnesses ML & DL to intelligently match donors and recipients in real time. |
+| [PROJECT_ENTANGLEMENT](https://github.com/MUKUL-PRASAD-SIGH/PROJECT_ENTANGLEMENT) | SIH 2025: Project Astraeus — an AI-powered Mission Control System with digital-twin simulation. |
 | [Hackathon-Dashboard](https://github.com/MUKUL-PRASAD-SIGH/Hackathon-Dashboard) | A real-time dashboard to streamline and manage hackathon events and submissions. |
-**Note:** These projects are powered by machine learning, artificial intelligence, and deep learning techniques—not just mere words of codes!  
 
+**Note:** These projects are powered by machine learning, artificial intelligence, and deep learning techniques—not just mere lines of code!
 ---
 
 ### 📫 Let's Connect!
