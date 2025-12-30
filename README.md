@@ -77,20 +77,13 @@ Transform your clipboard into an intelligent assistant with AI-powered suggestio
 
 ### 📊 GitHub Stats & Activity
 
-![Mukul's GitHub Stats](https://github-readme-stats.vercel.app/api?username=MUKUL-PRASAD-SIGH&show_icons=true&theme=radical&count_private=true&hide=prs,issues&include_all_commits=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MUKUL-PRASAD-SIGH&layout=compact&theme=radical&langs_count=10)
-![GitHub Streak](https://streak-stats.demolab.com?user=MUKUL-PRASAD-SIGH&theme=radical&hide_border=true)
-![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=MUKUL-PRASAD-SIGH&theme=radical&hide_border=true)
+![GitHub Stats](assets/github-stats.svg)
+![Top Languages](assets/top-langs.svg)
+![GitHub Streak](assets/streak.svg)
+![Contribution Heatmap](assets/ghchart.svg)
+![Profile Trophies](assets/trophy.svg)
+![Contribution Snake](assets/snake.svg)
 
-![Profile Views](https://komarev.com/ghpvc/?username=MUKUL-PRASAD-SIGH&style=flat-square)
-![Followers](https://img.shields.io/github/followers/MUKUL-PRASAD-SIGH?label=Followers&style=social)
-![Stars](https://img.shields.io/github/stars/MUKUL-PRASAD-SIGH?label=Stars&style=social)
-
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=MUKUL-PRASAD-SIGH&theme=radical&column=7&margin-w=10&no-frame=true)](https://github.com/ryo-ma/github-profile-trophy)
-![Contribution Snake](https://github.com/MUKUL-PRASAD-SIGH/MUKUL-PRASAD-SIGH/blob/output/github-contribution-grid-snake.svg)
-![Metrics](https://github-metrics.lecoq.io/MUKUL-PRASAD-SIGH?template=classic&base.header=0&base.community=0&base.repositories=0&base.metadata=0&languages=1&stars=1&people=1&introduction=1&isocalendar=1&activity=1&followup=1&lines=1&habits=1&pagespeed=1&notable=1&achievements=1&support=1&repositories=1)
-[![Visitor Map](https://api.visitorbadge.io/api/visitors?path=MUKUL-PRASAD-SIGH&label=VISITORS&countColor=%23263759)](https://visitorbadge.io/status?path=MUKUL-PRASAD-SIGH)
 
 Also,
 ### 🚀 Featured Projects
