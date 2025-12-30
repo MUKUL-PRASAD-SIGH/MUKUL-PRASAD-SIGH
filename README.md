@@ -80,22 +80,22 @@ Transform your clipboard into an intelligent assistant with AI-powered suggestio
 <!-- Profile views -->
 ![Profile Views](https://komarev.com/ghpvc/?username=MUKUL-PRASAD-SIGH&style=flat-square)
 
-<!-- GitHub stats -->
+<!-- GitHub stats (github-readme-stats) -->
 ![Mukul's GitHub stats](https://github-readme-stats.vercel.app/api?username=MUKUL-PRASAD-SIGH&show_icons=true&theme=radical)
 
 <!-- Top languages -->
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MUKUL-PRASAD-SIGH&layout=compact&theme=radical)
 
-<!-- Streak -->
+<!-- Streak (may be unstable if service is down) -->
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=MUKUL-PRASAD-SIGH&theme=radical)
 
-<!-- Activity graph -->
+<!-- Activity graph (this service is known to be flaky; see fallback below) -->
 ![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=MUKUL-PRASAD-SIGH&theme=react-dark&area=true)
 
 <!-- Profile trophies -->
 ![trophy](https://github-profile-trophy.vercel.app/?username=MUKUL-PRASAD-SIGH&theme=radical)
 
-<!-- Contribution Snake -->
+<!-- Contribution Snake (may be blocked if service is down) -->
 ![Contribution Snake](https://raw.githubusercontent.com/Platane/snk/master/snk.svg?user=MUKUL-PRASAD-SIGH&theme=github)
 
 ---
