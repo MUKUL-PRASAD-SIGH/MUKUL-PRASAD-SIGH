@@ -1,0 +1,57 @@
+name: Update GitHub Profile Assets
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"   # runs every 6 hours automatically
+  workflow_dispatch:        # allows manual run
+
+jobs:
+  update-assets:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Create assets directory
+        run: mkdir -p assets
+
+      - name: Fetch GitHub Stats
+        run: |
+          curl -L "https://github-readme-stats.vercel.app/api?username=MUKUL-PRASAD-SIGH&show_icons=true&theme=radical&count_private=true&include_all_commits=true" \
+          -o assets/github-stats.svg
+
+      - name: Fetch Top Languages
+        run: |
+          curl -L "https://github-readme-stats.vercel.app/api/top-langs/?username=MUKUL-PRASAD-SIGH&layout=compact&theme=radical&langs_count=10" \
+          -o assets/top-langs.svg
+
+      - name: Fetch GitHub Streak
+        run: |
+          curl -L "https://streak-stats.demolab.com?user=MUKUL-PRASAD-SIGH&theme=radical&hide_border=true" \
+          -o assets/streak.svg
+
+      - name: Fetch Contribution Graph
+        run: |
+          curl -L "https://ghchart.rshah.org/MUKUL-PRASAD-SIGH" \
+          -o assets/ghchart.svg
+
+      - name: Fetch Profile Trophies
+        run: |
+          curl -L "https://github-profile-trophy.vercel.app/?username=MUKUL-PRASAD-SIGH&theme=radical&column=7&no-frame=true" \
+          -o assets/trophy.svg
+
+      - name: Generate Contribution Snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: MUKUL-PRASAD-SIGH
+          outputs: |
+            assets/snake.svg
+
+      - name: Commit & Push updates
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add assets
+          git commit -m "chore: update profile assets" || exit 0
+          git push
