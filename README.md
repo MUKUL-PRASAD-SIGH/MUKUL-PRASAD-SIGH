@@ -78,7 +78,7 @@ Transform your clipboard into an intelligent assistant with AI-powered suggestio
 ### 📊 GitHub Stats & Activity
 
 ![GitHub Stats](assets/github-stats.svg)
-![Top Languages](assets/top-langs.svg)
+![Top Languages](./assets/top-langs.svg)
 ![GitHub Streak](assets/streak.svg)
 ![Contribution Heatmap](assets/ghchart.svg)
 ![Profile Trophies](assets/trophy.svg)
