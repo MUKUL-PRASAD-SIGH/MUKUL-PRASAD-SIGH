@@ -119,3 +119,26 @@ Also,
 > — Dr. APJ Abdul Kalam
 
 Thanks for stopping by! Feel free to check out my repositories or reach out for collaboration.
+
+<!-- COMMITS_START -->
+## Commit stats
+
+- All-time commits (since 2008-01-01): **443**
+
+### Commits per month (last 12 months)
+
+| Month | Commits |
+|---:|---:|
+| 2025-02 | 0 |
+| 2025-03 | 0 |
+| 2025-04 | 0 |
+| 2025-05 | 9 |
+| 2025-06 | 9 |
+| 2025-07 | 42 |
+| 2025-08 | 73 |
+| 2025-09 | 68 |
+| 2025-10 | 48 |
+| 2025-11 | 117 |
+| 2025-12 | 60 |
+| 2026-01 | 0 |
+<!-- COMMITS_END -->
