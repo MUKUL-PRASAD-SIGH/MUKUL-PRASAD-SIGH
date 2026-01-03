@@ -4,7 +4,7 @@
 
 Just pushing some things that I build.
 
----
+---   
 
 okay so,
 ### 💻 Technical Skills
