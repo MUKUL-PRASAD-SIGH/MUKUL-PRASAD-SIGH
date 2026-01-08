@@ -7,7 +7,8 @@ Just pushing some things that I build.
 ---   
 
 okay so,
-Portfolio-mukulprasad.netlify.in
+Portfolio-[Link](https://mukulprasad.netlify.app/)
+
 Link to socials-https://mukul.taplink.in
 Now,
 ### 💻 Technical Skills
