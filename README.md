@@ -7,6 +7,9 @@ Just pushing some things that I build.
 ---   
 
 okay so,
+Portfolio-mukulprasad.netlify.in
+Link to socials-https://mukul.taplink.in
+Now,
 ### 💻 Technical Skills
 
 **Programming & Development:**  
