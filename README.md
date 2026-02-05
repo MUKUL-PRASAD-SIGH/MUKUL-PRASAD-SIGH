@@ -3,6 +3,7 @@
 ## 🤖 AI/ML Enthusiast & CS Sophomore at MSRIT, Bengaluru
 
 Just pushing some things that I build.
+![Profile Views](https://komarev.com/gphvc/?username=MUKUL-PRASAD-SIGH&label=Profile%20views&color=0e75b6&style=flat)
 
 ---   
 
