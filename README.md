@@ -60,6 +60,21 @@ Now,
       <h4>🟢 <b>Deployed Project</b></h4>
       <ul>
         <li>
+          <b>🚀 Project Astraeus</b><br>
+          <a href="https://astraeus-frontend.onrender.com/">🔗 Hands-on Demo</a><br>
+          <i>AI-powered Mission Control System with digital-twin simulation, real-time monitoring, and intelligent decision support.</i>
+        </li>
+        <li>
+          <b>❤️ DonorConnect</b><br>
+          <a href="https://bloodme-frontend.vercel.app/">🔗 Live Deployment</a><br>
+          <i>ML & DL powered real-time blood donor and recipient intelligent matching platform.</i>
+        </li>
+        <li>
+          <b>🌐 Portfolio Website</b><br>
+          <a href="https://mukulprasad.netlify.app/">🔗 Visit Portfolio</a><br>
+          <i>Personal portfolio showcasing AI, ML, and full-stack development projects and research work.</i>
+        </li>
+        <li>
           <b>Hackathon Dashboard Website</b><br>
           <a href="https://hackathon-dashboard-mukul.netlify.app/login">🔗 Hands-on Demo</a><br>
           <i>Interactive platform for hackathon tracking, participant analysis, and real-time event management.</i>
@@ -98,8 +113,7 @@ Now,
     </td>
   </tr>
 </table>
-
-
+---
 
 ### 📊 GitHub Stats & Activity
 
