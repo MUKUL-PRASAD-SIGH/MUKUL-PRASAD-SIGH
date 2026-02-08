@@ -9,6 +9,9 @@ on:
 
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -25,15 +28,20 @@ jobs:
       - name: Install deps
         run: pip install requests
 
-      - name: Run script
+      - name: Run commit stats script
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
-        run: python update_commits.py --username MUKUL-PRASAD-SIGH --months 12 --start 2008-01-01 --readme README.md
+        run: |
+          python update_commits.py \
+            --username MUKUL-PRASAD-SIGH \
+            --months 12 \
+            --start 2008-01-01 \
+            --readme README.md
 
-      - name: Commit changes
+      - name: Commit README changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git commit -m "Update commit stats" || echo "No changes"
+          git commit -m "Update commit stats [skip ci]" || echo "No changes"
           git push
