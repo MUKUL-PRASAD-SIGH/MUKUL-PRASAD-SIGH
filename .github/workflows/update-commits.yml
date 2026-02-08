@@ -1,37 +1,272 @@
-name: Update commit stats
+import argparse
+import os
+import requests
+from datetime import datetime, timedelta, timezone
+from collections import Counter, defaultdict
 
-on:
-  schedule:
-    - cron: '0 0 1 * *'
-  workflow_dispatch: {}
 
-jobs:
-  update:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
-        with:
-          persist-credentials: true
+# -------------------------------
+# GitHub API Helpers
+# -------------------------------
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.11'
+def github_get(url, token, params=None):
+    headers = {"Authorization": f"Bearer {token}"}
+    r = requests.get(url, headers=headers, params=params)
+    if r.status_code != 200:
+        print("GitHub API error:", r.text)
+        return None
+    return r.json()
 
-      - name: Install requirements
-        run: python -m pip install --upgrade pip requests
 
-      - name: Run update script
-        env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
-        run: |
-          python update_commits.py --username MUKUL-PRASAD-SIGH --months 12 --start 2008-01-01 --readme README.md
+def fetch_user_events(username, token):
+    events = []
+    page = 1
 
-      - name: Commit changes
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md || true
-          git commit -m "Update commit stats" || echo "No changes to commit"
-          git push
+    while True:
+        url = f"https://api.github.com/users/{username}/events/public"
+        data = github_get(url, token, params={"per_page": 100, "page": page})
+
+        if not data:
+            break
+
+        events.extend(data)
+
+        if len(data) < 100:
+            break
+
+        page += 1
+
+    return events
+
+
+def get_repo_languages(owner, repo, token):
+    url = f"https://api.github.com/repos/{owner}/{repo}/languages"
+    data = github_get(url, token)
+    return data or {}
+
+
+# -------------------------------
+# Commit Extraction
+# -------------------------------
+
+def extract_commit_like_events(events):
+    commits = []
+
+    for e in events:
+        if e.get("type") == "PushEvent":
+            repo_name = e.get("repo", {}).get("name", "")
+            repo_only = repo_name.split("/")[-1] if repo_name else None
+
+            for c in e.get("payload", {}).get("commits", []):
+                commits.append({
+                    "date": e.get("created_at"),
+                    "repo": repo_only
+                })
+
+    return commits
+
+
+# -------------------------------
+# Monthly Stats
+# -------------------------------
+
+def compute_monthly(commits, start_date):
+    monthly = Counter()
+
+    for c in commits:
+        dt = datetime.fromisoformat(c["date"].replace("Z", "+00:00"))
+        if dt.date() >= start_date:
+            key = f"{dt.year}-{dt.month:02d}"
+            monthly[key] += 1
+
+    return monthly
+
+
+# -------------------------------
+# Extra Metrics (ALL NEW FEATURES)
+# -------------------------------
+
+def compute_extra_metrics(commits, username, token):
+    now = datetime.now(timezone.utc)
+    today = now.date()
+    week_start = today - timedelta(days=today.weekday())
+
+    today_commits = 0
+    week_commits = 0
+
+    repo_counter = Counter()
+    lang_counter = Counter()
+
+    active_days = set()
+    active_per_month = defaultdict(set)
+    weekday_counter = Counter()
+
+    for c in commits:
+        dt = datetime.fromisoformat(c["date"].replace("Z", "+00:00"))
+        d = dt.date()
+
+        if d == today:
+            today_commits += 1
+        if d >= week_start:
+            week_commits += 1
+
+        if c["repo"]:
+            repo_counter[c["repo"]] += 1
+
+        active_days.add(d)
+        active_per_month[f"{dt.year}-{dt.month:02d}"].add(d)
+        weekday_counter[dt.strftime("%A")] += 1
+
+    total_repo = sum(repo_counter.values())
+
+    top_repos = []
+    if total_repo:
+        for repo, count in repo_counter.most_common(5):
+            top_repos.append((repo, (count / total_repo) * 100))
+
+    for repo, _ in top_repos:
+        langs = get_repo_languages(username, repo, token)
+        for lang, b in langs.items():
+            lang_counter[lang] += b
+
+    total_bytes = sum(lang_counter.values())
+    lang_percent = {}
+
+    if total_bytes:
+        lang_percent = {
+            lang: (b / total_bytes) * 100
+            for lang, b in lang_counter.items()
+        }
+
+    avg_per_day = len(commits) / len(active_days) if active_days else 0
+
+    most_productive_day = None
+    if weekday_counter:
+        most_productive_day = weekday_counter.most_common(1)[0][0]
+
+    active_days_per_month = {k: len(v) for k, v in active_per_month.items()}
+
+    return {
+        "today": today_commits,
+        "week": week_commits,
+        "top_repos": top_repos,
+        "lang_percent": lang_percent,
+        "avg_per_day": avg_per_day,
+        "active_days_per_month": active_days_per_month,
+        "most_productive_day": most_productive_day
+    }
+
+
+# -------------------------------
+# README Block Replace
+# -------------------------------
+
+def replace_block(text, start_marker, end_marker, new_content):
+    start = text.index(start_marker) + len(start_marker)
+    end = text.index(end_marker)
+    return text[:start] + "\n" + new_content + "\n" + text[end:]
+
+
+# -------------------------------
+# MAIN
+# -------------------------------
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--username", required=True)
+    parser.add_argument("--months", type=int, default=12)
+    parser.add_argument("--start", required=True)
+    parser.add_argument("--readme", required=True)
+
+    args = parser.parse_args()
+
+    token = os.getenv("GH_TOKEN")
+    username = args.username
+    start_date = datetime.fromisoformat(args.start).date()
+
+    print("Fetching events...")
+    events = fetch_user_events(username, token)
+
+    commits = extract_commit_like_events(events)
+
+    print("Computing monthly stats...")
+    monthly = compute_monthly(commits, start_date)
+
+    print("Computing extra metrics...")
+    extra = compute_extra_metrics(commits, username, token)
+
+    # ----- Monthly Table -----
+    monthly_md = ""
+    total = sum(monthly.values())
+
+    for m in sorted(monthly.keys()):
+        monthly_md += f"| {m} | {monthly[m]} |\n"
+
+    monthly_section = f"""
+## Commit stats
+
+- All-time commits (since {args.start}): **{total}**
+
+### Commits per month (last 12 months)
+
+| Month | Commits |
+|---:|---:|
+{monthly_md}
+"""
+
+    # ----- Extra Section -----
+    extra_md = f"""
+## ⚡ Short Term Activity
+
+- Today: **{extra['today']} commits**
+- This Week: **{extra['week']} commits**
+
+---
+
+## 🎯 Top Repositories
+"""
+
+    for repo, pct in extra["top_repos"]:
+        extra_md += f"- {repo}: **{pct:.1f}%**\n"
+
+    extra_md += "\n---\n\n## 🧠 Language Usage\n"
+
+    for lang, pct in extra["lang_percent"].items():
+        extra_md += f"- {lang}: **{pct:.1f}%**\n"
+
+    extra_md += f"""
+
+---
+
+## 📊 Productivity
+
+- Avg commits / active day: **{extra['avg_per_day']:.2f}**
+- Most productive weekday: **{extra['most_productive_day']}**
+"""
+
+    # ----- Update README -----
+    with open(args.readme, "r", encoding="utf-8") as f:
+        readme = f.read()
+
+    readme = replace_block(
+        readme,
+        "<!-- COMMITS_START -->",
+        "<!-- COMMITS_END -->",
+        monthly_section
+    )
+
+    readme = replace_block(
+        readme,
+        "<!-- EXTRA_STATS_START -->",
+        "<!-- EXTRA_STATS_END -->",
+        extra_md
+    )
+
+    with open(args.readme, "w", encoding="utf-8") as f:
+        f.write(readme)
+
+    print("README updated!")
+
+
+if __name__ == "__main__":
+    main()
