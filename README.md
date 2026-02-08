@@ -128,22 +128,29 @@ Now,
 Also,
 ### 🚀 Featured Projects
 
-| Project | Description |
-| ------- | ----------- |
-| [NEURACITY](https://github.com/MUKUL-PRASAD-SIGH/NEURACITY) | Neural/ML toolkit for city modelling and visualization — tools for traffic, zoning and optimisation. |
-| [VAAYA-PROJECT](https://github.com/MUKUL-PRASAD-SIGH/VAAYA-PROJECT) | VAAYA is a travel platform that combines Google Maps + TikTok Reels + Pokémon GO–style quests to help travelers explore smarter and help locals earn. |
-| [VoOTEX](https://github.com/MUKUL-PRASAD-SIGH/VoOTEX) | Voice-to-text transcription pipeline with speaker diarization and post-processing. |
-| [X-FORECAST](https://github.com/MUKUL-PRASAD-SIGH/X-FORECAST) | Time-series forecasting models and dashboards for demand & trend prediction. |
-| [finance-bud](https://github.com/MUKUL-PRASAD-SIGH/finance-bud) | Personal finance manager: budgeting, expense tracking, and visual analytics. |
-| [GlamGlow](https://github.com/MUKUL-PRASAD-SIGH/GlamGlow) | A smart beauty product recommender leveraging ML to personalize your glow-up journey. |
-| [HealthCare-System-Dashboard](https://github.com/MUKUL-PRASAD-SIGH/HealthCare-System-Dashboard) | Empowering healthcare analytics and insights using real-time ML-powered dashboards. |
-| [URBAN-PLANNING](https://github.com/MUKUL-PRASAD-SIGH/URBAN-PLANNING) | Optimizing city layouts and urban solutions through intelligent AI modeling. |
-| [Clipbait](https://github.com/MUKUL-PRASAD-SIGH/Clipbait) | Effortlessly capture, analyze, and realise copied text moments using ML & DL. |
-| [DonorConnectT](https://github.com/MUKUL-PRASAD-SIGH/DonorConnectT) | Harnesses ML & DL to intelligently match donors and recipients in real time. |
-| [PROJECT_ENTANGLEMENT](https://github.com/MUKUL-PRASAD-SIGH/PROJECT_ENTANGLEMENT) | SIH 2025: Project Astraeus — an AI-powered Mission Control System with digital-twin simulation. |
-| [Hackathon-Dashboard](https://github.com/MUKUL-PRASAD-SIGH/Hackathon-Dashboard) | A real-time dashboard to streamline and manage hackathon events and submissions. |
+### 🚀 Featured Projects
 
-**Note:** These projects are powered by machine learning, artificial intelligence, and deep learning techniques—not just mere lines of code!
+| 🧠 Project | 📄 Description |
+| ------- | ----------- |
+| [KisaanMitra 🌾](https://github.com/MUKUL-PRASAD-SIGH/KisaanMitra) | Multi-Agent System for collective agricultural intelligence — climate insights, autonomous irrigation, market intelligence, and financial inclusion for farmers. |
+| [NovaPulse 🧠](https://github.com/MUKUL-PRASAD-SIGH/NovaPulse) | Voice-powered multi-agent news intelligence system using Amazon Nova AI for sentiment analysis, trend detection, and automated executive summaries. |
+| [NEURACITY 🏙️](https://github.com/MUKUL-PRASAD-SIGH/NEURACITY) | Neural/ML toolkit for city modelling and visualization — traffic optimization, zoning intelligence, and urban simulation. |
+| [VAAYA-PROJECT ✈️](https://github.com/MUKUL-PRASAD-SIGH/VAAYA-PROJECT) | Smart travel platform blending Google Maps + Reels discovery + gamified exploration quests for travelers and local earners. |
+| [VoOTEX 🎙️](https://github.com/MUKUL-PRASAD-SIGH/VoOTEX) | Voice-to-text transcription pipeline with speaker diarization, noise handling, and post-processing intelligence. |
+| [X-FORECAST 📈](https://github.com/MUKUL-PRASAD-SIGH/X-FORECAST) | Advanced time-series forecasting models and dashboards for demand prediction, analytics, and trend intelligence. |
+| [finance-bud 💰](https://github.com/MUKUL-PRASAD-SIGH/finance-bud) | Intelligent personal finance manager with budgeting automation, expense analytics, and financial insights. |
+| [GlamGlow ✨](https://github.com/MUKUL-PRASAD-SIGH/GlamGlow) | ML-powered beauty product recommendation engine for personalized skincare and product discovery. |
+| [HealthCare-System-Dashboard 🏥](https://github.com/MUKUL-PRASAD-SIGH/HealthCare-System-Dashboard) | Real-time healthcare analytics dashboard powered by ML-driven insights and monitoring pipelines. |
+| [URBAN-PLANNING 🌆](https://github.com/MUKUL-PRASAD-SIGH/URBAN-PLANNING) | AI-driven city planning models for infrastructure optimization and smart urban layout simulations. |
+| [Clipbait ✂️](https://github.com/MUKUL-PRASAD-SIGH/Clipbait) | AI-powered smart clipboard system to capture, analyze, and understand copied content using ML & DL. |
+| [DonorConnectT ❤️](https://github.com/MUKUL-PRASAD-SIGH/DonorConnectT) | ML & DL based real-time blood donor-recipient intelligent matching and healthcare support system. |
+| [PROJECT_ENTANGLEMENT 🚀](https://github.com/MUKUL-PRASAD-SIGH/PROJECT_ENTANGLEMENT) | SIH 2025: Project Astraeus — AI-powered Mission Control with digital twin simulation and predictive system monitoring. |
+| [Hackathon-Dashboard 📊](https://github.com/MUKUL-PRASAD-SIGH/Hackathon-Dashboard) | Real-time hackathon management dashboard for event tracking, analytics, and participant intelligence. |
+
+---
+
+**🧠 Note:**  
+These projects integrate **Machine Learning, Artificial Intelligence, Multi-Agent Systems, and Data Intelligence pipelines** — going beyond traditional software development into intelligent system engineering.
 ---
 
 ### 📫 Let's Connect!
