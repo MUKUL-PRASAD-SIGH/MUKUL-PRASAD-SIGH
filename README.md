@@ -52,7 +52,6 @@ Now,
 ![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=flat)
 
 ---
-
 ## 🌐 Deployed Projects & Demo Videos
 
 <table>
@@ -60,7 +59,6 @@ Now,
     <td>
       <h4>🟢 <b>Deployed Project</b></h4>
       <ul>
-        
         <li>
           <b>Hackathon Dashboard Website</b><br>
           <a href="https://hackathon-dashboard-mukul.netlify.app/login">🔗 Hands-on Demo</a><br>
@@ -68,7 +66,6 @@ Now,
         </li>
       </ul>
     </td>
-
     <td>
       <h4>🎬 <b>Demo Videos</b></h4>
       <ul>
@@ -78,21 +75,18 @@ Now,
           <i>Multi-Agent System for collective agricultural empowerment using AI, IoT, and MAS architecture.</i>
         </li>
         <br>
-
         <li>
           <b>❤️ DonorConnect</b><br>
           <a href="https://youtu.be/T3-CFJ__JWg">▶️ Watch Demo</a><br>
           <i>ML & DL powered real-time blood donor and recipient intelligent matching system.</i>
         </li>
         <br>
-
         <li>
           <b>✂️ ClipBait</b><br>
           <a href="https://youtu.be/AgLqEC7HuPs">▶️ Watch Demo</a><br>
           <i>AI-powered smart clipboard system for capturing and analyzing copied content intelligently.</i>
         </li>
         <br>
-
         <li>
           <b>🧠 NovaPulse</b><br>
           <a href="https://youtu.be/KDNrGJ994Cw">▶️ Watch Demo</a><br>
@@ -100,6 +94,7 @@ Now,
         </li>
       </ul>
     </td>
+
   </tr>
 </table>
 
