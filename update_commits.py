@@ -1,171 +1,212 @@
-#!/usr/bin/env python3
-"""
-update_commits.py
-
-Usage:
-  export GH_TOKEN="..."   # or pass --token
-  python update_commits.py --username MUKUL-PRASAD-SIGH --months 12 --start 2008-01-01 --readme README.md
-
-This queries the GitHub GraphQL API for the user's contributions calendar for date ranges,
-sums daily contribution counts per month and overall (since start date), and updates README.md
-between markers <!-- COMMITS_START --> and <!-- COMMITS_END -->.
-"""
-import os
-import sys
 import argparse
+import os
 import requests
-from datetime import datetime, date, timedelta
-from calendar import monthrange
+from datetime import datetime, timedelta, timezone
+from collections import Counter, defaultdict
 
-GRAPHQL_URL = "https://api.github.com/graphql"
-MARKER_START = "<!-- COMMITS_START -->"
-MARKER_END = "<!-- COMMITS_END -->"
 
-QUERY = """
-query($login: String!, $from: DateTime!, $to: DateTime!) {
-  user(login: $login) {
-    contributionsCollection(from: $from, to: $to) {
-      contributionCalendar {
-        weeks {
-          contributionDays {
-            date
-            contributionCount
-          }
-        }
-      }
+def github_get(url, token, params=None, headers_extra=None):
+    headers = {
+        "Authorization": f"Bearer {token}",
+        "Accept": "application/vnd.github+json"
     }
-  }
-}
-"""
 
-def iso_datetime(d: date, end_of_day: bool = False):
-    if end_of_day:
-        return datetime.combine(d, datetime.max.time()).replace(microsecond=0).isoformat() + "Z"
-    return datetime.combine(d, datetime.min.time()).replace(microsecond=0).isoformat() + "Z"
+    if headers_extra:
+        headers.update(headers_extra)
 
-def post_graphql(token, login, from_dt, to_dt):
-    headers = {"Authorization": f"bearer {token}", "Accept": "application/vnd.github.v4+json"}
-    variables = {"login": login, "from": from_dt, "to": to_dt}
-    r = requests.post(GRAPHQL_URL, json={"query": QUERY, "variables": variables}, headers=headers, timeout=30)
-    r.raise_for_status()
-    data = r.json()
-    if "errors" in data:
-        raise Exception(f"GraphQL errors: {data['errors']}")
-    return data["data"]["user"]["contributionsCollection"]["contributionCalendar"]["weeks"]
+    r = requests.get(url, headers=headers, params=params)
 
-def sum_weeks(weeks):
-    total = 0
-    for week in weeks:
-        for d in week["contributionDays"]:
-            total += d["contributionCount"]
-    return total
+    if r.status_code != 200:
+        print("GitHub API error:", r.text)
+        return None
 
-def month_ranges_for_last_n(n, end_date=None):
-    if end_date is None:
-        end_date = date.today()
-    ranges = []
-    year = end_date.year
-    month = end_date.month
-    for i in range(n):
-        first = date(year, month, 1)
-        last_day = monthrange(year, month)[1]
-        last = date(year, month, last_day)
-        ranges.append((first, last))
-        month -= 1
-        if month == 0:
-            month = 12
-            year -= 1
-    ranges.reverse()
-    return ranges
+    return r.json()
 
-def fetch_total_contributions(token, login, start_date, end_date):
-    """Fetch contributions in <=365-day chunks and return total count."""
-    total = 0
-    chunk_start = start_date
-    while chunk_start <= end_date:
-        chunk_end = min(chunk_start + timedelta(days=365), end_date)
-        weeks = post_graphql(token, login, iso_datetime(chunk_start, False), iso_datetime(chunk_end, True))
-        total += sum_weeks(weeks)
-        # move to the next day after chunk_end
-        chunk_start = chunk_end + timedelta(days=1)
-    return total
 
-def update_readme(path, new_block):
-    if os.path.exists(path):
-        with open(path, "r", encoding="utf-8") as f:
-            content = f.read()
-    else:
-        content = ""
-    if MARKER_START in content and MARKER_END in content:
-        before, rest = content.split(MARKER_START, 1)
-        _, after = rest.split(MARKER_END, 1)
-        new_content = before + MARKER_START + "\n" + new_block + "\n" + MARKER_END + after
-    else:
-        if not content.endswith("\n"):
-            content += "\n"
-        new_content = content + "\n" + MARKER_START + "\n" + new_block + "\n" + MARKER_END + "\n"
-    with open(path, "w", encoding="utf-8") as f:
-        f.write(new_content)
+def fetch_commits_search(username, token, start_date):
+    commits = []
+    page = 1
+
+    while True:
+        url = "https://api.github.com/search/commits"
+
+        headers_extra = {
+            "Accept": "application/vnd.github.cloak-preview"
+        }
+
+        query = f"author:{username} author-date:>={start_date}"
+
+        params = {
+            "q": query,
+            "per_page": 100,
+            "page": page,
+            "sort": "author-date",
+            "order": "desc"
+        }
+
+        data = github_get(url, token, params=params, headers_extra=headers_extra)
+
+        if not data:
+            break
+
+        items = data.get("items", [])
+
+        if not items:
+            break
+
+        for item in items:
+            commits.append({
+                "date": item["commit"]["author"]["date"],
+                "repo": item["repository"]["name"]
+            })
+
+        if len(items) < 100:
+            break
+
+        page += 1
+
+    return commits
+
+
+def get_repo_languages(owner, repo, token):
+    url = f"https://api.github.com/repos/{owner}/{repo}/languages"
+    data = github_get(url, token)
+    return data or {}
+
+
+def compute_monthly(commits, start_date):
+    monthly = Counter()
+
+    for c in commits:
+        dt = datetime.fromisoformat(c["date"].replace("Z", "+00:00"))
+        if dt.date() >= start_date:
+            key = f"{dt.year}-{dt.month:02d}"
+            monthly[key] += 1
+
+    return monthly
+
+
+def compute_extra_metrics(commits, username, token):
+    now = datetime.now(timezone.utc)
+    today = now.date()
+    week_start = today - timedelta(days=today.weekday())
+
+    today_commits = 0
+    week_commits = 0
+
+    repo_counter = Counter()
+    lang_counter = Counter()
+
+    active_days = set()
+    weekday_counter = Counter()
+
+    for c in commits:
+        dt = datetime.fromisoformat(c["date"].replace("Z", "+00:00"))
+        d = dt.date()
+
+        if d == today:
+            today_commits += 1
+        if d >= week_start:
+            week_commits += 1
+
+        if c["repo"]:
+            repo_counter[c["repo"]] += 1
+
+        active_days.add(d)
+        weekday_counter[dt.strftime("%A")] += 1
+
+    total_repo = sum(repo_counter.values())
+
+    top_repos = []
+    if total_repo:
+        for repo, count in repo_counter.most_common(5):
+            top_repos.append((repo, (count / total_repo) * 100))
+
+    for repo, _ in top_repos:
+        langs = get_repo_languages(username, repo, token)
+        for lang, b in langs.items():
+            lang_counter[lang] += b
+
+    total_bytes = sum(lang_counter.values())
+
+    lang_percent = {}
+    if total_bytes:
+        lang_percent = {
+            lang: (b / total_bytes) * 100
+            for lang, b in lang_counter.items()
+        }
+
+    avg_per_day = len(commits) / len(active_days) if active_days else 0
+
+    most_productive_day = None
+    if weekday_counter:
+        most_productive_day = weekday_counter.most_common(1)[0][0]
+
+    return {
+        "today": today_commits,
+        "week": week_commits,
+        "top_repos": top_repos,
+        "lang_percent": lang_percent,
+        "avg_per_day": avg_per_day,
+        "most_productive_day": most_productive_day
+    }
+
+
+def replace_block(text, start_marker, end_marker, new_content):
+    start = text.index(start_marker) + len(start_marker)
+    end = text.index(end_marker)
+    return text[:start] + "\n" + new_content + "\n" + text[end:]
+
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--username", required=True, help="GitHub username to query")
-    parser.add_argument("--token", default=os.getenv("GH_TOKEN"), help="GitHub token (env GH_TOKEN)")
-    parser.add_argument("--months", type=int, default=12, help="How many past months to show (default 12)")
-    parser.add_argument("--start", default="2008-01-01", help="Start date for all-time sum (YYYY-MM-DD)")
-    parser.add_argument("--readme", default="README.md", help="README file to update")
+    parser.add_argument("--username", required=True)
+    parser.add_argument("--months", type=int, default=12)
+    parser.add_argument("--start", required=True)
+    parser.add_argument("--readme", required=True)
+
     args = parser.parse_args()
 
-    if not args.token:
-        print("Error: GitHub token required (set GH_TOKEN env or --token).", file=sys.stderr)
-        sys.exit(2)
+    token = os.getenv("GH_TOKEN")
+    username = args.username
+    start_date = datetime.fromisoformat(args.start).date()
 
-    try:
-        start_date = datetime.strptime(args.start, "%Y-%m-%d").date()
-    except ValueError:
-        print("Error: --start must be YYYY-MM-DD", file=sys.stderr)
-        sys.exit(2)
+    commits = fetch_commits_search(username, token, start_date)
 
-    today = date.today()
+    monthly = compute_monthly(commits, start_date)
+    extra = compute_extra_metrics(commits, username, token)
 
-    # All-time total (chunked to <= 1 year per GraphQL call)
-    try:
-        all_time_total = fetch_total_contributions(args.token, args.username, start_date, today)
-    except Exception as e:
-        print("GraphQL query failed while fetching all-time total:", str(e), file=sys.stderr)
-        sys.exit(1)
+    monthly_md = ""
+    total = sum(monthly.values())
 
-    # Per-month for last N months
-    month_ranges = month_ranges_for_last_n(args.months, end_date=today)
-    month_stats = []
-    for first, last in month_ranges:
-        try:
-            weeks = post_graphql(args.token, args.username, iso_datetime(first, False), iso_datetime(last, True))
-        except Exception as e:
-            print("GraphQL query failed for month", first, str(e), file=sys.stderr)
-            sys.exit(1)
-        cnt = sum_weeks(weeks)
-        month_stats.append((first.strftime("%Y-%m"), cnt))
+    for m in sorted(monthly.keys()):
+        monthly_md += f"| {m} | {monthly[m]} |\n"
 
-    # Build markdown block
-    md_lines = []
-    md_lines.append("## Commit stats")
-    md_lines.append("")
-    md_lines.append(f"- All-time commits (since {start_date.isoformat()}): **{all_time_total}**")
-    md_lines.append("")
-    md_lines.append(f"### Commits per month (last {args.months} months)")
-    md_lines.append("")
-    md_lines.append("| Month | Commits |")
-    md_lines.append("|---:|---:|")
-    for m, c in month_stats:
-        md_lines.append(f"| {m} | {c} |")
-    md = "\n".join(md_lines)
+    monthly_section = f"""
+## Commit stats
 
-    update_readme(args.readme, md)
-    print("Updated", args.readme)
-    print(f"All time: {all_time_total}")
-    for m, c in month_stats:
-        print(f"{m}: {c}")
+- All-time commits (since {args.start}): **{total}**
+
+### Commits per month (last 12 months)
+
+| Month | Commits |
+|---:|---:|
+{monthly_md}
+"""
+
+    with open(args.readme, "r", encoding="utf-8") as f:
+        readme = f.read()
+
+    readme = replace_block(
+        readme,
+        "<!-- COMMITS_START -->",
+        "<!-- COMMITS_END -->",
+        monthly_section
+    )
+
+    with open(args.readme, "w", encoding="utf-8") as f:
+        f.write(readme)
+
 
 if __name__ == "__main__":
     main()
