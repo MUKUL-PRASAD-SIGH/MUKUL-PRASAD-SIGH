@@ -52,6 +52,7 @@ Now,
 ![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=flat)
 
 ---
+
 ## 🌐 Deployed Projects & Demo Videos
 
 <table>
@@ -115,14 +116,6 @@ Now,
 </table>
 ---
 
-### 📊 GitHub Stats & Activity
-
-![GitHub Stats](assets/github-stats.svg)
-![Top Languages](./assets/top-langs.svg)
-![GitHub Streak](assets/streak.svg)
-![Contribution Heatmap](assets/ghchart.svg)
-![Profile Trophies](assets/trophy.svg)
-![Contribution Snake](assets/snake.svg)
 
 
 Also,
@@ -151,6 +144,14 @@ Also,
 **🧠 Note:**  
 These projects integrate **Machine Learning, Artificial Intelligence, Multi-Agent Systems, and Data Intelligence pipelines** — going beyond traditional software development into intelligent system engineering.
 ---
+### 📊 GitHub Stats & Activity
+
+![GitHub Stats](assets/github-stats.svg)
+![Top Languages](./assets/top-langs.svg)
+![GitHub Streak](assets/streak.svg)
+![Contribution Heatmap](assets/ghchart.svg)
+![Profile Trophies](assets/trophy.svg)
+![Contribution Snake](assets/snake.svg)
 
 ### 📫 Let's Connect!
 
@@ -188,3 +189,5 @@ Thanks for stopping by! Feel free to check out my repositories or reach out for 
 | 2026-01 | 17 |
 | 2026-02 | 0 |
 <!-- COMMITS_END -->
+<!-- EXTRA_STATS_START -->
+<!-- EXTRA_STATS_END -->
