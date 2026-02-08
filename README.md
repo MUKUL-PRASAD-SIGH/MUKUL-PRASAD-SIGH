@@ -8,9 +8,10 @@ Just pushing some things that I build.
 ---   
 
 okay so,
-Portfolio-[Link](https://mukulprasad.netlify.app/)
+🌐 **Portfolio:** [mukulprasad.netlify.app](https://mukulprasad.netlify.app)  
+🔗 **All Social Links:** https://mukul.taplink.in
 
-Link to socials-https://mukul.taplink.in
+
 Now,
 ### 💻 Technical Skills
 
@@ -59,11 +60,7 @@ Now,
     <td>
       <h4>🟢 <b>Deployed Project</b></h4>
       <ul>
-        <li>
-          <b>HealthCare System Dashboard Web App</b><br>
-          <a href="https://hackathon-dashboard-mukul.netlify.app/login">🔗 Live Demo</a><br>
-          <i>A comprehensive dashboard for managing healthcare data and analytics, enabling seamless hospital and patient monitoring.</i>
-        </li>
+        
         <li>
           <b>Hackathon Dashboard Website</b><br>
           <a href="https://hackathon-dashboard-mukul.netlify.app/login">🔗 Hands-on Demo</a><br>
@@ -71,19 +68,41 @@ Now,
         </li>
       </ul>
     </td>
+
     <td>
       <h4>🎬 <b>Demo Videos</b></h4>
       <ul>
         <li>
-          <b>Project Presentation/Demo Video</b><br>
-          <a href="https://drive.usercontent.google.com/download?id=1uGGnBQxBxcWNA8_PzvGS9T-nNgl0lraX&export=download&authuser=0">▶️ Watch on Google Drive</a><br>
-          <i>Walkthrough and in-depth explanation of the Clipbait (Epitychia) - AI-Powered Smart Clipboard
-Transform your clipboard into an intelligent assistant with AI-powered suggestions and cross-platform synchronization..</i>
+          <b>🌾 KisaanMitra</b><br>
+          <a href="https://youtu.be/S1hz6yakK4Y">▶️ Watch Demo</a><br>
+          <i>Multi-Agent System for collective agricultural empowerment using AI, IoT, and MAS architecture.</i>
+        </li>
+        <br>
+
+        <li>
+          <b>❤️ DonorConnect</b><br>
+          <a href="https://youtu.be/T3-CFJ__JWg">▶️ Watch Demo</a><br>
+          <i>ML & DL powered real-time blood donor and recipient intelligent matching system.</i>
+        </li>
+        <br>
+
+        <li>
+          <b>✂️ ClipBait</b><br>
+          <a href="https://youtu.be/AgLqEC7HuPs">▶️ Watch Demo</a><br>
+          <i>AI-powered smart clipboard system for capturing and analyzing copied content intelligently.</i>
+        </li>
+        <br>
+
+        <li>
+          <b>🧠 NovaPulse</b><br>
+          <a href="https://youtu.be/KDNrGJ994Cw">▶️ Watch Demo</a><br>
+          <i>Voice-powered multi-agent news intelligence system using Amazon Nova AI.</i>
         </li>
       </ul>
     </td>
   </tr>
 </table>
+
 
 ### 📊 GitHub Stats & Activity
 
