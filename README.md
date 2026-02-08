@@ -168,26 +168,28 @@ These projects integrate **Machine Learning, Artificial Intelligence, Multi-Agen
 Thanks for stopping by! Feel free to check out my repositories or reach out for collaboration.
 
 <!-- COMMITS_START -->
+
 ## Commit stats
 
-- All-time commits (since 2008-01-01): **503**
+- All-time commits (since 2008-01-01): **411**
 
 ### Commits per month (last 12 months)
 
 | Month | Commits |
 |---:|---:|
-| 2025-03 | 0 |
-| 2025-04 | 0 |
-| 2025-05 | 9 |
-| 2025-06 | 9 |
-| 2025-07 | 42 |
-| 2025-08 | 73 |
-| 2025-09 | 68 |
-| 2025-10 | 48 |
-| 2025-11 | 117 |
-| 2025-12 | 60 |
-| 2026-01 | 17 |
-| 2026-02 | 43 |
+| 2024-12 | 8 |
+| 2025-01 | 2 |
+| 2025-05 | 3 |
+| 2025-07 | 34 |
+| 2025-08 | 66 |
+| 2025-09 | 97 |
+| 2025-10 | 54 |
+| 2025-11 | 54 |
+| 2025-12 | 37 |
+| 2026-01 | 15 |
+| 2026-02 | 41 |
+
+
 <!-- COMMITS_END -->
 <!-- EXTRA_STATS_START -->
 <!-- EXTRA_STATS_END -->
