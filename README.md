@@ -126,7 +126,6 @@ Now,
 
 
 Also,
-### 🚀 Featured Projects
 
 ### 🚀 Featured Projects
 
