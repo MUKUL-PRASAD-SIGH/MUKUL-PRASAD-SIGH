@@ -9,61 +9,77 @@ from collections import Counter, defaultdict
 # GitHub API Helpers
 # -------------------------------
 
-def github_get(url, token, params=None):
-    headers = {"Authorization": f"Bearer {token}"}
+def github_get(url, token, params=None, headers_extra=None):
+    headers = {
+        "Authorization": f"Bearer {token}",
+        "Accept": "application/vnd.github+json"
+    }
+
+    if headers_extra:
+        headers.update(headers_extra)
+
     r = requests.get(url, headers=headers, params=params)
+
     if r.status_code != 200:
         print("GitHub API error:", r.text)
         return None
+
     return r.json()
 
 
-def fetch_user_events(username, token):
-    events = []
+# -------------------------------
+# ⭐ NEW — Search Commits API (FIX)
+# -------------------------------
+
+def fetch_commits_search(username, token, start_date):
+    commits = []
     page = 1
 
     while True:
-        url = f"https://api.github.com/users/{username}/events/public"
-        data = github_get(url, token, params={"per_page": 100, "page": page})
+        url = "https://api.github.com/search/commits"
+
+        headers_extra = {
+            "Accept": "application/vnd.github.cloak-preview"
+        }
+
+        query = f"author:{username} author-date:>={start_date}"
+
+        params = {
+            "q": query,
+            "per_page": 100,
+            "page": page,
+            "sort": "author-date",
+            "order": "desc"
+        }
+
+        data = github_get(url, token, params=params, headers_extra=headers_extra)
 
         if not data:
             break
 
-        events.extend(data)
+        items = data.get("items", [])
 
-        if len(data) < 100:
+        if not items:
+            break
+
+        for item in items:
+            commits.append({
+                "date": item["commit"]["author"]["date"],
+                "repo": item["repository"]["name"]
+            })
+
+        if len(items) < 100:
             break
 
         page += 1
 
-    return events
+    return commits
 
 
 def get_repo_languages(owner, repo, token):
     url = f"https://api.github.com/repos/{owner}/{repo}/languages"
     data = github_get(url, token)
     return data or {}
-
-
-# -------------------------------
-# Commit Extraction
-# -------------------------------
-
-def extract_commit_like_events(events):
-    commits = []
-
-    for e in events:
-        if e.get("type") == "PushEvent":
-            repo_name = e.get("repo", {}).get("name", "")
-            repo_only = repo_name.split("/")[-1] if repo_name else None
-
-            for c in e.get("payload", {}).get("commits", []):
-                commits.append({
-                    "date": e.get("created_at"),
-                    "repo": repo_only
-                })
-
-    return commits
 
 
 # -------------------------------
@@ -83,7 +99,7 @@ def compute_monthly(commits, start_date):
 
 
 # -------------------------------
-# Extra Metrics (ALL NEW FEATURES)
+# Extra Metrics
 # -------------------------------
 
 def compute_extra_metrics(commits, username, token):
@@ -124,6 +140,7 @@ def compute_extra_metrics(commits, username, token):
         for repo, count in repo_counter.most_common(5):
             top_repos.append((repo, (count / total_repo) * 100))
 
+    # Language aggregation
     for repo, _ in top_repos:
         langs = get_repo_languages(username, repo, token)
         for lang, b in langs.items():
@@ -184,10 +201,8 @@ def main():
     username = args.username
     start_date = datetime.fromisoformat(args.start).date()
 
-    print("Fetching events...")
-    events = fetch_user_events(username, token)
-
-    commits = extract_commit_like_events(events)
+    print("Fetching commits via Search API...")
+    commits = fetch_commits_search(username, token, start_date)
 
     print("Computing monthly stats...")
     monthly = compute_monthly(commits, start_date)
@@ -255,12 +270,14 @@ def main():
         monthly_section
     )
 
-    readme = replace_block(
-        readme,
-        "<!-- EXTRA_STATS_START -->",
-        "<!-- EXTRA_STATS_END -->",
-        extra_md
-    )
+    # Optional (if marker exists)
+    if "<!-- EXTRA_STATS_START -->" in readme:
+        readme = replace_block(
+            readme,
+            "<!-- EXTRA_STATS_START -->",
+            "<!-- EXTRA_STATS_END -->",
+            extra_md
+        )
 
     with open(args.readme, "w", encoding="utf-8") as f:
         f.write(readme)
