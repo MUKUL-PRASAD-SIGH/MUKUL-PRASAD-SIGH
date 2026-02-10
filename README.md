@@ -171,7 +171,7 @@ Thanks for stopping by! Feel free to check out my repositories or reach out for 
 
 ## Commit stats
 
-- All-time commits (since 2008-01-01): **420**
+- All-time commits (since 2008-01-01): **439**
 
 ### Commits per month (last 12 months)
 
@@ -180,14 +180,15 @@ Thanks for stopping by! Feel free to check out my repositories or reach out for 
 | 2024-12 | 8 |
 | 2025-01 | 2 |
 | 2025-05 | 3 |
-| 2025-07 | 34 |
-| 2025-08 | 66 |
+| 2025-06 | 6 |
+| 2025-07 | 39 |
+| 2025-08 | 67 |
 | 2025-09 | 97 |
 | 2025-10 | 54 |
 | 2025-11 | 54 |
-| 2025-12 | 37 |
+| 2025-12 | 38 |
 | 2026-01 | 16 |
-| 2026-02 | 49 |
+| 2026-02 | 55 |
 
 
 <!-- COMMITS_END -->
