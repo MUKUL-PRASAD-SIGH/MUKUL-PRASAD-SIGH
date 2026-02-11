@@ -283,9 +283,7 @@ def update_readme(total_commits, monthly_stats):
     
     # Build monthly commits table
     months_sorted = sorted(monthly_stats.keys(), reverse=True)[:12]
-    table = "| Month | Commits |
-|---:|---:|
-"
+    table = "| Month | Commits |\n|---:|---:|\n"
     for month in months_sorted:
         table += f"| {month} | {monthly_stats[month]} |
 "
