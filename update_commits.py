@@ -285,8 +285,8 @@ def update_readme(total_commits, monthly_stats):
     months_sorted = sorted(monthly_stats.keys(), reverse=True)[:12]
     table = "| Month | Commits |\n|---:|---:|\n"
     for month in months_sorted:
-        table += f"| {month} | {monthly_stats[month]} |
-"
+        table += f"| {month} | {monthly_stats[month]} | \n"
+
 
     # Read current README
     with open('README.md', 'r', encoding='utf-8') as f:
