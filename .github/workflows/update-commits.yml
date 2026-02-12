@@ -35,7 +35,6 @@ jobs:
           python update_commits.py \
             --username MUKUL-PRASAD-SIGH \
             --months 12 \
-            --start 2008-01-01 \
             --readme README.md
 
       - name: Commit README changes

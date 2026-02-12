@@ -1,50 +1,50 @@
 import argparse
-import os
 import json
-import requests
+import os
 import re
+from collections import Counter
 from datetime import datetime, timedelta, timezone
-from collections import Counter, defaultdict
+
+import requests
+
 
 def github_get(url, token, params=None, headers_extra=None):
     headers = {
         "Authorization": f"Bearer {token}",
-        "Accept": "application/vnd.github+json"
+        "Accept": "application/vnd.github+json",
     }
 
     if headers_extra:
         headers.update(headers_extra)
 
-    r = requests.get(url, headers=headers, params=params)
-
-    if r.status_code != 200:
-        print("GitHub API error:", r.text)
+    response = requests.get(url, headers=headers, params=params, timeout=30)
+    if response.status_code != 200:
+        print("GitHub API error:", response.text)
         return None
+    return response.json()
 
-    return r.json()
+
+def parse_commit_date(date_string):
+    return datetime.fromisoformat(date_string.replace("Z", "+00:00")).date()
+
 
 def fetch_commits_search(username, token, start_date):
-    """Fetch all commits from GitHub API"""
     commits = []
     page = 1
 
     while True:
         url = "https://api.github.com/search/commits"
-        headers_extra = {
-            "Accept": "application/vnd.github.cloak-preview"
-        }
-
+        headers_extra = {"Accept": "application/vnd.github.cloak-preview"}
         query = f"author:{username} author-date:>={start_date}"
         params = {
             "q": query,
             "per_page": 100,
             "page": page,
             "sort": "author-date",
-            "order": "asc"
+            "order": "asc",
         }
 
         data = github_get(url, token, params=params, headers_extra=headers_extra)
-
         if not data:
             break
 
@@ -52,30 +52,32 @@ def fetch_commits_search(username, token, start_date):
         if not items:
             break
 
-        for item in items:
-            commits.append({
+        commits.extend(
+            {
                 "date": item["commit"]["author"]["date"],
                 "repo": item["repository"]["name"],
-                "message": item["commit"]["message"]
-            })
+                "message": item["commit"]["message"],
+            }
+            for item in items
+        )
 
-        print(f"📄 Fetched page {page}: {len(items)} commits")
-
+        print(f"Fetched page {page}: {len(items)} commits")
         if len(items) < 100:
             break
-
         page += 1
 
     return commits
 
-def get_repo_languages(owner, repo, token):
-    """Fetch language statistics from a repo"""
-    url = f"https://api.github.com/repos/{owner}/{repo}/languages"
+
+def get_account_creation_date(username, token):
+    url = f"https://api.github.com/users/{username}"
     data = github_get(url, token)
-    return data or {}
+    if not data or "created_at" not in data:
+        return None
+    return parse_commit_date(data["created_at"])
+
 
 def calculate_streaks(commits):
-    """Calculate current and longest streaks from commits"""
     if not commits:
         return {
             "current": 0,
@@ -83,56 +85,49 @@ def calculate_streaks(commits):
             "current_end": None,
             "longest": 0,
             "longest_start": None,
-            "longest_end": None
+            "longest_end": None,
         }
 
-    # Get unique dates
-    active_dates = sorted(set(
-        datetime.fromisoformat(c["date"].replace("Z", "+00:00")).date()
-        for c in commits
-    ))
+    active_dates = sorted(set(parse_commit_date(c["date"]) for c in commits))
+    today = datetime.now(timezone.utc).date()
 
-    now = datetime.now(timezone.utc).date()
-
-    # Find longest streak
     longest_streak = 0
     longest_start = None
     longest_end = None
-
-    current_streak = 0
-    current_start = None
-    current_end = None
 
     streak_start = active_dates[0]
     streak_end = active_dates[0]
     streak_length = 1
 
     for i in range(1, len(active_dates)):
-        if active_dates[i] - active_dates[i-1] == timedelta(days=1):
+        if active_dates[i] - active_dates[i - 1] == timedelta(days=1):
             streak_length += 1
             streak_end = active_dates[i]
-        else:
-            if streak_length > longest_streak:
-                longest_streak = streak_length
-                longest_start = streak_start
-                longest_end = streak_end
+            continue
 
-            streak_start = active_dates[i]
-            streak_end = active_dates[i]
-            streak_length = 1
+        if streak_length > longest_streak:
+            longest_streak = streak_length
+            longest_start = streak_start
+            longest_end = streak_end
 
-    # Check final streak
+        streak_start = active_dates[i]
+        streak_end = active_dates[i]
+        streak_length = 1
+
     if streak_length > longest_streak:
         longest_streak = streak_length
         longest_start = streak_start
         longest_end = streak_end
 
-    # Calculate current streak
-    if active_dates[-1] == now or active_dates[-1] == now - timedelta(days=1):
+    current_streak = 0
+    current_start = None
+    current_end = None
+    if active_dates[-1] in {today, today - timedelta(days=1)}:
         current_streak = 1
         current_end = active_dates[-1]
+        current_start = active_dates[-1]
         for i in range(len(active_dates) - 2, -1, -1):
-            if active_dates[i] == active_dates[i+1] - timedelta(days=1):
+            if active_dates[i] == active_dates[i + 1] - timedelta(days=1):
                 current_streak += 1
                 current_start = active_dates[i]
             else:
@@ -144,30 +139,26 @@ def calculate_streaks(commits):
         "current_end": current_end,
         "longest": longest_streak,
         "longest_start": longest_start,
-        "longest_end": longest_end
+        "longest_end": longest_end,
     }
 
-def generate_streak_svg(total_commits, start_date, streaks):
-    """Generate dynamic streak SVG"""
 
+def format_streak_range(start, end):
+    if not start or not end:
+        return "No active streak"
+    if start.year == end.year:
+        return f"{start.strftime('%b %d')} - {end.strftime('%b %d')}"
+    return f"{start.strftime('%b %d, %Y')} - {end.strftime('%b %d, %Y')}"
+
+
+def generate_streak_svg(total_commits, since_date, streaks):
     current_streak = streaks["current"]
     longest_streak = streaks["longest"]
+    date_range_text = f"{since_date.strftime('%b %d, %Y')} - Present"
+    current_streak_text = format_streak_range(streaks["current_start"], streaks["current_end"])
+    longest_streak_text = format_streak_range(streaks["longest_start"], streaks["longest_end"])
 
-    # Format date ranges
-    date_range_text = f"{start_date.strftime('%b %d, %Y')} - Present"
-
-    current_streak_text = ""
-    if streaks["current_start"] and streaks["current_end"]:
-        if streaks["current_start"].year == streaks["current_end"].year:
-            current_streak_text = f"{streaks['current_start'].strftime('%b %d')} - {streaks['current_end'].strftime('%b %d')}"
-        else:
-            current_streak_text = f"{streaks['current_start'].strftime('%b %d, %Y')} - {streaks['current_end'].strftime('%b %d, %Y')}"
-
-    longest_streak_text = ""
-    if streaks["longest_start"] and streaks["longest_end"]:
-        longest_streak_text = f"{streaks['longest_start'].strftime('%b %d, %Y')} - {streaks['longest_end'].strftime('%b %d, %Y')}"
-
-    svg = f'''<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'
+    return f"""<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'
                 style='isolation: isolate' viewBox='0 0 495 195' width='495px' height='195px' direction='ltr'>
         <style>
             @keyframes currstreak {{
@@ -263,101 +254,127 @@ def generate_streak_svg(total_commits, start_date, streaks):
                 </g>
             </g>
         </g>
-    </svg>'''
+    </svg>"""
 
-    return svg
 
 def calculate_monthly_commits(commits):
-    """Calculate commits per month for last 12 months"""
     monthly = Counter()
-
-    for c in commits:
-        dt = datetime.fromisoformat(c["date"].replace("Z", "+00:00"))
-        key = f"{dt.year}-{dt.month:02d}"
-        monthly[key] += 1
-
+    for commit in commits:
+        dt = datetime.fromisoformat(commit["date"].replace("Z", "+00:00"))
+        monthly[f"{dt.year}-{dt.month:02d}"] += 1
     return monthly
 
-def update_readme(total_commits, monthly_stats):
-    """Update README.md with latest statistics"""
-    
-    # Build monthly commits table
-    months_sorted = sorted(monthly_stats.keys(), reverse=True)[:12]
-    table = "| Month | Commits |
-|---:|---:|
-"
+
+def build_last_n_month_keys(months):
+    now = datetime.now(timezone.utc)
+    keys = []
+    year = now.year
+    month = now.month
+
+    for _ in range(months):
+        keys.append(f"{year}-{month:02d}")
+        month -= 1
+        if month == 0:
+            month = 12
+            year -= 1
+
+    keys.reverse()
+    return keys
+
+
+def update_readme(total_commits, monthly_stats, since_date, months, readme_path):
+    months_sorted = build_last_n_month_keys(months)
+    table = "| Month | Commits |\n|---:|---:|\n"
     for month in months_sorted:
-        table += f"| {month} | {monthly_stats[month]} |
-"
+        table += f"| {month} | {monthly_stats.get(month, 0)} |\n"
 
-    # Read current README
-    with open('README.md', 'r', encoding='utf-8') as f:
-        content = f.read()
+    with open(readme_path, "r", encoding="utf-8") as readme_file:
+        content = readme_file.read()
 
-    # Update total commits
     content = re.sub(
-        r'- All-time commits \(since [^)]+\): \*\*\d+\*\*',
-        f'- All-time commits (since 2008-01-01): **{total_commits}**',
-        content
-    )
-
-    # Update monthly table
-    content = re.sub(
-        r'(?<=### Commits per month \(last 12 months\)\n\n)(\| Month.*?)(?=\n\n<!-- COMMITS_END -->)',
-        table.rstrip('\n'),
+        r"- All-time commits \(since [^)]+\): \*\*\d+\*\*",
+        f"- All-time commits (since {since_date.isoformat()}): **{total_commits}**",
         content,
-        flags=re.DOTALL
+    )
+    content = re.sub(
+        r"### Commits per month \(last \d+ months\)",
+        f"### Commits per month (last {months} months)",
+        content,
     )
 
-    # Write updated README
-    with open('README.md', 'w', encoding='utf-8') as f:
-        f.write(content)
+    content = re.sub(
+        r"(### Commits per month \(last \d+ months\)\n\n)(\| Month.*?)(?=\n\n<!-- COMMITS_END -->)",
+        lambda match: f"{match.group(1)}{table.rstrip()}",
+        content,
+        flags=re.DOTALL,
+    )
 
-    print("✅ README.md updated with latest commit statistics")
+    with open(readme_path, "w", encoding="utf-8") as readme_file:
+        readme_file.write(content)
+
+    print(f"Updated {readme_path} with latest commit statistics")
+
 
 def main():
     parser = argparse.ArgumentParser(description="Generate GitHub statistics")
-    parser.add_argument('--username', required=True, help='GitHub username')
-    parser.add_argument('--token', required=True, help='GitHub token')
-    parser.add_argument('--start-date', default='2024-06-27', help='Start date (YYYY-MM-DD)')
-
+    parser.add_argument("--username", required=True, help="GitHub username")
+    parser.add_argument("--token", help="GitHub token (or set GH_TOKEN env var)")
+    parser.add_argument("--start-date", "--start", dest="start_date", help="Start date (YYYY-MM-DD)")
+    parser.add_argument("--months", type=int, default=12, help="Months to include in monthly table")
+    parser.add_argument("--readme", default="README.md", help="README path to update")
+    parser.add_argument("--assets-dir", default="assets", help="Directory for generated assets")
     args = parser.parse_args()
 
-    start_date = datetime.strptime(args.start_date, '%Y-%m-%d').date()
+    token = args.token or os.getenv("GH_TOKEN")
+    if not token:
+        raise ValueError("GitHub token is required. Pass --token or set GH_TOKEN.")
+    if args.months < 1:
+        raise ValueError("--months must be >= 1")
 
-    print("📊 Fetching commit data from GitHub API...")
-    commits = fetch_commits_search(args.username, args.token, args.start_date)
+    if args.start_date:
+        start_date = datetime.strptime(args.start_date, "%Y-%m-%d").date()
+    else:
+        start_date = get_account_creation_date(args.username, token) or (
+            datetime.now(timezone.utc).date() - timedelta(days=3650)
+        )
+
+    print("Fetching commit data from GitHub API...")
+    commits = fetch_commits_search(args.username, token, start_date.isoformat())
     total_commits = len(commits)
-    print(f"✅ Found {total_commits} total commits")
+    print(f"Found {total_commits} total commits")
 
-    # Calculate stats
+    commit_dates = [parse_commit_date(commit["date"]) for commit in commits]
+    since_date = min(commit_dates) if commit_dates else start_date
+
     streaks = calculate_streaks(commits)
     monthly = calculate_monthly_commits(commits)
 
-    print(f"🔥 Current streak: {streaks['current']} days")
-    print(f"🏆 Longest streak: {streaks['longest']} days")
+    print(f"Current streak: {streaks['current']} days")
+    print(f"Longest streak: {streaks['longest']} days")
 
-    # Generate SVG
-    os.makedirs('assets', exist_ok=True)
-    svg_content = generate_streak_svg(total_commits, start_date, streaks)
+    os.makedirs(args.assets_dir, exist_ok=True)
+    svg_path = os.path.join(args.assets_dir, "streak.svg")
+    with open(svg_path, "w", encoding="utf-8") as svg_file:
+        svg_file.write(generate_streak_svg(total_commits, since_date, streaks))
+    print("Generated streak.svg")
 
-    with open('assets/streak.svg', 'w', encoding='utf-8') as f:
-        f.write(svg_content)
-    print("✅ Generated streak.svg")
+    update_readme(total_commits, monthly, since_date, args.months, args.readme)
 
-    # Update README
-    update_readme(total_commits, monthly)
+    stats_path = os.path.join(args.assets_dir, "stats.json")
+    with open(stats_path, "w", encoding="utf-8") as stats_file:
+        json.dump(
+            {
+                "total_commits": total_commits,
+                "current_streak": streaks["current"],
+                "longest_streak": streaks["longest"],
+                "since_date": since_date.isoformat(),
+                "last_updated": datetime.now(timezone.utc).isoformat(),
+            },
+            stats_file,
+            indent=2,
+        )
+    print("All statistics updated successfully")
 
-    # Save stats to JSON for other scripts
-    with open('assets/stats.json', 'w', encoding='utf-8') as f:
-        json.dump({
-            'total_commits': total_commits,
-            'current_streak': streaks['current'],
-            'longest_streak': streaks['longest'],
-            'last_updated': datetime.now(timezone.utc).isoformat()
-        }, f, indent=2)
 
-    print("✅ All statistics updated successfully!")
-
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
