@@ -17,33 +17,77 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # -----------------------------
+      # Checkout Repo
+      # -----------------------------
       - name: Checkout repo
         uses: actions/checkout@v4
 
+      # -----------------------------
+      # Setup Python
+      # -----------------------------
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: 3.11
 
+      # -----------------------------
+      # Install Dependencies
+      # -----------------------------
       - name: Install deps
         run: pip install requests
 
-      - name: Run commit stats script
+      # -----------------------------
+      # Run Stats Script (Retry Safe)
+      # -----------------------------
+      - name: Run commit stats script (with retry)
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN || secrets.GITHUB_TOKEN }}
         run: |
+          echo "Running stats update (attempt 1)"
+          python update_commits.py \
+            --username MUKUL-PRASAD-SIGH \
+            --months 12 \
+            --readme README.md || true
+
+          echo "Running stats update (attempt 2 if needed)"
           python update_commits.py \
             --username MUKUL-PRASAD-SIGH \
             --months 12 \
             --readme README.md
 
-      - name: Configure Git as You
+      # -----------------------------
+      # OPTIONAL: Fetch From Future Custom Streak API
+      # (Safe — does nothing if not configured)
+      # -----------------------------
+      - name: Fetch custom streak endpoint (optional future use)
+        continue-on-error: true
         run: |
-          git config --global user.name "MUKUL-PRASAD-SIGH"
-          git config --global user.email "MUKULPRASAD958@GMAIL.COM"
+          if [ ! -z "$CUSTOM_STREAK_URL" ]; then
+            echo "Fetching from custom streak endpoint..."
+            curl -s $CUSTOM_STREAK_URL > assets/streak_custom.json || true
+          else
+            echo "No custom streak endpoint configured, skipping"
+          fi
 
-      - name: Commit stats changes
+      # -----------------------------
+      # Configure Git Identity
+      # -----------------------------
+      - name: Configure Git Identity
         run: |
-          git add README.md assets/streak.svg assets/stats.json
-          git commit -m "Update commit stats [skip ci]" || echo "No changes"
-          git push
+          git config --global user.name "Mukul Prasad"
+          git config --global user.email "mukulprasad958@gmail.com"
+
+      # -----------------------------
+      # Commit Only If Changes Exist
+      # -----------------------------
+      - name: Commit changes
+        run: |
+          git add README.md assets/streak.svg assets/stats.json assets/streak_custom.json 2>/dev/null || true
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: update commit stats [skip ci]"
+            git push
+          fi
