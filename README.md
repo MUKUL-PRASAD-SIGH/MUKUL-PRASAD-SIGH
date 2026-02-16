@@ -1,7 +1,7 @@
 # 👋 Hi there! I'm Mukul Prasad
 
 ## 🤖 AI/ML Enthusiast | CS Sophomore @ MSRIT, Bengaluru
-<p align="center"> <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=A9FEF7&center=true&vCenter=true&width=940&lines=Full+Stack+Developer+🚀;AI+%26+ML+Enthusiast+🤖" /> </p> <p align="center"> <i>Just pushing some things that I build.</i> </p> <p align="center"> <img src="https://komarev.com/ghpvc/?username=MUKUL-PRASAD-SIGH&label=Profile%20Views&color=0e75b6&style=for-the-badge" /> </p>
+<p align="center"> ![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=A9FEF7¢er=true&vCenter=true&width=940&lines=Full+Stack+Developer+🚀;AI+%26+ML+Enthusiast+🤖)  <p align="center"> <img src="https://komarev.com/ghpvc/?username=MUKUL-PRASAD-SIGH&label=Profile%20Views&color=0e75b6&style=for-the-badge" /> </p>
 
 okay so,
 🌐 **Portfolio:** [mukulprasad.netlify.app](https://mukulprasad.netlify.app)  
