@@ -1,12 +1,7 @@
 # 👋 Hi there! I'm Mukul Prasad
 
-## 🤖 AI/ML Enthusiast & CS Sophomore at MSRIT, Bengaluru
-
- ![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=A9FEF7¢er=true&vCenter=true&width=940&lines=Full+Stack+Developer+🚀;AI+%26+ML+Enthusiast+🤖) 
- 
-Just pushing some things that I build.
-![Profile Views](https://komarev.com/ghpvc/?username=MUKUL-PRASAD-SIGH&label=Profile%20Views&color=0e75b6&style=for-the-badge)
----   
+## 🤖 AI/ML Enthusiast | CS Sophomore @ MSRIT, Bengaluru
+<p align="center"> <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=A9FEF7&center=true&vCenter=true&width=940&lines=Full+Stack+Developer+🚀;AI+%26+ML+Enthusiast+🤖" /> </p> <p align="center"> <i>Just pushing some things that I build.</i> </p> <p align="center"> <img src="https://komarev.com/ghpvc/?username=MUKUL-PRASAD-SIGH&label=Profile%20Views&color=0e75b6&style=for-the-badge" /> </p>
 
 okay so,
 🌐 **Portfolio:** [mukulprasad.netlify.app](https://mukulprasad.netlify.app)  
@@ -147,28 +142,19 @@ These projects integrate **Machine Learning, Artificial Intelligence, Multi-Agen
 ---
 ### 📊 GitHub Stats & Activity
 
-![GitHub Stats](assets/github-stats.svg)
 ![GitHub Streak](assets/streak.svg)
-![Profile Trophies](assets/trophy.svg)
+
 ![Contribution Snake](assets/snake.svg)
 
 ### 📈 Overall Stats
 ![GitHub Stats](https://github-stats-project.onrender.com/stats?user=MUKUL-PRASAD-SIGH&theme=dark)
 
-### 🔥 Contribution Streak
-![Contribution Streak](https://github-stats-project.onrender.com/streak?user=MUKUL-PRASAD-SIGH&theme=dark)
 
 ### 💻 Top Languages
 ![Top Languages](https://github-stats-project.onrender.com/languages?user=MUKUL-PRASAD-SIGH&limit=8&theme=dark)
 
 ### 🏆 GitHub Trophies
-![GitHub Trophies](https://github-stats-project.onrender.com/trophy?user=MUKUL-PRASAD-SIGH&theme=dark)
-
-### 📅 Contribution Heatmap
-![Contribution Heatmap](https://github-stats-project.onrender.com/heatmap?user=MUKUL-PRASAD-SIGH&theme=light)
-
-### 🐍 Contribution Snake
-![Contribution Snake](https://github-stats-project.onrender.com/snake?user=MUKUL-PRASAD-SIGH&theme=dark)
+<p align="center"> <img src="https://github-stats-project.onrender.com/trophy?user=MUKUL-PRASAD-SIGH&theme=dark" alt="GitHub Trophies"/> </p> <p align="center"> <b>🔥 Code. Commit. Conquer.</b><br> <i>Consistency beats talent when talent doesn’t commit.</i> </p>
 
 ### 🌆 GitHub Skyline
 ![3D Skyline](https://skyline.github.com/MUKUL-PRASAD-SIGH/2024.png)
