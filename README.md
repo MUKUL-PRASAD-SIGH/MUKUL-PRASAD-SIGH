@@ -147,15 +147,9 @@ These projects integrate **Machine Learning, Artificial Intelligence, Multi-Agen
 ### 📊 GitHub Stats & Activity
 
 ![GitHub Stats](assets/github-stats.svg)
-![Top Languages](./assets/top-langs.svg)
 ![GitHub Streak](assets/streak.svg)
 ![Profile Trophies](assets/trophy.svg)
 ![Contribution Snake](assets/snake.svg)
-### 📊 GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=MUKUL-PRASAD-SIGH&show_icons=true&theme=radical)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MUKUL-PRASAD-SIGH&layout=compact&theme=radical)
 
 ### 📫 Let's Connect!
 
