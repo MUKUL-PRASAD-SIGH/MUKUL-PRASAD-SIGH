@@ -151,6 +151,29 @@ These projects integrate **Machine Learning, Artificial Intelligence, Multi-Agen
 ![Profile Trophies](assets/trophy.svg)
 ![Contribution Snake](assets/snake.svg)
 
+## 📊 GitHub Statistics
+
+<div align="center">
+
+### 📈 Overall Stats
+![GitHub Stats](https://github-stats-project.onrender.com/stats?user=MUKUL-PRASAD-SIGH&theme=dark)
+
+### 🔥 Contribution Streak
+![Contribution Streak](https://github-stats-project.onrender.com/streak?user=MUKUL-PRASAD-SIGH&theme=dark)
+
+### 💻 Top Languages
+![Top Languages](https://github-stats-project.onrender.com/languages?user=MUKUL-PRASAD-SIGH&limit=8&theme=dark)
+
+### 🏆 GitHub Trophies
+![GitHub Trophies](https://github-stats-project.onrender.com/trophy?user=MUKUL-PRASAD-SIGH&theme=dark)
+
+### 📅 Contribution Heatmap
+![Contribution Heatmap](https://github-stats-project.onrender.com/heatmap?user=MUKUL-PRASAD-SIGH&theme=light)
+
+### 🐍 Contribution Snake
+![Contribution Snake](https://github-stats-project.onrender.com/snake?user=MUKUL-PRASAD-SIGH&theme=dark)
+
+
 ### 📫 Let's Connect!
 
 - **LinkedIn:** [mukul-prasad-a395ba324](https://www.linkedin.com/in/mukul-prasad-a395ba324/)
