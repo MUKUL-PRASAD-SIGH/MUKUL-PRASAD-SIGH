@@ -2,6 +2,8 @@
 
 ## 🤖 AI/ML Enthusiast & CS Sophomore at MSRIT, Bengaluru
 
+ ![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=A9FEF7¢er=true&vCenter=true&width=940&lines=Full+Stack+Developer+🚀;AI+%26+ML+Enthusiast+🤖) 
+ 
 Just pushing some things that I build.
 ![Profile Views](https://komarev.com/ghpvc/?username=MUKUL-PRASAD-SIGH&label=Profile%20Views&color=0e75b6&style=for-the-badge)
 ---   
@@ -150,10 +152,6 @@ These projects integrate **Machine Learning, Artificial Intelligence, Multi-Agen
 ![Profile Trophies](assets/trophy.svg)
 ![Contribution Snake](assets/snake.svg)
 
-## 📊 GitHub Statistics
-
-<div align="center">
-
 ### 📈 Overall Stats
 ![GitHub Stats](https://github-stats-project.onrender.com/stats?user=MUKUL-PRASAD-SIGH&theme=dark)
 
@@ -172,6 +170,16 @@ These projects integrate **Machine Learning, Artificial Intelligence, Multi-Agen
 ### 🐍 Contribution Snake
 ![Contribution Snake](https://github-stats-project.onrender.com/snake?user=MUKUL-PRASAD-SIGH&theme=dark)
 
+### 🌆 GitHub Skyline
+![3D Skyline](https://skyline.github.com/MUKUL-PRASAD-SIGH/2024.png)
+
+### 🎮 3D Contribution Graph
+![3D Profile](https://github-profile-3d-contrib.vercel.app/api?username=MUKUL-PRASAD-SIGH&theme=radical)
+
+### 🏆 GitHub Trophies
+![Trophy](https://github-profile-trophy.vercel.app/?username=MUKUL-PRASAD-SIGH&theme=radical&no-frame=true&column=7)
+
+
 
 ### 📫 Let's Connect!
 
@@ -182,8 +190,7 @@ These projects integrate **Machine Learning, Artificial Intelligence, Multi-Agen
 
 ---
 
-> “Innovation is seeing what everybody has seen and thinking what nobody has thought.”  
-> — Dr. APJ Abdul Kalam
+![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 Thanks for stopping by! Feel free to check out my repositories or reach out for collaboration.
 
@@ -213,3 +220,5 @@ Thanks for stopping by! Feel free to check out my repositories or reach out for 
 <!-- COMMITS_END -->
 <!-- EXTRA_STATS_START -->
 <!-- EXTRA_STATS_END -->
+
+<img src='https://memer-new.vercel.app/' style="height: 400px;"/>
