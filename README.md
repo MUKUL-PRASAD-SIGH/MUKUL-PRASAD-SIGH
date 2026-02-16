@@ -7,7 +7,6 @@
 
 
 <p align="center">
-  <b>Profile Views</b><br>
   <img src="https://komarev.com/ghpvc/?username=MUKUL-PRASAD-SIGH&label=Profile%20Views&color=0e75b6&style=for-the-badge" />
 </p>
 
