@@ -149,7 +149,6 @@ These projects integrate **Machine Learning, Artificial Intelligence, Multi-Agen
 ![GitHub Stats](assets/github-stats.svg)
 ![Top Languages](./assets/top-langs.svg)
 ![GitHub Streak](assets/streak.svg)
-![Contribution Heatmap](assets/ghchart.svg)
 ![Profile Trophies](assets/trophy.svg)
 ![Contribution Snake](assets/snake.svg)
 
