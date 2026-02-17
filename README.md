@@ -159,22 +159,10 @@ These projects integrate **Machine Learning, Artificial Intelligence, Multi-Agen
 ### 📈 Overall Stats
 ![GitHub Stats](https://github-stats-project.onrender.com/stats?user=MUKUL-PRASAD-SIGH&theme=dark)
 
-
-### 💻 Top Languages
-![Top Languages](https://github-stats-project.onrender.com/languages?user=MUKUL-PRASAD-SIGH&limit=8&theme=dark)
-
 ### 🏆 GitHub Trophies
 <p align="center"> <img src="https://github-stats-project.onrender.com/trophy?user=MUKUL-PRASAD-SIGH&theme=dark" alt="GitHub Trophies"/> </p> <p align="center"> <b>🔥 Code. Commit. Conquer.</b><br> <i>Consistency beats talent when talent doesn’t commit.</i> </p>
 
-### 🌆 GitHub Skyline
-![3D Skyline](https://skyline.github.com/MUKUL-PRASAD-SIGH/2024.png)
-
-### 🎮 3D Contribution Graph
-![3D Profile](https://github-profile-3d-contrib.vercel.app/api?username=MUKUL-PRASAD-SIGH&theme=radical)
-
-### 🏆 GitHub Trophies
-![Trophy](https://github-profile-trophy.vercel.app/?username=MUKUL-PRASAD-SIGH&theme=radical&no-frame=true&column=7)
-
+ 
 
 
 ### 📫 Let's Connect!
