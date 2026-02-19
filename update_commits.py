@@ -149,13 +149,13 @@ def main():
 
     # Build markdown block
     md_lines = []
-    md_lines.append("## Commit stats")
+    md_lines.append("## Contribution stats")
     md_lines.append("")
-    md_lines.append(f"- All-time commits (since {start_date.isoformat()}): **{all_time_total}**")
+    md_lines.append(f"- All-time contributions (since {start_date.isoformat()}): **{all_time_total}**")
     md_lines.append("")
-    md_lines.append(f"### Commits per month (last {args.months} months)")
+    md_lines.append(f"### Contributions per month (last {args.months} months)")
     md_lines.append("")
-    md_lines.append("| Month | Commits |")
+    md_lines.append("| Month | Contributions |")
     md_lines.append("|---:|---:|")
     for m, c in month_stats:
         md_lines.append(f"| {m} | {c} |")
