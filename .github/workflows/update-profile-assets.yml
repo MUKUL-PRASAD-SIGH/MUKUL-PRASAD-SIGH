@@ -17,29 +17,34 @@ jobs:
         run: mkdir -p assets
 
       - name: Fetch GitHub Stats
+        continue-on-error: true
         run: |
-          curl -L "https://github-readme-stats.vercel.app/api?username=MUKUL-PRASAD-SIGH&show_icons=true&theme=radical&count_private=true&include_all_commits=true" \
-          -o assets/github-stats.svg
+          curl --retry 3 --retry-delay 5 -L "https://github-readme-stats.vercel.app/api?username=MUKUL-PRASAD-SIGH&show_icons=true&theme=radical&count_private=true&include_all_commits=true" \
+          -o assets/github-stats.svg || echo "Failed to fetch GitHub stats"
 
       - name: Fetch Top Languages
+        continue-on-error: true
         run: |
-          curl -L "https://github-readme-stats.vercel.app/api/top-langs/?username=MUKUL-PRASAD-SIGH&layout=compact&theme=radical&langs_count=10" \
-          -o assets/top-langs.svg
+          curl --retry 3 --retry-delay 5 -L "https://github-readme-stats.vercel.app/api/top-langs/?username=MUKUL-PRASAD-SIGH&layout=compact&theme=radical&langs_count=10" \
+          -o assets/top-langs.svg || echo "Failed to fetch top languages"
 
       - name: Fetch GitHub Streak
+        continue-on-error: true
         run: |
-          curl -L "https://streak-stats.demolab.com?user=MUKUL-PRASAD-SIGH&theme=radical&hide_border=true" \
-          -o assets/streak.svg
+          curl --retry 3 --retry-delay 5 -L "https://streak-stats.demolab.com?user=MUKUL-PRASAD-SIGH&theme=radical&hide_border=true" \
+          -o assets/streak.svg || echo "Failed to fetch streak stats"
 
       - name: Fetch Contribution Graph
+        continue-on-error: true
         run: |
-          curl -L "https://ghchart.rshah.org/MUKUL-PRASAD-SIGH" \
-          -o assets/ghchart.svg
+          curl --retry 3 --retry-delay 5 -L "https://ghchart.rshah.org/MUKUL-PRASAD-SIGH" \
+          -o assets/ghchart.svg || echo "Failed to fetch contribution graph"
 
       - name: Fetch Profile Trophies
+        continue-on-error: true
         run: |
-          curl -L "https://github-profile-trophy.vercel.app/?username=MUKUL-PRASAD-SIGH&theme=radical&column=7&no-frame=true" \
-          -o assets/trophy.svg
+          curl --retry 3 --retry-delay 5 -L "https://github-profile-trophy.vercel.app/?username=MUKUL-PRASAD-SIGH&theme=radical&column=7&no-frame=true" \
+          -o assets/trophy.svg || echo "Failed to fetch trophies"
 
       - name: Generate Contribution Snake
         uses: Platane/snk@v3
