@@ -160,26 +160,14 @@ These projects integrate **Machine Learning, Artificial Intelligence, Multi-Agen
 ![Contribution Snake](assets/snake.svg)
 
 
-Also,
-### 🚀 Featured Projects
+![GitHub Stats](https://github-stats-project.onrender.com/stats?user=MUKUL-PRASAD-SIGH&theme=dark)
 
-| Project | Description |
-| ------- | ----------- |
-| [NEURACITY](https://github.com/MUKUL-PRASAD-SIGH/NEURACITY) | Neural/ML toolkit for city modelling and visualization — tools for traffic, zoning and optimisation. |
-| [VAAYA-PROJECT](https://github.com/MUKUL-PRASAD-SIGH/VAAYA-PROJECT) | VAAYA is a travel platform that combines Google Maps + TikTok Reels + Pokémon GO–style quests to help travelers explore smarter and help locals earn. |
-| [VoOTEX](https://github.com/MUKUL-PRASAD-SIGH/VoOTEX) | Voice-to-text transcription pipeline with speaker diarization and post-processing. |
-| [X-FORECAST](https://github.com/MUKUL-PRASAD-SIGH/X-FORECAST) | Time-series forecasting models and dashboards for demand & trend prediction. |
-| [finance-bud](https://github.com/MUKUL-PRASAD-SIGH/finance-bud) | Personal finance manager: budgeting, expense tracking, and visual analytics. |
-| [GlamGlow](https://github.com/MUKUL-PRASAD-SIGH/GlamGlow) | A smart beauty product recommender leveraging ML to personalize your glow-up journey. |
-| [HealthCare-System-Dashboard](https://github.com/MUKUL-PRASAD-SIGH/HealthCare-System-Dashboard) | Empowering healthcare analytics and insights using real-time ML-powered dashboards. |
-| [URBAN-PLANNING](https://github.com/MUKUL-PRASAD-SIGH/URBAN-PLANNING) | Optimizing city layouts and urban solutions through intelligent AI modeling. |
-| [Clipbait](https://github.com/MUKUL-PRASAD-SIGH/Clipbait) | Effortlessly capture, analyze, and realise copied text moments using ML & DL. |
-| [DonorConnectT](https://github.com/MUKUL-PRASAD-SIGH/DonorConnectT) | Harnesses ML & DL to intelligently match donors and recipients in real time. |
-| [PROJECT_ENTANGLEMENT](https://github.com/MUKUL-PRASAD-SIGH/PROJECT_ENTANGLEMENT) | SIH 2025: Project Astraeus — an AI-powered Mission Control System with digital-twin simulation. |
-| [Hackathon-Dashboard](https://github.com/MUKUL-PRASAD-SIGH/Hackathon-Dashboard) | A real-time dashboard to streamline and manage hackathon events and submissions. |
 
-**Note:** These projects are powered by machine learning, artificial intelligence, and deep learning techniques—not just mere lines of code!
----
+### 💻 Top Languages
+![Top Languages](https://github-stats-project.onrender.com/languages?user=MUKUL-PRASAD-SIGH&limit=8&theme=dark)
+
+### 🏆 GitHub Trophies
+<p align="center"> <img src="https://github-stats-project.onrender.com/trophy?user=MUKUL-PRASAD-SIGH&theme=dark" alt="GitHub Trophies"/> </p> <p align="center"> <b>🔥 Code. Commit. Conquer.</b><br> <i>Consistency beats talent when talent doesn’t commit.</i> </p>
 
 ### 📫 Let's Connect!
 
