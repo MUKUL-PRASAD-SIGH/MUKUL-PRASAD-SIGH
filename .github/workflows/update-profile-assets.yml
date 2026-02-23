@@ -2,8 +2,12 @@ name: Update GitHub Profile Assets
 
 on:
   schedule:
-    - cron: "0 */6 * * *"   # runs every 6 hours automatically
-  workflow_dispatch:        # allows manual run
+    - cron: "0 */6 * * *"   # every 6 hours
+  workflow_dispatch:
+
+concurrency:
+  group: github-actions
+  cancel-in-progress: true
 
 jobs:
   update-assets:
@@ -54,11 +58,16 @@ jobs:
           outputs: |
             assets/snake.svg
 
-      - name: Commit & Push updates
+      - name: Commit and push (force overwrite safe)
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets
-          git commit -m "chore: update profile assets" || exit 0
-          git pull --rebase origin main || true
-          git push
+          git config user.email "github-actions@github.com"
+
+          git fetch origin main
+          git reset --hard origin/main
+
+          git add .
+          git diff --cached --quiet && exit 0
+
+          git commit -m "chore: update profile assets"
+          git push origin main --force
