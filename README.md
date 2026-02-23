@@ -13,9 +13,10 @@ Just pushing some things that I build.
 ---
 
 okay so,
-Portfolio-[Link](https://mukulprasad.netlify.app/)
+🌐 **Portfolio:** [mukulprasad.netlify.app](https://mukulprasad.netlify.app)  
+🔗 **All Social Links:** https://mukul.taplink.in
 
-Link to socials-https://mukul.taplink.in
+
 Now,
 ### 💻 Technical Skills
 
@@ -65,9 +66,19 @@ Now,
       <h4>🟢 <b>Deployed Project</b></h4>
       <ul>
         <li>
-          <b>HealthCare System Dashboard Web App</b><br>
-          <a href="https://hackathon-dashboard-mukul.netlify.app/login">🔗 Live Demo</a><br>
-          <i>A comprehensive dashboard for managing healthcare data and analytics, enabling seamless hospital and patient monitoring.</i>
+          <b>🚀 Project Astraeus</b><br>
+          <a href="https://astraeus-frontend.onrender.com/">🔗 Hands-on Demo</a><br>
+          <i>AI-powered Mission Control System with digital-twin simulation, real-time monitoring, and intelligent decision support.</i>
+        </li>
+        <li>
+          <b>❤️ DonorConnect</b><br>
+          <a href="https://bloodme-frontend.vercel.app/">🔗 Live Deployment</a><br>
+          <i>ML & DL powered real-time blood donor and recipient intelligent matching platform.</i>
+        </li>
+        <li>
+          <b>🌐 Portfolio Website</b><br>
+          <a href="https://mukulprasad.netlify.app/">🔗 Visit Portfolio</a><br>
+          <i>Personal portfolio showcasing AI, ML, and full-stack development projects and research work.</i>
         </li>
         <li>
           <b>Hackathon Dashboard Website</b><br>
@@ -80,15 +91,64 @@ Now,
       <h4>🎬 <b>Demo Videos</b></h4>
       <ul>
         <li>
-          <b>Project Presentation/Demo Video</b><br>
-          <a href="https://drive.usercontent.google.com/download?id=1uGGnBQxBxcWNA8_PzvGS9T-nNgl0lraX&export=download&authuser=0">▶️ Watch on Google Drive</a><br>
-          <i>Walkthrough and in-depth explanation of the Clipbait (Epitychia) - AI-Powered Smart Clipboard
-Transform your clipboard into an intelligent assistant with AI-powered suggestions and cross-platform synchronization..</i>
+          <b>🚀 Project Astraeus</b><br>
+          <a href="https://youtu.be/HiNK79Ijav8">▶️ Watch Demo</a><br>
+          <i>AI-powered Mission Control System with digital-twin simulation, real-time monitoring, and intelligent decision support.</i>
+        </li>
+        <li>
+          <b>🌾 KisaanMitra</b><br>
+          <a href="https://youtu.be/S1hz6yakK4Y">▶️ Watch Demo</a><br>
+          <i>Multi-Agent System for collective agricultural empowerment using AI, IoT, and MAS architecture.</i>
+        </li>
+        <li>
+          <b>❤️ DonorConnect</b><br>
+          <a href="https://youtu.be/T3-CFJ__JWg">▶️ Watch Demo</a><br>
+          <i>ML & DL powered real-time blood donor and recipient intelligent matching system.</i>
+        </li>
+        <li>
+          <b>✂️ ClipBait</b><br>
+          <a href="https://youtu.be/AgLqEC7HuPs">▶️ Watch Demo</a><br>
+          <i>AI-powered smart clipboard system for capturing and analyzing copied content intelligently.</i>
+        </li>
+        <li>
+          <b>🧠 NovaPulse</b><br>
+          <a href="https://youtu.be/KDNrGJ994Cw">▶️ Watch Demo</a><br>
+          <i>Voice-powered multi-agent news intelligence system using Amazon Nova AI.</i>
         </li>
       </ul>
     </td>
   </tr>
 </table>
+---
+
+
+
+Also,
+
+### 🚀 Featured Projects
+
+| 🧠 Project | 📄 Description |
+| ------- | ----------- |
+| [KisaanMitra 🌾](https://github.com/MUKUL-PRASAD-SIGH/KisaanMitra) | Multi-Agent System for collective agricultural intelligence — climate insights, autonomous irrigation, market intelligence, and financial inclusion for farmers. |
+| [NovaPulse 🧠](https://github.com/MUKUL-PRASAD-SIGH/NovaPulse) | Voice-powered multi-agent news intelligence system using Amazon Nova AI for sentiment analysis, trend detection, and automated executive summaries. |
+| [NEURACITY 🏙️](https://github.com/MUKUL-PRASAD-SIGH/NEURACITY) | Neural/ML toolkit for city modelling and visualization — traffic optimization, zoning intelligence, and urban simulation. |
+| [VAAYA-PROJECT ✈️](https://github.com/MUKUL-PRASAD-SIGH/VAAYA-PROJECT) | Smart travel platform blending Google Maps + Reels discovery + gamified exploration quests for travelers and local earners. |
+| [VoOTEX 🎙️](https://github.com/MUKUL-PRASAD-SIGH/VoOTEX) | Voice-to-text transcription pipeline with speaker diarization, noise handling, and post-processing intelligence. |
+| [X-FORECAST 📈](https://github.com/MUKUL-PRASAD-SIGH/X-FORECAST) | Advanced time-series forecasting models and dashboards for demand prediction, analytics, and trend intelligence. |
+| [finance-bud 💰](https://github.com/MUKUL-PRASAD-SIGH/finance-bud) | Intelligent personal finance manager with budgeting automation, expense analytics, and financial insights. |
+| [GlamGlow ✨](https://github.com/MUKUL-PRASAD-SIGH/GlamGlow) | ML-powered beauty product recommendation engine for personalized skincare and product discovery. |
+| [HealthCare-System-Dashboard 🏥](https://github.com/MUKUL-PRASAD-SIGH/HealthCare-System-Dashboard) | Real-time healthcare analytics dashboard powered by ML-driven insights and monitoring pipelines. |
+| [URBAN-PLANNING 🌆](https://github.com/MUKUL-PRASAD-SIGH/URBAN-PLANNING) | AI-driven city planning models for infrastructure optimization and smart urban layout simulations. |
+| [Clipbait ✂️](https://github.com/MUKUL-PRASAD-SIGH/Clipbait) | AI-powered smart clipboard system to capture, analyze, and understand copied content using ML & DL. |
+| [DonorConnectT ❤️](https://github.com/MUKUL-PRASAD-SIGH/DonorConnectT) | ML & DL based real-time blood donor-recipient intelligent matching and healthcare support system. |
+| [PROJECT_ENTANGLEMENT 🚀](https://github.com/MUKUL-PRASAD-SIGH/PROJECT_ENTANGLEMENT) | SIH 2025: Project Astraeus — AI-powered Mission Control with digital twin simulation and predictive system monitoring. |
+| [Hackathon-Dashboard 📊](https://github.com/MUKUL-PRASAD-SIGH/Hackathon-Dashboard) | Real-time hackathon management dashboard for event tracking, analytics, and participant intelligence. |
+
+---
+
+**🧠 Note:**  
+These projects integrate **Machine Learning, Artificial Intelligence, Multi-Agent Systems, and Data Intelligence pipelines** — going beyond traditional software development into intelligent system engineering.
+---
 
 ### 📊 GitHub Stats & Activity
 
