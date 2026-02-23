@@ -160,9 +160,6 @@ These projects integrate **Machine Learning, Artificial Intelligence, Multi-Agen
 ![Contribution Snake](assets/snake.svg)
 
 
-![GitHub Stats](https://github-stats-project.onrender.com/stats?user=MUKUL-PRASAD-SIGH&theme=dark)
-
-
 ### 💻 Top Languages
 ![Top Languages](https://github-stats-project.onrender.com/languages?user=MUKUL-PRASAD-SIGH&limit=8&theme=dark)
 
