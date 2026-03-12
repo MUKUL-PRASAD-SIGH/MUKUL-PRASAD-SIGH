@@ -34,8 +34,10 @@ jobs:
       - name: Fetch Top Languages
         continue-on-error: true
         run: |
+          # Excluding Python-heavy AI/ML repos so other languages show up properly.
+          # These repos have massive Python codebases that skew to 96%+ Python.
           curl --retry 3 --retry-delay 5 -L \
-            "https://github-readme-stats.vercel.app/api/top-langs/?username=MUKUL-PRASAD-SIGH&layout=compact&theme=radical&langs_count=10&hide_border=true" \
+            "https://github-readme-stats.vercel.app/api/top-langs/?username=MUKUL-PRASAD-SIGH&layout=compact&theme=radical&langs_count=10&hide_border=true&exclude_repo=KisaanMitra,NovaPulse,NEURACITY,X-FORECAST,GlamGlow,HealthCare-System-Dashboard,URBAN-PLANNING,DonorConnectT,VoOTEX,finance-bud,Clipbait" \
             -o assets/top-langs.svg || echo "Failed to fetch top languages"
 
       - name: Fetch GitHub Streak

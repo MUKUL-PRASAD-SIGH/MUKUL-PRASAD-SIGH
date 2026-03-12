@@ -161,7 +161,12 @@ These projects integrate **Machine Learning, Artificial Intelligence, Multi-Agen
 
 
 ### 💻 Top Languages
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MUKUL-PRASAD-SIGH&layout=compact&theme=radical&langs_count=10&hide_border=true)
+
+<p align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MUKUL-PRASAD-SIGH&layout=compact&theme=radical&langs_count=10&hide_border=true&exclude_repo=KisaanMitra,NovaPulse,NEURACITY,X-FORECAST,GlamGlow,HealthCare-System-Dashboard,URBAN-PLANNING,DonorConnectT,VoOTEX,finance-bud,Clipbait&custom_title=Languages+(Web+%26+Systems)" alt="Languages (Web & Systems)"/>
+  &nbsp;&nbsp;
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MUKUL-PRASAD-SIGH&layout=compact&theme=radical&langs_count=6&hide_border=true&custom_title=Languages+(All+Repos)" alt="Languages (All Repos)"/>
+</p>
 
 ### 🏆 GitHub Trophies
 <p align="center"> <img src="assets/trophy.svg" alt="GitHub Trophies"/> </p> <p align="center"> <b>🔥 Code. Commit. Conquer.</b><br> <i>Consistency beats talent when talent doesn't commit.</i> </p>
