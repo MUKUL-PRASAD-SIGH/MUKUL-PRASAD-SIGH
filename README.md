@@ -243,7 +243,7 @@
 
 <div align="center">
 
-<img src="assets/trophy.svg" alt="GitHub Trophies"/>
+<img src="https://github-profile-trophy.vercel.app/?username=MUKUL-PRASAD-SIGH&theme=radical&column=7&no-frame=true&margin-w=4" alt="GitHub Trophies"/>
 
 <br/><br/>
 
