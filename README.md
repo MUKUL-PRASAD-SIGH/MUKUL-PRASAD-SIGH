@@ -1,60 +1,62 @@
- ## 🤖 AI/ML Enthusiast & CS Sophomore at MSRIT, Bengaluru
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:141321,40:FE428E,100:A9FEF7&height=260&section=header&text=MUKUL%20PRASAD&fontSize=82&fontColor=ffffff&animation=fadeIn&fontAlignY=42&desc=🤖%20AI%20·%20ML%20·%20Full%20Stack%20Dev%20·%20CS%20%40%20MSRIT%20Bengaluru&descSize=20&descAlignY=65&descAlign=50" width="100%"/>
+</div>
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=A9FEF7&center=true&vCenter=true&width=940&lines=Full+Stack+Developer+🚀;AI+%26+ML+Enthusiast+🤖)
+<div align="center">
 
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=2500&pause=1800&color=A9FEF7&center=true&vCenter=true&width=960&lines=Full+Stack+Developer+🚀;AI+%26+ML+Enthusiast+🤖;Building+Intelligent+Systems+🧠;Multi-Agent+System+Architect+🕸️;CS+Sophomore+%40+MSRIT+Bengaluru+🎓)](https://git.io/typing-svg)
 
+</div>
 
-<p align="center">
-  <b>Profile Views</b><br>
-  <img src="https://komarev.com/ghpvc/?username=MUKUL-PRASAD-SIGH&label=Profile%20Views&color=0e75b6&style=for-the-badge" />
-</p>
+<div align="center">
 
-Just pushing some things that I build.
+[![Profile Views](https://komarev.com/ghpvc/?username=MUKUL-PRASAD-SIGH&label=Profile%20Views&color=blueviolet&style=for-the-badge)](https://github.com/MUKUL-PRASAD-SIGH)
+&nbsp;
+[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-FF5733?style=for-the-badge&logoColor=white)](https://mukulprasad.netlify.app)
+&nbsp;
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mukul-prasad-a395ba324/)
+&nbsp;
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/mukul_prasad_2030)
+&nbsp;
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mukulprasad958@gmail.com)
+&nbsp;
+[![All Links](https://img.shields.io/badge/🔗_All_Links-12100E?style=for-the-badge)](https://mukul.taplink.in)
+
+</div>
+
+<br/>
+
+<div align="center"><i>Just pushing some things that I build. 🚀</i></div>
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FE428E,100:A9FEF7&height=2" width="100%"/>
+
 ---
 
-okay so,
-🌐 **Portfolio:** [mukulprasad.netlify.app](https://mukulprasad.netlify.app)  
-🔗 **All Social Links:** https://mukul.taplink.in
+## 🛠️ Tech Arsenal
 
+<div align="center">
 
-Now,
-### 💻 Technical Skills
+**⚡ Languages & Frameworks**
 
-**Programming & Development:**  
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=java&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
+[![Skills](https://skillicons.dev/icons?i=python,java,cpp,ts,js,nodejs,flask,fastapi,django,react&perline=10)](https://skillicons.dev)
 
-**AI/ML & Data Science:**  
-![Machine Learning](https://img.shields.io/badge/Machine%20Learning-FF6F00?style=flat&logo=openai&logoColor=white)
-![Deep Learning](https://img.shields.io/badge/Deep%20Learning-FF6F00?style=flat&logo=deepmind&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikitlearn&logoColor=white)
-![SageMaker](https://img.shields.io/badge/AWS%20SageMaker-FF9900?style=flat&logo=amazonsagemaker&logoColor=white)
+**🤖 AI · ML · Data Science**
 
-**Cloud & DevOps:**  
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)
-![EC2](https://img.shields.io/badge/Amazon%20EC2-FF9900?style=flat&logo=amazonec2&logoColor=white)
-![SageMaker](https://img.shields.io/badge/SageMaker-FF9900?style=flat&logo=amazonsagemaker&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+[![Skills](https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn,opencv,numpy&perline=10)](https://skillicons.dev)
 
-**Data & Analytics:**  
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat&logo=matplotlib&logoColor=white)
-![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=flat)
+**☁️ Cloud & DevOps**
+
+[![Skills](https://skillicons.dev/icons?i=aws,docker,git,github,linux&perline=10)](https://skillicons.dev)
+
+**🗄️ Databases & Analytics**
+
+[![Skills](https://skillicons.dev/icons?i=postgres,mongodb,redis,mysql&perline=10)](https://skillicons.dev)
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FE428E,100:A9FEF7&height=2" width="100%"/>
 
 ---
 
@@ -63,7 +65,7 @@ Now,
 <table>
   <tr>
     <td>
-      <h4>🟢 <b>Deployed Project</b></h4>
+      <h4>🟢 <b>Deployed Projects</b></h4>
       <ul>
         <li>
           <b>🚀 Project Astraeus</b><br>
@@ -119,13 +121,10 @@ Now,
     </td>
   </tr>
 </table>
+
 ---
 
-
-
-Also,
-
-### 🚀 Featured Projects
+## 🚀 Featured Projects
 
 | 🧠 Project | 📄 Description |
 | ------- | ----------- |
@@ -144,46 +143,106 @@ Also,
 | [PROJECT_ENTANGLEMENT 🚀](https://github.com/MUKUL-PRASAD-SIGH/PROJECT_ENTANGLEMENT) | SIH 2025: Project Astraeus — AI-powered Mission Control with digital twin simulation and predictive system monitoring. |
 | [Hackathon-Dashboard 📊](https://github.com/MUKUL-PRASAD-SIGH/Hackathon-Dashboard) | Real-time hackathon management dashboard for event tracking, analytics, and participant intelligence. |
 
+> 🧠 These projects integrate **Machine Learning, Artificial Intelligence, Multi-Agent Systems, and Data Intelligence pipelines** — going beyond traditional software development into intelligent system engineering.
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FE428E,100:A9FEF7&height=2" width="100%"/>
+
 ---
 
-**🧠 Note:**  
-These projects integrate **Machine Learning, Artificial Intelligence, Multi-Agent Systems, and Data Intelligence pipelines** — going beyond traditional software development into intelligent system engineering.
----
+## 📊 GitHub Stats & Activity
 
-### 📊 GitHub Stats & Activity
+<div align="center">
 
-![GitHub Stats](assets/github-stats.svg)
-![Top Languages](./assets/top-langs.svg)
-![GitHub Streak](assets/streak.svg)
-![Contribution Heatmap](assets/ghchart.svg)
-![Profile Trophies](assets/trophy.svg)
-![Contribution Snake](assets/snake.svg)
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=MUKUL-PRASAD-SIGH&show_icons=true&theme=radical&count_private=true&hide_border=true&rank_icon=github"/>
+&nbsp;
+<img height="180em" src="https://streak-stats.demolab.com?user=MUKUL-PRASAD-SIGH&theme=radical&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&ring=FE428E&fire=F8D847&currStreakLabel=F8D847"/>
 
+</div>
+
+<br/>
+
+### 📈 Contribution Activity
+
+<div align="center">
+
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=MUKUL-PRASAD-SIGH&theme=react-dark&hide_border=true&area=true&area_color=FE428E&color=A9FEF7&line=FE428E&point=F8D847&custom_title=Mukul's%20Contribution%20Graph)](https://github.com/MUKUL-PRASAD-SIGH)
+
+</div>
+
+<br/>
 
 ### 💻 Top Languages
 
-<p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MUKUL-PRASAD-SIGH&layout=compact&theme=radical&langs_count=10&hide_border=true&exclude_repo=KisaanMitra,NovaPulse,NEURACITY,X-FORECAST,GlamGlow,HealthCare-System-Dashboard,URBAN-PLANNING,DonorConnectT,VoOTEX,finance-bud,Clipbait&custom_title=Languages+(Web+%26+Systems)" alt="Languages (Web & Systems)"/>
-  &nbsp;&nbsp;
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MUKUL-PRASAD-SIGH&layout=compact&theme=radical&langs_count=6&hide_border=true&custom_title=Languages+(All+Repos)" alt="Languages (All Repos)"/>
-</p>
+<div align="center">
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MUKUL-PRASAD-SIGH&layout=compact&theme=radical&langs_count=10&hide_border=true&exclude_repo=KisaanMitra,NovaPulse,NEURACITY,X-FORECAST,GlamGlow,HealthCare-System-Dashboard,URBAN-PLANNING,DonorConnectT,VoOTEX,finance-bud,Clipbait&custom_title=Languages+(Web+%26+Systems)" alt="Languages (Web & Systems)"/>
+&nbsp;&nbsp;
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MUKUL-PRASAD-SIGH&layout=compact&theme=radical&langs_count=6&hide_border=true&custom_title=Languages+(All+Repos)" alt="Languages (All Repos)"/>
+
+</div>
+
+<br/>
+
+### 🗺️ Contribution Heatmap
+
+<div align="center">
+
+![Contribution Heatmap](assets/ghchart.svg)
+
+</div>
+
+<br/>
+
+### 🐍 Contribution Snake
+
+<div align="center">
+
+![snake](assets/snake.svg)
+
+</div>
+
+<br/>
 
 ### 🏆 GitHub Trophies
-<p align="center"> <img src="assets/trophy.svg" alt="GitHub Trophies"/> </p> <p align="center"> <b>🔥 Code. Commit. Conquer.</b><br> <i>Consistency beats talent when talent doesn't commit.</i> </p>
 
-### 📫 Let's Connect!
+<div align="center">
 
-- **LinkedIn:** [mukul-prasad-a395ba324](https://www.linkedin.com/in/mukul-prasad-a395ba324/)
-- **Portfolio:** [mukulprasad.netlify.app](https://mukulprasad.netlify.app)
-- **Email:** mukulprasad958@gmail.com
-- **Instagram:** [mukul_prasad_2030](https://instagram.com/mukul_prasad_2030)
+<img src="assets/trophy.svg" alt="GitHub Trophies"/>
+
+<br/>
+<b>🔥 Code. Commit. Conquer.</b><br>
+<i>Consistency beats talent when talent doesn't commit.</i>
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FE428E,100:A9FEF7&height=2" width="100%"/>
 
 ---
 
-> “Innovation is seeing what everybody has seen and thinking what nobody has thought.”  
+## 📫 Let's Connect!
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mukul-prasad-a395ba324/)
+&nbsp;
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF5733?style=for-the-badge&logo=firefox&logoColor=white)](https://mukulprasad.netlify.app)
+&nbsp;
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mukulprasad958@gmail.com)
+&nbsp;
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/mukul_prasad_2030)
+
+</div>
+
+---
+
+<div align="center">
+
+> *"Innovation is seeing what everybody has seen and thinking what nobody has thought."*
 > — Dr. APJ Abdul Kalam
 
-Thanks for stopping by! Feel free to check out my repositories or reach out for collaboration.
+Thanks for stopping by! Feel free to check out my repositories or reach out for collaboration. 🚀
+
+</div>
 
 <!-- PULSE_START -->
 > 🤖 **Auto-synced** · Last refreshed: `—` · Awaiting first run
@@ -211,3 +270,7 @@ Thanks for stopping by! Feel free to check out my repositories or reach out for 
 | 2026-02 | 137 |
 | 2026-03 | 24 |
 <!-- COMMITS_END -->
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:A9FEF7,60:FE428E,100:141321&height=150&section=footer" width="100%"/>
+</div>
