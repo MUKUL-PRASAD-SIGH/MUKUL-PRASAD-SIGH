@@ -57,7 +57,7 @@ jobs:
 
       - name: Generate Profile Trophies
         continue-on-error: true
-        uses: ryo-ma/github-profile-trophy@v3
+        uses: ryo-ma/github-profile-trophy@v1
         with:
           username: MUKUL-PRASAD-SIGH
           theme: radical
