@@ -16,6 +16,9 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_TOKEN }}   # use PAT so commits are attributed to you
+          fetch-depth: 0
 
       - name: Create assets directory
         run: mkdir -p assets
@@ -23,33 +26,43 @@ jobs:
       - name: Fetch GitHub Stats
         continue-on-error: true
         run: |
-          curl --retry 3 --retry-delay 5 -L "https://github-readme-stats.vercel.app/api?username=MUKUL-PRASAD-SIGH&show_icons=true&theme=radical&count_private=true&include_all_commits=true" \
-          -o assets/github-stats.svg || echo "Failed to fetch GitHub stats"
+          # NOTE: include_all_commits causes "Could not fetch total commits" on public Vercel — removed
+          curl --retry 3 --retry-delay 5 -L \
+            "https://github-readme-stats.vercel.app/api?username=MUKUL-PRASAD-SIGH&show_icons=true&theme=radical&count_private=true&hide_border=true&rank_icon=github" \
+            -o assets/github-stats.svg || echo "Failed to fetch GitHub stats"
 
       - name: Fetch Top Languages
         continue-on-error: true
         run: |
-          curl --retry 3 --retry-delay 5 -L "https://github-readme-stats.vercel.app/api/top-langs/?username=MUKUL-PRASAD-SIGH&layout=compact&theme=radical&langs_count=10" \
-          -o assets/top-langs.svg || echo "Failed to fetch top languages"
+          curl --retry 3 --retry-delay 5 -L \
+            "https://github-readme-stats.vercel.app/api/top-langs/?username=MUKUL-PRASAD-SIGH&layout=compact&theme=radical&langs_count=10&hide_border=true" \
+            -o assets/top-langs.svg || echo "Failed to fetch top languages"
 
       - name: Fetch GitHub Streak
         continue-on-error: true
         run: |
           TIMESTAMP=$(date +%s)
-          curl --retry 3 --retry-delay 5 -L "https://streak-stats.demolab.com?user=MUKUL-PRASAD-SIGH&theme=radical&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&ring=FE428E&fire=F8D847&currStreakLabel=F8D847&t=${TIMESTAMP}" \
-          -o assets/streak.svg || echo "Failed to fetch streak stats"
+          curl --retry 3 --retry-delay 5 -L \
+            "https://streak-stats.demolab.com?user=MUKUL-PRASAD-SIGH&theme=radical&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&ring=FE428E&fire=F8D847&currStreakLabel=F8D847&t=${TIMESTAMP}" \
+            -o assets/streak.svg || echo "Failed to fetch streak stats"
 
       - name: Fetch Contribution Graph
         continue-on-error: true
         run: |
-          curl --retry 3 --retry-delay 5 -L "https://ghchart.rshah.org/MUKUL-PRASAD-SIGH" \
-          -o assets/ghchart.svg || echo "Failed to fetch contribution graph"
+          curl --retry 3 --retry-delay 5 -L \
+            "https://ghchart.rshah.org/MUKUL-PRASAD-SIGH" \
+            -o assets/ghchart.svg || echo "Failed to fetch contribution graph"
 
-      - name: Fetch Profile Trophies
+      - name: Generate Profile Trophies
         continue-on-error: true
-        run: |
-          curl --retry 3 --retry-delay 5 -L "https://github-profile-trophy.vercel.app/?username=MUKUL-PRASAD-SIGH&theme=radical&column=7&no-frame=true" \
-          -o assets/trophy.svg || echo "Failed to fetch trophies"
+        uses: ryo-ma/github-profile-trophy@v3
+        with:
+          username: MUKUL-PRASAD-SIGH
+          theme: radical
+          no-frame: true
+          column: 7
+          margin-w: 4
+          output-path: assets/trophy.svg
 
       - name: Generate Contribution Snake
         uses: Platane/snk@v3
@@ -58,16 +71,38 @@ jobs:
           outputs: |
             assets/snake.svg
 
-      - name: Commit and push (force overwrite safe)
+      # ─── Pulse: write a live timestamp into README so there's ALWAYS a diff ───
+      - name: Update Live Pulse in README
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions@github.com"
+          NOW=$(date -u "+%Y-%m-%d %H:%M UTC")
+          DAY=$(date -u "+%A")
+          RUN_NUM=${{ github.run_number }}
+          PULSE_BLOCK="<!-- PULSE_START -->
+          > 🤖 **Auto-synced** · Last refreshed: \`${NOW}\` (${DAY}) · Run #${RUN_NUM}
+          <!-- PULSE_END -->"
 
-          git fetch origin main
-          git reset --hard origin/main
+          # Replace between markers (or append if missing)
+          if grep -q "<!-- PULSE_START -->" README.md; then
+            perl -i -0pe 's|<!-- PULSE_START -->.*?<!-- PULSE_END -->|'"${PULSE_BLOCK}"'|s' README.md
+          else
+            echo "" >> README.md
+            echo "${PULSE_BLOCK}" >> README.md
+          fi
 
-          git add .
-          git diff --cached --quiet && exit 0
+      # ─── Commit as YOU so it shows on your contribution graph ───────────────
+      - name: Commit and push (counts as your contribution)
+        run: |
+          # Author = your real identity → GitHub counts this in your graph ✅
+          git config user.name "Mukul Prasad"
+          git config user.email "mukulprasad958@gmail.com"
 
-          git commit -m "chore: update profile assets"
-          git push origin main --force
+          git add assets/ README.md
+
+          # If genuinely nothing changed, skip (shouldn't happen — pulse always differs)
+          git diff --cached --quiet && echo "Nothing changed, skipping." && exit 0
+
+          NOW=$(date -u "+%Y-%m-%d %H:%M UTC")
+          git commit -m "🔄 profile sync · ${NOW}"
+
+          git pull --rebase origin main || true
+          git push origin main

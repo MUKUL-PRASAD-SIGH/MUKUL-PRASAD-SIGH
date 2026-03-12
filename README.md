@@ -161,10 +161,10 @@ These projects integrate **Machine Learning, Artificial Intelligence, Multi-Agen
 
 
 ### 💻 Top Languages
-![Top Languages](https://github-stats-project.onrender.com/languages?user=MUKUL-PRASAD-SIGH&limit=8&theme=dark)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MUKUL-PRASAD-SIGH&layout=compact&theme=radical&langs_count=10&hide_border=true)
 
 ### 🏆 GitHub Trophies
-<p align="center"> <img src="https://github-stats-project.onrender.com/trophy?user=MUKUL-PRASAD-SIGH&theme=dark" alt="GitHub Trophies"/> </p> <p align="center"> <b>🔥 Code. Commit. Conquer.</b><br> <i>Consistency beats talent when talent doesn’t commit.</i> </p>
+<p align="center"> <img src="assets/trophy.svg" alt="GitHub Trophies"/> </p> <p align="center"> <b>🔥 Code. Commit. Conquer.</b><br> <i>Consistency beats talent when talent doesn't commit.</i> </p>
 
 ### 📫 Let's Connect!
 
@@ -179,6 +179,10 @@ These projects integrate **Machine Learning, Artificial Intelligence, Multi-Agen
 > — Dr. APJ Abdul Kalam
 
 Thanks for stopping by! Feel free to check out my repositories or reach out for collaboration.
+
+<!-- PULSE_START -->
+> 🤖 **Auto-synced** · Last refreshed: `—` · Awaiting first run
+<!-- PULSE_END -->
 
 <!-- COMMITS_START -->
 ## Contribution stats
