@@ -66,12 +66,24 @@ jobs:
           margin-w: 4
           output-path: assets/trophy.svg
 
+      - name: Generate 3D Contribution Calendar
+        continue-on-error: true
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          USERNAME: MUKUL-PRASAD-SIGH
+          BACKGROUND_COLOR: "#141321"
+          TIME_ZONE: "Asia/Kolkata"
+        with:
+          outputDir: assets
+
       - name: Generate Contribution Snake
         uses: Platane/snk@v3
         with:
           github_user_name: MUKUL-PRASAD-SIGH
           outputs: |
             assets/snake.svg
+            assets/snake-dark.svg?palette=github-dark&color_snake=FE428E
 
       # ─── Pulse: write a live timestamp into README so there's ALWAYS a diff ───
       - name: Update Live Pulse in README
