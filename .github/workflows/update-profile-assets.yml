@@ -83,7 +83,7 @@ jobs:
           github_user_name: MUKUL-PRASAD-SIGH
           outputs: |
             assets/snake.svg
-            assets/snake-dark.svg?palette=github-dark&color_snake=FE428E
+            assets/snake-dark.svg?palette=github-dark
 
       # ─── Pulse: write a live timestamp into README so there's ALWAYS a diff ───
       - name: Update Live Pulse in README

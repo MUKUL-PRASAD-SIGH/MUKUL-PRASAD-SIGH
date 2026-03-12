@@ -227,7 +227,7 @@
 
 <div align="center">
 
-![snake](assets/snake-dark.svg)
+![snake](assets/snake.svg)
 
 </div>
 
