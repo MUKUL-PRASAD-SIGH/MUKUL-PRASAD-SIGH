@@ -46,11 +46,17 @@
 <br/>
 
 ---
-## 🚀 Developer Portfolio
+<!-- ─── Codolio Section ───────────────────────────────────────── -->
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=slice&color=0:6e40c9,100:FE428E&height=90&section=header&text=🚀%20Developer%20Portfolio&fontSize=38&fontColor=ffffff" width="100%"/>
+</div>
+
+<br/>
 
 <p align="center">
   <a href="https://codolio.com/profile/mukulprasad">
-    <img src="https://codolio.com/profile/mukulprasad/card"/>
+    <img src="https://codolio.com/profile/mukulprasad/card.svg" width="900"/>
   </a>
 </p>
 
