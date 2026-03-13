@@ -46,6 +46,7 @@
 <br/>
 
 ---
+
 <!-- ─── Developer Portfolio ───────────────────────────────────────── -->
 
 <div align="center">
@@ -56,7 +57,7 @@
 
 <p align="center">
 <a href="https://codolio.com/profile/mukulprasad">
-<img src="https://card.codolio.com/api/profile-card?username=mukulprasad" width="820"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:12100E,100:FE428E&height=200&section=header&text=Visit%20My%20Developer%20Portfolio&fontSize=35&fontColor=ffffff"/>
 </a>
 </p>
 
