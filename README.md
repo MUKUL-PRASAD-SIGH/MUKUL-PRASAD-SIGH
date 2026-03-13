@@ -46,6 +46,17 @@
 <br/>
 
 ---
+## 🚀 Developer Portfolio
+
+<p align="center">
+  <a href="https://codolio.com/profile/mukulprasad">
+    <img src="https://codolio.com/profile/mukulprasad/card"/>
+  </a>
+</p>
+
+<p align="center">
+  LeetCode • GitHub • Portfolio • Competitive Programming
+</p>
 
 <!-- ─── Tech Arsenal ─────────────────────────────────────────────────── -->
 <div align="center">
