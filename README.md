@@ -53,13 +53,15 @@
 <img src="https://capsule-render.vercel.app/api?type=slice&color=0:6e40c9,100:FE428E&height=90&section=header&text=🚀%20Developer%20Portfolio&fontSize=38&fontColor=ffffff" width="100%"/>
 </div>
 
-<br>
+<br/>
 
-<p align="center">
-<a href="https://codolio.com/profile/mukulprasad">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:12100E,100:FE428E&height=200&section=header&text=Visit%20My%20Developer%20Portfolio&fontSize=35&fontColor=ffffff"/>
-</a>
-</p>
+<div align="center">
+
+[![Visit My Codolio](https://img.shields.io/badge/🚀_Visit_My_Developer_Profile-FF2E88?style=for-the-badge&logo=github&logoColor=white)](https://codolio.com/profile/mukulprasad)
+
+</div>
+
+<br/>
 
 <p align="center">
 LeetCode • GitHub • Portfolio • Competitive Programming
