@@ -56,7 +56,7 @@
 
 <p align="center">
 <a href="https://codolio.com/profile/mukulprasad">
-<img src="https://codolio.com/api/profile-card/mukulprasad" width="850"/>
+<img src="https://card.codolio.com/api/profile-card?username=mukulprasad" width="820"/>
 </a>
 </p>
 
