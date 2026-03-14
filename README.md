@@ -7,6 +7,20 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=1800&pause=1200&color=A9FEF7&center=true&vCenter=true&width=980&lines=🚀+Full+Stack+Developer;🤖+AI+%26+ML+Enthusiast;🧠+Building+Intelligent+Systems;🕸️+Multi-Agent+System+Architect;📊+Data+Intelligence+Engineer;💡+Turning+Ideas+Into+Deployments;🎓+CS+Sophomore+%40+MSRIT+Bengaluru)](https://git.io/typing-svg)
 
 </div>
+<div align="center">
+
+<a href="#developer-portfolio">
+
+<img src="https://media.giphy.com/media/3o7TKtnuHOHHUjR38Y/giphy.gif" width="60"/>
+
+<br/>
+
+<b>⬇️ Scroll Down</b>
+
+</a>
+
+</div>
+
 
 <br/>
 
@@ -50,9 +64,10 @@
 
 <!-- ─── Developer Portfolio ───────────────────────────────────────── -->
 
-<div align="center">
+<div align="center" id="developer-portfolio">
 <img src="https://capsule-render.vercel.app/api?type=slice&color=0:6e40c9,100:FE428E&height=90&section=header&text=🚀%20Developer%20Portfolio&fontSize=38&fontColor=ffffff" width="100%"/>
 </div>
+
 
 <br/>
 
