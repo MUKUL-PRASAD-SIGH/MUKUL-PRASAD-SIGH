@@ -15,9 +15,9 @@
 
 <br/>
 
-<img src="https://readme-components.vercel.app/api?component=logo&logo=github&text=Scroll%20to%20Explore%20My%20Work&fill=FE428E&animation=fadeIn&fontSize=22"/>
 
 <br/>
+
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=0:A9FEF7,50:FE428E,100:6e40c9&height=2"/>
 
@@ -55,10 +55,6 @@
 
 <br/>
 
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" alt="Dev Quote" width="820"/>
-</div>
-
 <br/>
 
 <div align="center"><i>Just pushing some things that I build. 🚀</i></div>
@@ -66,11 +62,7 @@
 <br/>
 
 ---
-<div align="center">
 
-<img src="https://readme-components.vercel.app/api?component=logo&logo=github&text=Scroll%20Down&fill=FE428E&animation=fadeIn&fontSize=24"/>
-
-</div>
 
 
 <!-- ─── Developer Portfolio ───────────────────────────────────────── -->
@@ -124,11 +116,7 @@ LeetCode • GitHub • Portfolio • Competitive Programming
 <br/>
 
 ---
-<div align="center">
 
-<img src="https://readme-components.vercel.app/api?component=logo&logo=github&text=Scroll%20Down&fill=FE428E&animation=fadeIn&fontSize=24"/>
-
-</div>
 
 <!-- ─── Pinned Repos ─────────────────────────────────────────────────── -->
 <div align="center">
@@ -146,11 +134,6 @@ LeetCode • GitHub • Portfolio • Competitive Programming
 <br/>
 
 ---
-<div align="center">
-
-<img src="https://readme-components.vercel.app/api?component=logo&logo=github&text=Scroll%20Down&fill=FE428E&animation=fadeIn&fontSize=24"/>
-
-</div>
 
 
 <!-- ─── Live Deployments ─────────────────────────────────────────────── -->
@@ -183,11 +166,7 @@ LeetCode • GitHub • Portfolio • Competitive Programming
 </table>
 
 ---
-<div align="center">
 
-<img src="https://readme-components.vercel.app/api?component=logo&logo=github&text=Scroll%20Down&fill=FE428E&animation=fadeIn&fontSize=24"/>
-
-</div>
 
 
 <!-- ─── All Projects — Color Graded ─────────────────────────────────── -->
@@ -220,11 +199,7 @@ LeetCode • GitHub • Portfolio • Competitive Programming
 </div>
 
 ---
-<div align="center">
 
-<img src="https://readme-components.vercel.app/api?component=logo&logo=github&text=Scroll%20Down&fill=FE428E&animation=fadeIn&fontSize=24"/>
-
-</div>
 
 
 <!-- ─── GitHub Stats Mega Section ────────────────────────────────────── -->
@@ -233,11 +208,6 @@ LeetCode • GitHub • Portfolio • Competitive Programming
 </div>
 
 <br/>
-<div align="center">
-
-<img src="https://readme-components.vercel.app/api?component=logo&logo=github&text=Scroll%20Down&fill=FE428E&animation=fadeIn&fontSize=24"/>
-
-</div>
 
 
 <!-- Profile Summary Dashboard -->
