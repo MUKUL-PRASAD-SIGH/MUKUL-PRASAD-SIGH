@@ -11,15 +11,20 @@
 
 <a href="#developer-portfolio">
 
-<img src="https://media.giphy.com/media/3o7TKtnuHOHHUjR38Y/giphy.gif" width="60"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FE428E,50:f8d847,100:A9FEF7&height=2"/>
 
 <br/>
 
-<b>⬇️ Scroll Down</b>
+<img src="https://readme-components.vercel.app/api?component=logo&logo=github&text=Scroll%20to%20Explore%20My%20Work&fill=FE428E&animation=fadeIn&fontSize=22"/>
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:A9FEF7,50:FE428E,100:6e40c9&height=2"/>
 
 </a>
 
 </div>
+
 
 
 <br/>
@@ -61,6 +66,12 @@
 <br/>
 
 ---
+<div align="center">
+
+<img src="https://readme-components.vercel.app/api?component=logo&logo=github&text=Scroll%20Down&fill=FE428E&animation=fadeIn&fontSize=24"/>
+
+</div>
+
 
 <!-- ─── Developer Portfolio ───────────────────────────────────────── -->
 
@@ -82,6 +93,12 @@
 <p align="center">
 LeetCode • GitHub • Portfolio • Competitive Programming
 </p>
+<div align="center">
+
+<img src="https://readme-components.vercel.app/api?component=logo&logo=github&text=Scroll%20Down&fill=FE428E&animation=fadeIn&fontSize=24"/>
+
+</div>
+
 
 <!-- ─── Tech Arsenal ─────────────────────────────────────────────────── -->
 <div align="center">
@@ -107,6 +124,11 @@ LeetCode • GitHub • Portfolio • Competitive Programming
 <br/>
 
 ---
+<div align="center">
+
+<img src="https://readme-components.vercel.app/api?component=logo&logo=github&text=Scroll%20Down&fill=FE428E&animation=fadeIn&fontSize=24"/>
+
+</div>
 
 <!-- ─── Pinned Repos ─────────────────────────────────────────────────── -->
 <div align="center">
@@ -124,6 +146,12 @@ LeetCode • GitHub • Portfolio • Competitive Programming
 <br/>
 
 ---
+<div align="center">
+
+<img src="https://readme-components.vercel.app/api?component=logo&logo=github&text=Scroll%20Down&fill=FE428E&animation=fadeIn&fontSize=24"/>
+
+</div>
+
 
 <!-- ─── Live Deployments ─────────────────────────────────────────────── -->
 <div align="center">
@@ -155,6 +183,12 @@ LeetCode • GitHub • Portfolio • Competitive Programming
 </table>
 
 ---
+<div align="center">
+
+<img src="https://readme-components.vercel.app/api?component=logo&logo=github&text=Scroll%20Down&fill=FE428E&animation=fadeIn&fontSize=24"/>
+
+</div>
+
 
 <!-- ─── All Projects — Color Graded ─────────────────────────────────── -->
 <div align="center">
@@ -186,6 +220,12 @@ LeetCode • GitHub • Portfolio • Competitive Programming
 </div>
 
 ---
+<div align="center">
+
+<img src="https://readme-components.vercel.app/api?component=logo&logo=github&text=Scroll%20Down&fill=FE428E&animation=fadeIn&fontSize=24"/>
+
+</div>
+
 
 <!-- ─── GitHub Stats Mega Section ────────────────────────────────────── -->
 <div align="center">
@@ -193,6 +233,12 @@ LeetCode • GitHub • Portfolio • Competitive Programming
 </div>
 
 <br/>
+<div align="center">
+
+<img src="https://readme-components.vercel.app/api?component=logo&logo=github&text=Scroll%20Down&fill=FE428E&animation=fadeIn&fontSize=24"/>
+
+</div>
+
 
 <!-- Profile Summary Dashboard -->
 <div align="center">
@@ -208,6 +254,7 @@ LeetCode • GitHub • Portfolio • Competitive Programming
 </div>
 
 <br/>
+
 
 <!-- Core Stats — Side by Side -->
 <div align="center">
@@ -227,6 +274,12 @@ LeetCode • GitHub • Portfolio • Competitive Programming
 </div>
 
 <br/>
+<div align="center">
+
+<img src="https://readme-components.vercel.app/api?component=logo&logo=github&text=Scroll%20Down&fill=FE428E&animation=fadeIn&fontSize=24"/>
+
+</div>
+
 
 ### 🌐 3D Isometric Contribution Calendar
 
