@@ -177,6 +177,7 @@ LeetCode • GitHub • Portfolio • Competitive Programming
 
 | 🧠 Project | 🏷️ Category | 📄 Description |
 | --- | :---: | --- |
+| [LLM Benchmark Game 🎮](https://github.com/MUKUL-PRASAD-SIGH/LLM_BENCHMARK_GAME) | ![](https://img.shields.io/badge/AI%20Benchmark-6e40c9?style=flat-square&logoColor=white) | Interactive AI benchmark platform that compares multiple LLMs through real-time game-based challenges and reasoning tasks to evaluate model intelligence, speed, and accuracy. |
 | [KisaanMitra 🌾](https://github.com/MUKUL-PRASAD-SIGH/KisaanMitra) | ![](https://img.shields.io/badge/Multi--Agent%20AI-FE428E?style=flat-square&logoColor=white) | Multi-Agent System for collective agricultural intelligence — climate insights, autonomous irrigation, market intelligence, and financial inclusion for farmers. |
 | [NovaPulse 🧠](https://github.com/MUKUL-PRASAD-SIGH/NovaPulse) | ![](https://img.shields.io/badge/Voice%20AI-A9FEF7?style=flat-square&logoColor=black) | Voice-powered multi-agent news intelligence system using Amazon Nova AI for sentiment analysis, trend detection, and automated executive summaries. |
 | [NEURACITY 🏙️](https://github.com/MUKUL-PRASAD-SIGH/NEURACITY) | ![](https://img.shields.io/badge/Urban%20AI-6e40c9?style=flat-square&logoColor=white) | Neural/ML toolkit for city modelling and visualization — traffic optimization, zoning intelligence, and urban simulation. |
