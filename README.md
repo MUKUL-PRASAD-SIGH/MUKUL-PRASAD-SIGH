@@ -157,6 +157,9 @@ LeetCode • GitHub • Portfolio • Competitive Programming
       <h4>🎬 <b>Demo Videos</b></h4>
       <ul>
         <li><b>🚀 Project Astraeus</b><br><a href="https://youtu.be/HiNK79Ijav8">▶️ Watch Demo</a><br><i>AI Mission Control — digital-twin simulation, real-time monitoring & intelligent decision support.</i></li>
+        <li><b>🚀 Hackathon Dashboard</b><br>
+<a href="https://youtu.be/o3bw84sPgDA">▶️ Watch Demo</a><br>
+<i>Real-time hackathon management dashboard for tracking teams, projects, and submissions seamlessly.</i></li>
         <li><b>🌾 KisaanMitra</b><br><a href="https://youtu.be/S1hz6yakK4Y">▶️ Watch Demo</a><br><i>Multi-Agent System for collective agricultural empowerment using AI, IoT & MAS architecture.</i></li>
         <li><b>❤️ DonorConnect</b><br><a href="https://youtu.be/T3-CFJ__JWg">▶️ Watch Demo</a><br><i>ML & DL powered real-time blood donor-recipient intelligent matching system.</i></li>
         <li><b>✂️ ClipBait</b><br><a href="https://youtu.be/AgLqEC7HuPs">▶️ Watch Demo</a><br><i>AI-powered smart clipboard for capturing and analyzing copied content intelligently.</i></li>
