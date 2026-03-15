@@ -150,7 +150,7 @@ LeetCode • GitHub • Portfolio • Competitive Programming
         <li><b>❤️ DonorConnect</b> &nbsp;<img src="https://img.shields.io/badge/LIVE-00C853?style=flat-square&logo=statuspage&logoColor=white"/><br><a href="https://bloodme-frontend.vercel.app/">🔗 Live Deployment</a><br><i>ML & DL powered real-time blood donor-recipient intelligent matching platform.</i></li>
         <li><b>🧠 Amazon Nova Pulse</b> &nbsp;<img src="https://img.shields.io/badge/LIVE-00C853?style=flat-square&logo=statuspage&logoColor=white"/><br><a href="https://nova-pulse-gilt.vercel.app/">🔗 Live Deployment</a><br><i>ML & DL powered real-time blood donor-recipient intelligent matching platform.</i></li>
         <li><b>🌐 Portfolio Website</b> &nbsp;<img src="https://img.shields.io/badge/LIVE-00C853?style=flat-square&logo=statuspage&logoColor=white"/><br><a href="https://mukulprasad.netlify.app/">🔗 Visit Portfolio</a><br><i>Personal portfolio showcasing AI, ML, and full-stack development projects & research work.</i></li>
-        <li><b>📊 Hackathon Dashboard</b> &nbsp;<img src="https://img.shields.io/badge/LIVE-00C853?style=flat-square&logo=statuspage&logoColor=white"/><br><a href="https://hackathon-dashboard-mukul.netlify.app/login">🔗 Hands-on Demo</a><br><i>Real-time hackathon tracking, participant analysis & event management platform.</i></li>
+        <li><b>📊 Hackathon Dashboard</b> &nbsp;<img src="https://img.shields.io/badge/LIVE-00C853?style=flat-square&logo=statuspage&logoColor=white"/><br><a href="https://hackersboard.netlify.app/">🔗 Hands-on Demo</a><br><i>Real-time hackathon tracking, participant analysis & event management platform.</i></li>
       </ul>
     </td>
     <td valign="top" width="50%">
