@@ -193,7 +193,6 @@ LeetCode • GitHub • Portfolio • Competitive Programming
 | [finance-bud 💰](https://github.com/MUKUL-PRASAD-SIGH/finance-bud) | ![](https://img.shields.io/badge/FinTech%20AI-00C853?style=flat-square&logoColor=white) | Intelligent personal finance manager with budgeting automation, expense analytics, and financial insights. |
 | [GlamGlow ✨](https://github.com/MUKUL-PRASAD-SIGH/GlamGlow) | ![](https://img.shields.io/badge/ML%20Recommender-E91E63?style=flat-square&logoColor=white) | ML-powered beauty product recommendation engine for personalized skincare and product discovery. |
 | [HealthCare-System-Dashboard 🏥](https://github.com/MUKUL-PRASAD-SIGH/HealthCare-System-Dashboard) | ![](https://img.shields.io/badge/HealthTech-F44336?style=flat-square&logoColor=white) | Real-time healthcare analytics dashboard powered by ML-driven insights and monitoring pipelines. |
-| [URBAN-PLANNING 🌆](https://github.com/MUKUL-PRASAD-SIGH/URBAN-PLANNING) | ![](https://img.shields.io/badge/Smart%20Cities-4CAF50?style=flat-square&logoColor=white) | AI-driven city planning models for infrastructure optimization and smart urban layout simulations. |
 | [NEURACITY 🏙️](https://github.com/MUKUL-PRASAD-SIGH/NEURACITY) | ![](https://img.shields.io/badge/Urban%20AI-6e40c9?style=flat-square&logoColor=white) | Neural/ML toolkit for city modelling and visualization — traffic optimization, zoning intelligence, and urban simulation. |
 <div align="center">
 
