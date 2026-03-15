@@ -148,6 +148,7 @@ LeetCode • GitHub • Portfolio • Competitive Programming
       <ul>
         <li><b>🚀 Project Astraeus</b> &nbsp;<img src="https://img.shields.io/badge/LIVE-00C853?style=flat-square&logo=statuspage&logoColor=white"/><br><a href="https://astraeus-frontend.onrender.com/">🔗 Hands-on Demo</a><br><i>AI-powered Mission Control with digital-twin simulation, real-time monitoring & intelligent decision support.</i></li>
         <li><b>❤️ DonorConnect</b> &nbsp;<img src="https://img.shields.io/badge/LIVE-00C853?style=flat-square&logo=statuspage&logoColor=white"/><br><a href="https://bloodme-frontend.vercel.app/">🔗 Live Deployment</a><br><i>ML & DL powered real-time blood donor-recipient intelligent matching platform.</i></li>
+        <li><b>🧠 Amazon Nova Pulse</b> &nbsp;<img src="https://img.shields.io/badge/LIVE-00C853?style=flat-square&logo=statuspage&logoColor=white"/><br><a href="https://nova-pulse-gilt.vercel.app/">🔗 Live Deployment</a><br><i>ML & DL powered real-time blood donor-recipient intelligent matching platform.</i></li>
         <li><b>🌐 Portfolio Website</b> &nbsp;<img src="https://img.shields.io/badge/LIVE-00C853?style=flat-square&logo=statuspage&logoColor=white"/><br><a href="https://mukulprasad.netlify.app/">🔗 Visit Portfolio</a><br><i>Personal portfolio showcasing AI, ML, and full-stack development projects & research work.</i></li>
         <li><b>📊 Hackathon Dashboard</b> &nbsp;<img src="https://img.shields.io/badge/LIVE-00C853?style=flat-square&logo=statuspage&logoColor=white"/><br><a href="https://hackathon-dashboard-mukul.netlify.app/login">🔗 Hands-on Demo</a><br><i>Real-time hackathon tracking, participant analysis & event management platform.</i></li>
       </ul>
@@ -159,7 +160,7 @@ LeetCode • GitHub • Portfolio • Competitive Programming
         <li><b>🌾 KisaanMitra</b><br><a href="https://youtu.be/S1hz6yakK4Y">▶️ Watch Demo</a><br><i>Multi-Agent System for collective agricultural empowerment using AI, IoT & MAS architecture.</i></li>
         <li><b>❤️ DonorConnect</b><br><a href="https://youtu.be/T3-CFJ__JWg">▶️ Watch Demo</a><br><i>ML & DL powered real-time blood donor-recipient intelligent matching system.</i></li>
         <li><b>✂️ ClipBait</b><br><a href="https://youtu.be/AgLqEC7HuPs">▶️ Watch Demo</a><br><i>AI-powered smart clipboard for capturing and analyzing copied content intelligently.</i></li>
-        <li><b>🧠 NovaPulse</b><br><a href="https://youtu.be/KDNrGJ994Cw">▶️ Watch Demo</a><br><i>Voice-powered multi-agent news intelligence system using Amazon Nova AI.</i></li>
+        <li><b>🧠 NovaPulse</b><br><a href="https://youtu.be/KBmNAY7ayVg">▶️ Watch Demo</a><br><i>Voice-powered multi-agent news intelligence system using Amazon Nova AI.</i></li>
       </ul>
     </td>
   </tr>
