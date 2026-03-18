@@ -271,15 +271,6 @@ LeetCode • GitHub • Portfolio • Competitive Programming
 
 <br/>
 
-### 💻 Top Languages
-
-<div align="center">
-
-<img height="175em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MUKUL-PRASAD-SIGH&layout=compact&theme=radical&langs_count=10&hide_border=true&exclude_repo=KisaanMitra,NovaPulse,NEURACITY,X-FORECAST,GlamGlow,HealthCare-System-Dashboard,URBAN-PLANNING,DonorConnectT,VoOTEX,finance-bud,Clipbait&custom_title=Languages+(Web+%26+Systems)"/>&nbsp;&nbsp;<img height="175em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MUKUL-PRASAD-SIGH&layout=compact&theme=radical&langs_count=6&hide_border=true&custom_title=Languages+(All+Repos)"/>
-
-</div>
-
-<br/>
 
 ### 🗓️ Contribution Heatmap
 
