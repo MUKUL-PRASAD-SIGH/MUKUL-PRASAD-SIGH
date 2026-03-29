@@ -136,36 +136,6 @@ LeetCode • GitHub • Portfolio • Competitive Programming
 <br/>
 
 ---
-<!-- ─── Pinned Repos ─────────────────────────────────────────────────── -->
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=slice&color=0:FE428E,100:f8d847&height=90&section=header&text=📌%20Pinned%20Highlights&fontSize=36&fontColor=ffffff&fontAlign=76" width="100%"/>
-</div>
-
-<div align="center">
-
-<a href="https://github.com/MUKUL-PRASAD-SIGH/NovaPulse">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=MUKUL-PRASAD-SIGH&repo=NovaPulse&theme=radical&hide_border=true" />
-</a>
-
-<a href="https://github.com/MUKUL-PRASAD-SIGH/KisaanMitra">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=MUKUL-PRASAD-SIGH&repo=KisaanMitra&theme=radical&hide_border=true" />
-</a>
-
-<br/>
-
-<a href="https://github.com/MUKUL-PRASAD-SIGH/PROJECT_ENTANGLEMENT">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=MUKUL-PRASAD-SIGH&repo=PROJECT_ENTANGLEMENT&theme=radical&hide_border=true" />
-</a>
-
-<a href="https://github.com/MUKUL-PRASAD-SIGH/DonorConnectT">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=MUKUL-PRASAD-SIGH&repo=DonorConnectT&theme=radical&hide_border=true" />
-</a>
-
-</div>
-
-<br/>
-
 
 
 <!-- ─── Live Deployments ─────────────────────────────────────────────── -->
