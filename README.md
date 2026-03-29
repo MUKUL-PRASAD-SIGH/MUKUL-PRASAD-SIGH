@@ -377,3 +377,11 @@ LeetCode • GitHub • Portfolio • Competitive Programming
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:A9FEF7,28:f8d847,55:FE428E,80:6e40c9,100:141321&height=170&section=footer" width="100%"/>
 </div>
+## Automation Workflows
+
+[![Asset Update Workflow](https://github.com/MUKUL-PRASAD-SIGH/MUKUL-PRASAD-SIGH/actions/workflows/asset-update.yml/badge.svg)](https://github.com/MUKUL-PRASAD-SIGH/MUKUL-PRASAD-SIGH/actions/workflows/asset-update.yml)
+[![Safe Commits Workflow](https://github.com/MUKUL-PRASAD-SIGH/MUKUL-PRASAD-SIGH/actions/workflows/safe-commits.yml/badge.svg)](https://github.com/MUKUL-PRASAD-SIGH/MUKUL-PRASAD-SIGH/actions/workflows/safe-commits.yml)
+
+---
+
+
