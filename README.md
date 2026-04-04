@@ -182,6 +182,7 @@ LeetCode • GitHub • Portfolio • Competitive Programming
 
 | 🧠 Project | 🏷️ Category | 📄 Description |
 | --- | :---: | --- |
+| [GitHopper 🦘](https://github.com/MUKUL-PRASAD-SIGH/GITHOPPER) | ![](https://img.shields.io/badge/AI%20DevTool-00b894?style=flat-square&logoColor=white) | Intelligent Git repository analysis platform that performs deep code scanning, technical debt detection, health scoring, and real-time monitoring using MCP and AI-powered synthesis for actionable developer insights. |
 | [LLM Benchmark Game 🎮](https://github.com/MUKUL-PRASAD-SIGH/LLM_BENCHMARK_GAME) | ![](https://img.shields.io/badge/AI%20Benchmark-6e40c9?style=flat-square&logoColor=white) | Interactive AI benchmark platform that compares multiple LLMs through real-time game-based challenges and reasoning tasks to evaluate model intelligence, speed, and accuracy. |
 | [PROJECT_ENTANGLEMENT 🚀](https://github.com/MUKUL-PRASAD-SIGH/PROJECT_ENTANGLEMENT) | ![](https://img.shields.io/badge/Mission%20Control-FE428E?style=flat-square&logoColor=white) | SIH 2025: Project Astraeus — AI-powered Mission Control with digital twin simulation and predictive system monitoring. |
 | [Hackathon-Dashboard 📊](https://github.com/MUKUL-PRASAD-SIGH/Hackathon-Dashboard) | ![](https://img.shields.io/badge/Dashboard-3178C6?style=flat-square&logoColor=white) | Real-time hackathon management dashboard for event tracking, analytics, and participant intelligence. |
