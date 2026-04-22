@@ -44,9 +44,10 @@
 &nbsp;
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mukul-prasad-a395ba324/)
 &nbsp;
-[![Resume](https://img.shields.io/badge/📄_Resume-Download%20CV-FF0000?style=for-the-badge&logo=adobeacrobatreader&logoColor=white&labelColor=141321)](https://drive.google.com/file/d/1X-pFBxLX9Kq140b_ALBBjrItn-Ji423E/view)
+[![Resume](https://img.shields.io/badge/📄_Resume-Download%20CV-FF0000?style=for-the-badge&logo=adobeacrobatreader&logoColor=white&labelColor=141321)](https://drive.google.com/file/d/1s27FzqTk1DabHkar34UCd1Dl2Ea3_JAn/view)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/mukul_prasad_2030)
 &nbsp;
+
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mukulprasad958@gmail.com)
 &nbsp;
 [![All Links](https://img.shields.io/badge/🔗_Socials-12100E?style=for-the-badge)](https://mukul.taplink.in)
