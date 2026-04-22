@@ -106,6 +106,15 @@ LeetCode • GitHub • Portfolio • Competitive Programming
 **🤖 AI · ML · Data Science**
 [![Skills](https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn,opencv,numpy&perline=10)](https://skillicons.dev)
 
+**🧠 AI & LLM Stack**  
+<p>
+  <img src="https://img.shields.io/badge/RAG-FF6F00?style=for-the-badge&logo=databricks&logoColor=white"/>
+  <img src="https://img.shields.io/badge/LangChain-121212?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/>
+  <img src="https://img.shields.io/badge/HuggingFace-FFD21F?style=for-the-badge&logo=huggingface&logoColor=black"/>
+  <img src="https://img.shields.io/badge/LangGraph-0A0A0A?style=for-the-badge"/>
+</p>
+
 **☁️ Cloud & DevOps**
 [![Skills](https://skillicons.dev/icons?i=aws,docker,git,github,linux&perline=10)](https://skillicons.dev)
 
