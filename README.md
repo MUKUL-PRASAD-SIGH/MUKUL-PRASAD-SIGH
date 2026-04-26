@@ -192,6 +192,7 @@ LeetCode • GitHub • Portfolio • Competitive Programming
 
 | 🧠 Project | 🏷️ Category | 📄 Description |
 | --- | :---: | --- |
+| [NeuroSOC 🧠](https://github.com/MUKUL-PRASAD-SIGH/NeuroSOC) | ![](https://img.shields.io/badge/Cybersecurity%20AI-ff3b5c?style=flat-square&logoColor=white) | AI-powered SOC analyst system that performs real-time threat detection using SNN, LNN, and XGBoost ensemble models with behavioral profiling, sandbox isolation, feedback-driven retraining, and full microservices architecture. |
 | [GitHopper 🦘](https://github.com/MUKUL-PRASAD-SIGH/GITHOPPER) | ![](https://img.shields.io/badge/AI%20DevTool-00b894?style=flat-square&logoColor=white) | Intelligent Git repository analysis platform that performs deep code scanning, technical debt detection, health scoring, and real-time monitoring using MCP and AI-powered synthesis for actionable developer insights. |
 | [LLM Benchmark Game 🎮](https://github.com/MUKUL-PRASAD-SIGH/LLM_BENCHMARK_GAME) | ![](https://img.shields.io/badge/AI%20Benchmark-6e40c9?style=flat-square&logoColor=white) | Interactive AI benchmark platform that compares multiple LLMs through real-time game-based challenges and reasoning tasks to evaluate model intelligence, speed, and accuracy. |
 | [PROJECT_ENTANGLEMENT 🚀](https://github.com/MUKUL-PRASAD-SIGH/PROJECT_ENTANGLEMENT) | ![](https://img.shields.io/badge/Mission%20Control-FE428E?style=flat-square&logoColor=white) | SIH 2025: Project Astraeus — AI-powered Mission Control with digital twin simulation and predictive system monitoring. |
