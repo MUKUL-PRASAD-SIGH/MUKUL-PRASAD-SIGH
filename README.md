@@ -368,7 +368,7 @@ LeetCode • GitHub • Portfolio • Competitive Programming
 <!-- COMMITS_START -->
 ## Contribution stats
 
-- All-time contributions (since 2008-01-01): **1112**
+- All-time contributions (since 2008-01-01): **1153**
 
 ### Contributions per month (last 12 months)
 
@@ -385,7 +385,7 @@ LeetCode • GitHub • Portfolio • Competitive Programming
 | 2026-02 | 137 |
 | 2026-03 | 215 |
 | 2026-04 | 304 |
-| 2026-05 | 0 |
+| 2026-05 | 41 |
 <!-- COMMITS_END -->
 
 <div align="center">
