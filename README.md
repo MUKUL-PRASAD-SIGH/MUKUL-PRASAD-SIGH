@@ -178,8 +178,7 @@ LeetCode • GitHub • Portfolio • Competitive Programming
         <li><b>🌾 KisaanMitra</b><br><a href="https://youtu.be/S1hz6yakK4Y">▶️ Watch Demo</a><br><i>Multi-Agent System for collective agricultural empowerment using AI, IoT & MAS architecture.</i></li>
         <li><b>❤️ DonorConnect</b><br><a href="https://youtu.be/T3-CFJ__JWg">▶️ Watch Demo</a><br><i>ML & DL powered real-time blood donor-recipient intelligent matching system.</i></li>
         <li><b>✂️ ClipBait</b><br><a href="https://youtu.be/AgLqEC7HuPs">▶️ Watch Demo</a><br><i>AI-powered smart clipboard for capturing and analyzing copied content intelligently.</i></li>
-        <li><b>🧠 NovaPulse</b><br><a href="https://youtu.be/KBmNAY7ayVg">▶️ Watch Demo</a><br><i>Voice-powered multi-agent news intelligence system using Amazon Nova AI.</i></li>
-        
+        <li><b>🧠 NovaPulse</b><br><a href="https://youtu.be/KBmNAY7ayVg">▶️ Watch Demo</a><br><i>Voice-powered multi-agent news intelligence system using Amazon Nova AI.</i></li> 
       </ul>
     </td>
   </tr>
