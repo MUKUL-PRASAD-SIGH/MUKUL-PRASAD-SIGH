@@ -168,6 +168,9 @@ LeetCode • GitHub • Portfolio • Competitive Programming
     <td valign="top" width="50%">
       <h4>🎬 <b>Demo Videos</b></h4>
       <ul>
+        <li><b>⚡ ContextOS</b><br>
+<a href="https://youtu.be/eOWGswfy5_E">▶️ Watch Demo</a><br>
+<i>Proactive Android AI agent that autonomously manages meetings, navigation, DND, reminders, and contextual workflows using adaptive on-device intelligence.</i></li>
         <li><b>🚀 Project Astraeus</b><br><a href="https://youtu.be/HiNK79Ijav8">▶️ Watch Demo</a><br><i>AI Mission Control — digital-twin simulation, real-time monitoring & intelligent decision support.</i></li>
         <li><b>🚀 Hackathon Dashboard</b><br>
 <a href="https://youtu.be/o3bw84sPgDA">▶️ Watch Demo</a><br>
@@ -176,6 +179,7 @@ LeetCode • GitHub • Portfolio • Competitive Programming
         <li><b>❤️ DonorConnect</b><br><a href="https://youtu.be/T3-CFJ__JWg">▶️ Watch Demo</a><br><i>ML & DL powered real-time blood donor-recipient intelligent matching system.</i></li>
         <li><b>✂️ ClipBait</b><br><a href="https://youtu.be/AgLqEC7HuPs">▶️ Watch Demo</a><br><i>AI-powered smart clipboard for capturing and analyzing copied content intelligently.</i></li>
         <li><b>🧠 NovaPulse</b><br><a href="https://youtu.be/KBmNAY7ayVg">▶️ Watch Demo</a><br><i>Voice-powered multi-agent news intelligence system using Amazon Nova AI.</i></li>
+        
       </ul>
     </td>
   </tr>
@@ -192,6 +196,7 @@ LeetCode • GitHub • Portfolio • Competitive Programming
 
 | 🧠 Project | 🏷️ Category | 📄 Description |
 | --- | :---: | --- |
+| [ContextOS ⚡](https://github.com/MUKUL-PRASAD-SIGH/ContextOS) | ![](https://img.shields.io/badge/Autonomous%20AI%20Agent-7c3aed?style=flat-square&logoColor=white) | Intelligent Android background agent that proactively automates user workflows using contextual situation modeling, adaptive decision-making, autonomous action execution, Google API integrations, memory systems, and on-device AI-powered orchestration. |
 | [NeuroSOC 🧠](https://github.com/MUKUL-PRASAD-SIGH/NeuroSOC) | ![](https://img.shields.io/badge/Cybersecurity%20AI-ff3b5c?style=flat-square&logoColor=white) | AI-powered SOC analyst system that performs real-time threat detection using SNN, LNN, and XGBoost ensemble models with behavioral profiling, sandbox isolation, feedback-driven retraining, and full microservices architecture. |
 | [GitHopper 🦘](https://github.com/MUKUL-PRASAD-SIGH/GITHOPPER) | ![](https://img.shields.io/badge/AI%20DevTool-00b894?style=flat-square&logoColor=white) | Intelligent Git repository analysis platform that performs deep code scanning, technical debt detection, health scoring, and real-time monitoring using MCP and AI-powered synthesis for actionable developer insights. |
 | [LLM Benchmark Game 🎮](https://github.com/MUKUL-PRASAD-SIGH/LLM_BENCHMARK_GAME) | ![](https://img.shields.io/badge/AI%20Benchmark-6e40c9?style=flat-square&logoColor=white) | Interactive AI benchmark platform that compares multiple LLMs through real-time game-based challenges and reasoning tasks to evaluate model intelligence, speed, and accuracy. |
