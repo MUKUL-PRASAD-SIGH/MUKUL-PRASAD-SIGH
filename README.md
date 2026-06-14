@@ -67,9 +67,9 @@
 
 | 💼 Role | 🏢 Organization | 🌟 Highlight |
 |:---:|:---:|:---:|
-| **ML Intern** | **FlyRank** | Building production-grade ML pipelines |
+| **ML Intern** | **FlyRank** | Learning to build production-grade ML pipelines |
 | **GSSoC'26 Mentor** | **GirlScript Summer of Code** | Among ~135 mentors selected worldwide |
-| **Research Intern** | **IEEE Computer Society** | Contributing to cutting-edge CS research |
+| **Research Intern** | **IEEE Computer Society** | Building VectorDrug Repurpose |
 
 </div>
 
