@@ -248,7 +248,7 @@ LeetCode • GitHub • Portfolio • Competitive Programming
 | 🏆 Competition | 🎯 Task | 🥇 Achievement |
 | --- | :---: | --- |
 | [🛢️ KAGGLE — Wellbore Geology Prediction](https://github.com/MUKUL-PRASAD-SIGH/KAGGLE-Wellbore_Geology_Prediction) | ![](https://img.shields.io/badge/Geological%20ML-FF9900?style=flat-square&logoColor=white) | Built an ML pipeline to predict subsurface geological formations from wellbore sensor data — combining feature engineering, XGBoost, and ensemble methods for high-accuracy stratigraphy classification. |
-| [🏎️ KAGGLE — F1 Race Result Classification](https://github.com/MUKUL-PRASAD-SIGH/KAGGLE-F1-race-result-classification) | ![](https://img.shields.io/badge/Sports%20Analytics-e10600?style=flat-square&logoColor=white) | Developed a classification model to predict Formula 1 race results using historical race data, driver stats, and circuit features — leveraging advanced ML techniques for accurate podium finish prediction. |
+| [🏎️ KAGGLE — F1 Race Result Classification](https://github.com/MUKUL-PRASAD-SIGH/KAGGLE-F1-race-result-classification) | ![](https://img.shields.io/badge/Sports%20Analytics-e10600?style=flat-square&logoColor=white) | Finished up under Top 25 teams among 348 Entrants,279 Participants,145 Teams,4161 Submissions, Developed a classification model to predict Formula 1 race results using historical race data, driver stats, and circuit features — leveraging advanced ML techniques for accurate podium finish prediction. |
 
 </div>
 
