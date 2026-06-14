@@ -4,7 +4,7 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=1800&pause=1200&color=A9FEF7&center=true&vCenter=true&width=980&lines=🚀+Full+Stack+Developer;🤖+AI+%26+ML+Enthusiast;🧠+Building+Intelligent+Systems;🕸️+Multi-Agent+System+Architect;📊+Data+Intelligence+Engineer;💡+Turning+Ideas+Into+Deployments;🎓+CS+Sophomore+%40+MSRIT+Bengaluru)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=1800&pause=1200&color=A9FEF7&center=true&vCenter=true&width=980&lines=🚀+Full+Stack+Developer;🤖+AI+%26+ML+Enthusiast;🧠+Building+Intelligent+Systems;🕸️+Multi-Agent+System+Architect;📊+Data+Intelligence+Engineer;💡+Turning+Ideas+Into+Deployments;🎓+CS+Sophomore+%40+MSRIT+Bengaluru;💼+ML+Intern+%40+FlyRank;🏆+GSSoC%2726+Mentor+%7C+~135+Selected+Worldwide;🔬+Research+Intern+%40+IEEE+CS)](https://git.io/typing-svg)
 
 </div>
 <div align="center">
@@ -59,6 +59,19 @@
 <br/>
 
 <div align="center"><i>Just pushing some things that I build. 🚀</i></div>
+
+<br/>
+
+<!-- ─── Current Roles ──────────────────────────────────────────────────── -->
+<div align="center">
+
+| 💼 Role | 🏢 Organization | 🌟 Highlight |
+|:---:|:---:|:---:|
+| **ML Intern** | **FlyRank** | Building production-grade ML pipelines |
+| **GSSoC'26 Mentor** | **GirlScript Summer of Code** | Among ~135 mentors selected worldwide |
+| **Research Intern** | **IEEE Computer Society** | Contributing to cutting-edge CS research |
+
+</div>
 
 <br/>
 
@@ -178,7 +191,8 @@ LeetCode • GitHub • Portfolio • Competitive Programming
         <li><b>🌾 KisaanMitra</b><br><a href="https://youtu.be/S1hz6yakK4Y">▶️ Watch Demo</a><br><i>Multi-Agent System for collective agricultural empowerment using AI, IoT & MAS architecture.</i></li>
         <li><b>❤️ DonorConnect</b><br><a href="https://youtu.be/T3-CFJ__JWg">▶️ Watch Demo</a><br><i>ML & DL powered real-time blood donor-recipient intelligent matching system.</i></li>
         <li><b>✂️ ClipBait</b><br><a href="https://youtu.be/AgLqEC7HuPs">▶️ Watch Demo</a><br><i>AI-powered smart clipboard for capturing and analyzing copied content intelligently.</i></li>
-        <li><b>🧠 NovaPulse</b><br><a href="https://youtu.be/KBmNAY7ayVg">▶️ Watch Demo</a><br><i>Voice-powered multi-agent news intelligence system using Amazon Nova AI.</i></li> 
+        <li><b>🧠 NovaPulse</b><br><a href="https://youtu.be/KBmNAY7ayVg">▶️ Watch Demo</a><br><i>Voice-powered multi-agent news intelligence system using Amazon Nova AI.</i></li>
+        <li><b>🕸️ RegGraph-AI</b><br><a href="https://drive.google.com/file/d/1djHr1MN3IEXG5-McdXZwj8YXoBm-ktkx/view?usp=drive_link">▶️ Watch Demo</a><br><i>AI-powered regulatory knowledge graph system for intelligent compliance mapping and automated regulation analysis.</i></li> 
       </ul>
     </td>
   </tr>
@@ -195,6 +209,7 @@ LeetCode • GitHub • Portfolio • Competitive Programming
 
 | 🧠 Project | 🏷️ Category | 📄 Description |
 | --- | :---: | --- |
+| [RegGraph-AI 🕸️](https://github.com/MUKUL-PRASAD-SIGH/RegGraph-AI) | ![](https://img.shields.io/badge/Knowledge%20Graph%20AI-FE428E?style=flat-square&logoColor=white) | AI-powered regulatory knowledge graph system for intelligent compliance mapping, automated regulation analysis, and graph-based reasoning over legal and policy documents. |
 | [ContextOS ⚡](https://github.com/MUKUL-PRASAD-SIGH/ContextOS) | ![](https://img.shields.io/badge/Autonomous%20AI%20Agent-7c3aed?style=flat-square&logoColor=white) | Intelligent Android background agent that proactively automates user workflows using contextual situation modeling, adaptive decision-making, autonomous action execution, Google API integrations, memory systems, and on-device AI-powered orchestration. |
 | [NeuroSOC 🧠](https://github.com/MUKUL-PRASAD-SIGH/NeuroSOC) | ![](https://img.shields.io/badge/Cybersecurity%20AI-ff3b5c?style=flat-square&logoColor=white) | AI-powered SOC analyst system that performs real-time threat detection using SNN, LNN, and XGBoost ensemble models with behavioral profiling, sandbox isolation, feedback-driven retraining, and full microservices architecture. |
 | [GitHopper 🦘](https://github.com/MUKUL-PRASAD-SIGH/GITHOPPER) | ![](https://img.shields.io/badge/AI%20DevTool-00b894?style=flat-square&logoColor=white) | Intelligent Git repository analysis platform that performs deep code scanning, technical debt detection, health scoring, and real-time monitoring using MCP and AI-powered synthesis for actionable developer insights. |
@@ -216,6 +231,30 @@ LeetCode • GitHub • Portfolio • Competitive Programming
 
 > 🧠 **Machine Learning · Artificial Intelligence · Multi-Agent Systems · Data Intelligence Pipelines**
 > Going beyond traditional software into *intelligent system engineering.*
+
+</div>
+
+---
+
+
+
+<!-- ─── ML Competitions ──────────────────────────────────────────────── -->
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=slice&color=0:f8d847,100:FE428E&height=90&section=header&text=🏆%20ML%20Competitions&fontSize=38&fontColor=ffffff&fontAlign=73&reversal=false" width="100%"/>
+</div>
+
+<div align="center">
+
+| 🏆 Competition | 🎯 Task | 🥇 Achievement |
+| --- | :---: | --- |
+| [🛢️ KAGGLE — Wellbore Geology Prediction](https://github.com/MUKUL-PRASAD-SIGH/KAGGLE-Wellbore_Geology_Prediction) | ![](https://img.shields.io/badge/Geological%20ML-FF9900?style=flat-square&logoColor=white) | Built an ML pipeline to predict subsurface geological formations from wellbore sensor data — combining feature engineering, XGBoost, and ensemble methods for high-accuracy stratigraphy classification. |
+| [🏎️ KAGGLE — F1 Race Result Classification](https://github.com/MUKUL-PRASAD-SIGH/KAGGLE-F1-race-result-classification) | ![](https://img.shields.io/badge/Sports%20Analytics-e10600?style=flat-square&logoColor=white) | Developed a classification model to predict Formula 1 race results using historical race data, driver stats, and circuit features — leveraging advanced ML techniques for accurate podium finish prediction. |
+
+</div>
+
+<div align="center">
+
+> 🏆 **Competing on Kaggle** to sharpen ML skills on real-world datasets across domains — from geoscience to motorsports analytics.
 
 </div>
 
