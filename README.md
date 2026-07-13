@@ -36,7 +36,7 @@
 [![Followers](https://img.shields.io/github/followers/MUKUL-PRASAD-SIGH?label=Followers&style=for-the-badge&color=FE428E&logo=github)](https://github.com/MUKUL-PRASAD-SIGH?tab=followers)
 [![Stars](https://img.shields.io/github/stars/MUKUL-PRASAD-SIGH?label=⭐+Total+Stars&style=for-the-badge&color=f8d847)](https://github.com/MUKUL-PRASAD-SIGH)
 [![Public Repos](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/MUKUL-PRASAD-SIGH&query=$.public_repos&label=📦+Public+Repos&style=for-the-badge&color=A9FEF7&cacheSeconds=3600)](https://github.com/MUKUL-PRASAD-SIGH?tab=repositories)
-[![Gists](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/MUKUL-PRASAD-SIGH&query=$.public_gists&label=📋+Gists&style=for-the-badge&color=6e40c9&cacheSeconds=3600)](https://gist.github.com/MUKUL-PRASAD-SIGH)
+
 
 <br/>
 
@@ -44,10 +44,9 @@
 &nbsp;
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mukul-prasad-a395ba324/)
 &nbsp;
-[![Resume](https://img.shields.io/badge/📄_Resume-Download%20CV-FF0000?style=for-the-badge&logo=adobeacrobatreader&logoColor=white&labelColor=141321)](https://drive.google.com/file/d/1s27FzqTk1DabHkar34UCd1Dl2Ea3_JAn/view)
+[![Resume](https://img.shields.io/badge/📄_Resume-Download%20CV-FF0000?style=for-the-badge&logo=adobeacrobatreader&logoColor=white&labelColor=141321)](https://drive.google.com/file/d/1UENiH3trS-Pc-UlmwvILORTJ8146I2E2/view?usp=sharing)
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/mukul_prasad_2030)
 &nbsp;
-
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mukulprasad958@gmail.com)
 &nbsp;
 [![All Links](https://img.shields.io/badge/🔗_Socials-12100E?style=for-the-badge)](https://mukul.taplink.in)
