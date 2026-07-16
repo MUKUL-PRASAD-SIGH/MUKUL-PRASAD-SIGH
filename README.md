@@ -180,6 +180,7 @@ LeetCode • GitHub • Portfolio • Competitive Programming
     <td valign="top" width="50%">
       <h4>🎬 <b>Demo Videos</b></h4>
       <ul>
+        <li><b>🕸️ RegGraph-AI</b><br><a href="https://drive.google.com/file/d/1djHr1MN3IEXG5-McdXZwj8YXoBm-ktkx/view?usp=drive_link">▶️ Watch Demo</a><br><i>AI-powered regulatory knowledge graph system for intelligent compliance mapping and automated regulation analysis.</i></li> 
         <li><b>⚡ ContextOS</b><br>
 <a href="https://youtu.be/eOWGswfy5_E">▶️ Watch Demo</a><br>
 <i>Proactive Android AI agent that autonomously manages meetings, navigation, DND, reminders, and contextual workflows using adaptive on-device intelligence.</i></li>
@@ -191,7 +192,6 @@ LeetCode • GitHub • Portfolio • Competitive Programming
         <li><b>❤️ DonorConnect</b><br><a href="https://youtu.be/T3-CFJ__JWg">▶️ Watch Demo</a><br><i>ML & DL powered real-time blood donor-recipient intelligent matching system.</i></li>
         <li><b>✂️ ClipBait</b><br><a href="https://youtu.be/AgLqEC7HuPs">▶️ Watch Demo</a><br><i>AI-powered smart clipboard for capturing and analyzing copied content intelligently.</i></li>
         <li><b>🧠 NovaPulse</b><br><a href="https://youtu.be/KBmNAY7ayVg">▶️ Watch Demo</a><br><i>Voice-powered multi-agent news intelligence system using Amazon Nova AI.</i></li>
-        <li><b>🕸️ RegGraph-AI</b><br><a href="https://drive.google.com/file/d/1djHr1MN3IEXG5-McdXZwj8YXoBm-ktkx/view?usp=drive_link">▶️ Watch Demo</a><br><i>AI-powered regulatory knowledge graph system for intelligent compliance mapping and automated regulation analysis.</i></li> 
       </ul>
     </td>
   </tr>
