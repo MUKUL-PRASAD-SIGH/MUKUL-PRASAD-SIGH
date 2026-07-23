@@ -5,7 +5,7 @@
 <div align="center">
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=1800&pause=1200&color=A9FEF7&center=true&vCenter=true&width=980&lines=🚀+Full+Stack+Developer;🤖+AI+%26+ML+Enthusiast;🧠+Building+Intelligent+Systems;🕸️+Multi-Agent+System+Architect;📊+Data+Intelligence+Engineer;💡+Turning+Ideas+Into+Deployments;🎓+CSE-(AIML)+Pre-final Year Student+%40+MSRIT+Bengaluru;💼+ML+Intern+%40+FlyRank;🏆+GSSoC%2726+Mentor+%7C+~135+Selected+Worldwide;🔬+Research+Intern+%40+IEEE+CS)](https://git.io/typing-svg)
-
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=1800&pause=1200&color=A9FEF7&center=true&vCenter=true&width=1200&lines=%F0%9F%9A%80+Full+Stack+Developer;%F0%9F%A4%96+AI+%26+ML+Enthusiast;%F0%9F%A7%A0+Building+Intelligent+Systems;%F0%9F%95%B8+Multi-Agent+System+Architect;%F0%9F%93%8A+Data+Intelligence+Engineer;%F0%9F%92%A1+Turning+Ideas+Into+Deployments;%F0%9F%8E%93+CSE-(AIML)+Pre-final+Year+Student+%40+MSRIT+Bengaluru;%F0%9F%92%BC+ML+Intern+%40+FlyRank;%F0%9F%8F%86+GSSoC%2726+Mentor+%7C+~135+Selected+Worldwide;%F0%9F%94%AC+Research+Intern+%40+IEEE+CS)](https://git.io/typing-svg)
 </div>
 <div align="center">
 
