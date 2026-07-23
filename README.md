@@ -4,7 +4,7 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=1800&pause=1200&color=A9FEF7&center=true&vCenter=true&width=980&lines=🚀+Full+Stack+Developer;🤖+AI+%26+ML+Enthusiast;🧠+Building+Intelligent+Systems;🕸️+Multi-Agent+System+Architect;📊+Data+Intelligence+Engineer;💡+Turning+Ideas+Into+Deployments;🎓+CS+Sophomore+%40+MSRIT+Bengaluru;💼+ML+Intern+%40+FlyRank;🏆+GSSoC%2726+Mentor+%7C+~135+Selected+Worldwide;🔬+Research+Intern+%40+IEEE+CS)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=1800&pause=1200&color=A9FEF7&center=true&vCenter=true&width=980&lines=🚀+Full+Stack+Developer;🤖+AI+%26+ML+Enthusiast;🧠+Building+Intelligent+Systems;🕸️+Multi-Agent+System+Architect;📊+Data+Intelligence+Engineer;💡+Turning+Ideas+Into+Deployments;🎓+CSE-(AIML)+Pre-final Year Student+%40+MSRIT+Bengaluru;💼+ML+Intern+%40+FlyRank;🏆+GSSoC%2726+Mentor+%7C+~135+Selected+Worldwide;🔬+Research+Intern+%40+IEEE+CS)](https://git.io/typing-svg)
 
 </div>
 <div align="center">
