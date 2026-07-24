@@ -88,8 +88,7 @@
 
 <div align="center">
 
-[![Visit My Codolio](https://img.shields.io/badge/🚀_Visit_My_Developer_Profile-FF2E88?style=for-the-badge&logo=github&logoColor=white)](https://codolio.com/profile/mukulprasad)
-
+[![Visit My Codolio](https://img.shields.io/badge/🚀_Visit_My_Codolio_Profile-FF2E88?style=for-the-badge)](https://codolio.com/profile/mukulprasad/devStats/github)
 </div>
 
 <br/>
