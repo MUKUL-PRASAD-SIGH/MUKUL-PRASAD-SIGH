@@ -415,7 +415,6 @@ LeetCode • GitHub • Portfolio • Competitive Programming
 
 | Month | Contributions |
 |---:|---:|
-| 2025-08 | 73 |
 | 2025-09 | 68 |
 | 2025-10 | 48 |
 | 2025-11 | 116 |
@@ -427,6 +426,7 @@ LeetCode • GitHub • Portfolio • Competitive Programming
 | 2026-05 | 236 |
 | 2026-06 | 240 |
 | 2026-07 | 330 |
+| 2026-08 | 0 |
 <!-- COMMITS_END -->
 
 <div align="center">
