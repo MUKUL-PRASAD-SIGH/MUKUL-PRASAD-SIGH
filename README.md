@@ -168,6 +168,7 @@ LeetCode • GitHub • Portfolio • Competitive Programming
     <td valign="top" width="50%">
       <h4>🟢 <b>Deployed Projects</b></h4>
       <ul>
+        <li><b>🚔 Project Falcon </b> &nbsp;<img src="https://img.shields.io/badge/LIVE-00C853?style=flat-square&logo=statuspage&logoColor=white"/><br><a href="https://auth-60079106947.development.catalystserverless.in/app/index.html#/login">🔗 Live Deployment</a><br><i>AI-powered crime analytics platform with role-based dashboards, hotspot visualization, criminal network analysis, predictive insights & intelligent investigation support.</i></li>
         <li><b>🚀 Project Astraeus</b> &nbsp;<img src="https://img.shields.io/badge/LIVE-00C853?style=flat-square&logo=statuspage&logoColor=white"/><br><a href="https://astraeus-frontend.onrender.com/">🔗 Hands-on Demo</a><br><i>AI-powered Mission Control with digital-twin simulation, real-time monitoring & intelligent decision support.</i></li>
         <li><b>❤️ DonorConnect</b> &nbsp;<img src="https://img.shields.io/badge/LIVE-00C853?style=flat-square&logo=statuspage&logoColor=white"/><br><a href="https://bloodme-frontend.vercel.app/">🔗 Live Deployment</a><br><i>ML & DL powered real-time blood donor-recipient intelligent matching platform.</i></li>
         <li><b>🧠 Amazon Nova Pulse</b> &nbsp;<img src="https://img.shields.io/badge/LIVE-00C853?style=flat-square&logo=statuspage&logoColor=white"/><br><a href="https://nova-pulse-gilt.vercel.app/">🔗 Live Deployment</a><br><i>ML & DL powered real-time blood donor-recipient intelligent matching platform.</i></li>
@@ -178,6 +179,7 @@ LeetCode • GitHub • Portfolio • Competitive Programming
     <td valign="top" width="50%">
       <h4>🎬 <b>Demo Videos</b></h4>
       <ul>
+        <li><b>🚔Project-Falcon</b><br><a href="https://www.youtube.com/watch?v=F9OGUbJrP9w">▶️ Watch Demo</a><br><i>AI-powered crime analytics platform featuring hotspot visualization, criminal network analysis, predictive insights, and intelligent investigation support.</i></li>
         <li><b>🕸️ RegGraph-AI</b><br><a href="https://youtu.be/obgJWt_hpgk">▶️ Watch Demo</a><br><i>AI-powered regulatory knowledge graph system for intelligent compliance mapping and automated regulation analysis.</i></li> 
         <li><b>⚡ ContextOS</b><br>
 <a href="https://youtu.be/eOWGswfy5_E">▶️ Watch Demo</a><br>
@@ -190,6 +192,7 @@ LeetCode • GitHub • Portfolio • Competitive Programming
         <li><b>❤️ DonorConnect</b><br><a href="https://youtu.be/T3-CFJ__JWg">▶️ Watch Demo</a><br><i>ML & DL powered real-time blood donor-recipient intelligent matching system.</i></li>
         <li><b>✂️ ClipBait</b><br><a href="https://youtu.be/AgLqEC7HuPs">▶️ Watch Demo</a><br><i>AI-powered smart clipboard for capturing and analyzing copied content intelligently.</i></li>
         <li><b>🧠 NovaPulse</b><br><a href="https://youtu.be/KBmNAY7ayVg">▶️ Watch Demo</a><br><i>Voice-powered multi-agent news intelligence system using Amazon Nova AI.</i></li>
+        
       </ul>
     </td>
   </tr>
