@@ -109,27 +109,51 @@ LeetCode • GitHub • Portfolio • Competitive Programming
 </div>
 
 <div align="center">
+## 💻 Tech Stack
 
-**⚡ Languages & Frameworks**
-[![Skills](https://skillicons.dev/icons?i=python,java,cpp,ts,js,nodejs,flask,fastapi,django,react&perline=10)](https://skillicons.dev)
+### ⚡ Languages & Frameworks
+[![Skills](https://skillicons.dev/icons?i=python,java,cpp,c,ts,js,nodejs,react,nextjs,flask,fastapi,django,html,css,tailwind&perline=8)](https://skillicons.dev)
 
-**🤖 AI · ML · Data Science**
-[![Skills](https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn,opencv,numpy&perline=10)](https://skillicons.dev)
+### 🤖 AI · ML · Data Science
+[![Skills](https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,opencv,numpy,pandas&perline=8)](https://skillicons.dev)
 
-**🧠 AI & LLM Stack**  
+### 🧠 AI · LLM · Agentic AI
 <p>
   <img src="https://img.shields.io/badge/RAG-FF6F00?style=for-the-badge&logo=databricks&logoColor=white"/>
   <img src="https://img.shields.io/badge/LangChain-121212?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/>
-  <img src="https://img.shields.io/badge/HuggingFace-FFD21F?style=for-the-badge&logo=huggingface&logoColor=black"/>
   <img src="https://img.shields.io/badge/LangGraph-0A0A0A?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/HuggingFace-FFD21F?style=for-the-badge&logo=huggingface&logoColor=black"/>
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Multi--Agent%20Systems-2563EB?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Knowledge%20Graphs-16A34A?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Graph%20AI-9333EA?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/GNNs-DC2626?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Reinforcement%20Learning-0F766E?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/MCP-111827?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Vector%20Databases-7C3AED?style=for-the-badge"/>
 </p>
 
-**☁️ Cloud & DevOps**
-[![Skills](https://skillicons.dev/icons?i=aws,docker,git,github,linux&perline=10)](https://skillicons.dev)
+### ☁️ Cloud · DevOps
+[![Skills](https://skillicons.dev/icons?i=aws,docker,git,github,linux,githubactions&perline=8)](https://skillicons.dev)
 
-**🗄️ Databases**
-[![Skills](https://skillicons.dev/icons?i=postgres,mongodb,redis,mysql&perline=10)](https://skillicons.dev)
+<p>
+  <img src="https://img.shields.io/badge/AWS%20Lambda-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Amazon%20SageMaker-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white"/>
+  <img src="https://img.shields.io/badge/AWS%20S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CI/CD-2563EB?style=for-the-badge"/>
+</p>
+
+### 🗄️ Databases
+[![Skills](https://skillicons.dev/icons?i=postgres,mongodb,mysql,redis,supabase&perline=8)](https://skillicons.dev)
+
+<p>
+  <img src="https://img.shields.io/badge/Neo4j-4581C3?style=for-the-badge&logo=neo4j&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Hive-FDEE21?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/HBase-B71C1C?style=for-the-badge"/>
+</p>
+
+### 🛠️ Developer Tools
+[![Skills](https://skillicons.dev/icons?i=vscode,postman,vite,npm&perline=8)](https://skillicons.dev)
 
 </div>
 
@@ -208,6 +232,7 @@ LeetCode • GitHub • Portfolio • Competitive Programming
 
 | 🧠 Project | 🏷️ Category | 📄 Description |
 | --- | :---: | --- |
+| [Project Falcon 🦅](https://github.com/MUKUL-PRASAD-SIGH/Project-Falcon) | ![](https://img.shields.io/badge/Public%20Safety%20AI-DC2626?style=flat-square&logoColor=white) | AI-powered public safety intelligence platform leveraging explainable RAG, geospatial crime hotspot detection, criminal network analysis, predictive analytics, anomaly detection, and multilingual AI assistants to support data-driven law enforcement investigations. |
 | [RegGraph-AI 🕸️](https://github.com/MUKUL-PRASAD-SIGH/RegGraph-AI) | ![](https://img.shields.io/badge/Knowledge%20Graph%20AI-FE428E?style=flat-square&logoColor=white) | AI-powered regulatory knowledge graph system for intelligent compliance mapping, automated regulation analysis, and graph-based reasoning over legal and policy documents. |
 | [ContextOS ⚡](https://github.com/MUKUL-PRASAD-SIGH/ContextOS) | ![](https://img.shields.io/badge/Autonomous%20AI%20Agent-7c3aed?style=flat-square&logoColor=white) | Intelligent Android background agent that proactively automates user workflows using contextual situation modeling, adaptive decision-making, autonomous action execution, Google API integrations, memory systems, and on-device AI-powered orchestration. |
 | [NeuroSOC 🧠](https://github.com/MUKUL-PRASAD-SIGH/NeuroSOC) | ![](https://img.shields.io/badge/Cybersecurity%20AI-ff3b5c?style=flat-square&logoColor=white) | AI-powered SOC analyst system that performs real-time threat detection using SNN, LNN, and XGBoost ensemble models with behavioral profiling, sandbox isolation, feedback-driven retraining, and full microservices architecture. |
