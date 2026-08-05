@@ -109,7 +109,9 @@ LeetCode • GitHub • Portfolio • Competitive Programming
 </div>
 
 <div align="center">
+  
 ## 💻 Tech Stack
+
 
 ### ⚡ Languages & Frameworks
 [![Skills](https://skillicons.dev/icons?i=python,java,cpp,c,ts,js,nodejs,react,nextjs,flask,fastapi,django,html,css,tailwind&perline=8)](https://skillicons.dev)
