@@ -206,6 +206,21 @@ LeetCode • GitHub • Portfolio • Competitive Programming
       <h4>🎬 <b>Demo Videos</b></h4>
       <ul>
         <li><b>🚔Project-Falcon</b><br><a href="https://www.youtube.com/watch?v=F9OGUbJrP9w">▶️ Watch Demo</a><br><i>AI-powered crime analytics platform featuring hotspot visualization, criminal network analysis, predictive insights, and intelligent investigation support.</i></li>
+        <li><b>⏳ Kairos</b><br>
+<a href="https://youtu.be/Q-XZVE3dy20">▶️ Watch Demo</a><br>
+<i>Full-duplex, interruptible real-time agent (Samsung Hackathon) that dynamically adapts when interrupted or corrected mid-task.</i></li>
+        <li><b>🧠 NeuroSOC</b><br>
+<a href="https://youtu.be/eUf58W-rJoE">▶️ Watch Demo</a><br>
+<i>Neuromorphic AI Security Operations Center — real-time threat detection using SNN, LNN, and XGBoost ensemble in autonomous sandbox.</i></li>
+        <li><b>⛏️ MOIL Manganese Copilot</b><br>
+<a href="https://www.youtube.com/watch?v=ZB8utg1Q0WM">▶️ Watch Demo</a><br>
+<i>SIH 2026: AI decision copilot transforming telemetry & mine signals into optimal next-shift recovery decisions.</i></li>
+        <li><b>🔥 Jvalyx</b><br>
+<a href="https://www.youtube.com/watch?v=NJRoPRCKs64">▶️ Watch Demo</a><br>
+<i>SIH 2026: Space-based satellite thermal event triage and industrial fire consequence intelligence system.</i></li>
+        <li><b>💳 Rebound</b><br>
+<a href="https://youtu.be/SxgtEXvsAV4">▶️ Watch Demo</a><br>
+<i>Autonomous AI revenue recovery & smart retry engine built for Razorpay AI Buildathon 2026.</i></li>
         <li><b>🕸️ RegGraph-AI</b><br><a href="https://youtu.be/obgJWt_hpgk">▶️ Watch Demo</a><br><i>AI-powered regulatory knowledge graph system for intelligent compliance mapping and automated regulation analysis.</i></li> 
         <li><b>⚡ ContextOS</b><br>
 <a href="https://youtu.be/eOWGswfy5_E">▶️ Watch Demo</a><br>
@@ -235,9 +250,14 @@ LeetCode • GitHub • Portfolio • Competitive Programming
 | 🧠 Project | 🏷️ Category | 📄 Description |
 | --- | :---: | --- |
 | [Project Falcon 🦅](https://github.com/MUKUL-PRASAD-SIGH/Project-Falcon) | ![](https://img.shields.io/badge/Public%20Safety%20AI-DC2626?style=flat-square&logoColor=white) | AI-powered public safety intelligence platform leveraging explainable RAG, geospatial crime hotspot detection, criminal network analysis, predictive analytics, anomaly detection, and multilingual AI assistants to support data-driven law enforcement investigations. |
+| [NeuroSOC 🧠](https://github.com/MUKUL-PRASAD-SIGH/Project_NeuroSOC) | ![](https://img.shields.io/badge/Cybersecurity%20AI-ff3b5c?style=flat-square&logoColor=white) | Neuromorphic AI SOC analyst system performing real-time threat detection using SNN, LNN, and XGBoost ensemble models with behavioral profiling, sandbox isolation, and feedback retraining. |
+| [Kairos ⏳](https://github.com/MUKUL-PRASAD-SIGH/Samsung) | ![](https://img.shields.io/badge/Voice%20AI%20Agent-6e40c9?style=flat-square&logoColor=white) | Full-duplex, interruptible real-time voice agent built for Samsung Hackathon — supports barge-in conversational turn-taking, mid-task corrections, and adaptive execution. |
+| [Manganese Copilot ⛏️](https://github.com/MUKUL-PRASAD-SIGH/manganese) | ![](https://img.shields.io/badge/Industrial%20AI-FF9900?style=flat-square&logoColor=white) | SIH 2026: AI-driven decision copilot for MOIL mining operations, turning mine signals and sensor telemetry into optimal next-shift recovery decisions and yield intelligence. |
+| [Jvalyx 🔥](https://github.com/MUKUL-PRASAD-SIGH/Jvalyx) | ![](https://img.shields.io/badge/Satellite%20AI-E53935?style=flat-square&logoColor=white) | SIH 2026: Space-based industrial fire classification and consequence intelligence system triaging satellite thermal feeds to assess hazard zones and cascading risks. |
+| [Project TCS 🏛️](https://github.com/MUKUL-PRASAD-SIGH/Project_TCS) | ![](https://img.shields.io/badge/GovTech%20AI-0077B5?style=flat-square&logoColor=white) | TCS Hackathon: Conversational municipal permit eligibility assistant powered by Google Gemini, reasoning across local civic regulations and licensing bylaws. |
+| [Rebound 💳](https://github.com/MUKUL-PRASAD-SIGH/Rebound) | ![](https://img.shields.io/badge/FinTech%20AI-0A2540?style=flat-square&logoColor=white) | Razorpay AI Buildathon 2026: Autonomous AI revenue recovery engine orchestrating intelligent payment retry routing and customer churn mitigation. |
 | [RegGraph-AI 🕸️](https://github.com/MUKUL-PRASAD-SIGH/RegGraph-AI) | ![](https://img.shields.io/badge/Knowledge%20Graph%20AI-FE428E?style=flat-square&logoColor=white) | AI-powered regulatory knowledge graph system for intelligent compliance mapping, automated regulation analysis, and graph-based reasoning over legal and policy documents. |
 | [ContextOS ⚡](https://github.com/MUKUL-PRASAD-SIGH/ContextOS) | ![](https://img.shields.io/badge/Autonomous%20AI%20Agent-7c3aed?style=flat-square&logoColor=white) | Intelligent Android background agent that proactively automates user workflows using contextual situation modeling, adaptive decision-making, autonomous action execution, Google API integrations, memory systems, and on-device AI-powered orchestration. |
-| [NeuroSOC 🧠](https://github.com/MUKUL-PRASAD-SIGH/NeuroSOC) | ![](https://img.shields.io/badge/Cybersecurity%20AI-ff3b5c?style=flat-square&logoColor=white) | AI-powered SOC analyst system that performs real-time threat detection using SNN, LNN, and XGBoost ensemble models with behavioral profiling, sandbox isolation, feedback-driven retraining, and full microservices architecture. |
 | [GitHopper 🦘](https://github.com/MUKUL-PRASAD-SIGH/GITHOPPER) | ![](https://img.shields.io/badge/AI%20DevTool-00b894?style=flat-square&logoColor=white) | Intelligent Git repository analysis platform that performs deep code scanning, technical debt detection, health scoring, and real-time monitoring using MCP and AI-powered synthesis for actionable developer insights. |
 | [LLM Benchmark Game 🎮](https://github.com/MUKUL-PRASAD-SIGH/LLM_BENCHMARK_GAME) | ![](https://img.shields.io/badge/AI%20Benchmark-6e40c9?style=flat-square&logoColor=white) | Interactive AI benchmark platform that compares multiple LLMs through real-time game-based challenges and reasoning tasks to evaluate model intelligence, speed, and accuracy. |
 | [PROJECT_ENTANGLEMENT 🚀](https://github.com/MUKUL-PRASAD-SIGH/PROJECT_ENTANGLEMENT) | ![](https://img.shields.io/badge/Mission%20Control-FE428E?style=flat-square&logoColor=white) | SIH 2025: Project Astraeus — AI-powered Mission Control with digital twin simulation and predictive system monitoring. |
@@ -249,10 +269,7 @@ LeetCode • GitHub • Portfolio • Competitive Programming
 | [VAAYA-PROJECT ✈️](https://github.com/MUKUL-PRASAD-SIGH/VAAYA-PROJECT) | ![](https://img.shields.io/badge/Full%20Stack-0077B5?style=flat-square&logoColor=white) | Smart travel platform blending Google Maps + Reels discovery + gamified exploration quests for travelers and local earners. |
 | [VoOTEX 🎙️](https://github.com/MUKUL-PRASAD-SIGH/VoOTEX) | ![](https://img.shields.io/badge/Voice%20Tech-f8d847?style=flat-square&logoColor=black) | Voice-to-text transcription pipeline with speaker diarization, noise handling, and post-processing intelligence. |
 | [X-FORECAST 📈](https://github.com/MUKUL-PRASAD-SIGH/X-FORECAST) | ![](https://img.shields.io/badge/Forecasting-FF9900?style=flat-square&logoColor=white) | Advanced time-series forecasting models and dashboards for demand prediction, analytics, and trend intelligence. |
-| [finance-bud 💰](https://github.com/MUKUL-PRASAD-SIGH/finance-bud) | ![](https://img.shields.io/badge/FinTech%20AI-00C853?style=flat-square&logoColor=white) | Intelligent personal finance manager with budgeting automation, expense analytics, and financial insights. |
 | [GlamGlow ✨](https://github.com/MUKUL-PRASAD-SIGH/GlamGlow) | ![](https://img.shields.io/badge/ML%20Recommender-E91E63?style=flat-square&logoColor=white) | ML-powered beauty product recommendation engine for personalized skincare and product discovery. |
-| [HealthCare-System-Dashboard 🏥](https://github.com/MUKUL-PRASAD-SIGH/HealthCare-System-Dashboard) | ![](https://img.shields.io/badge/HealthTech-F44336?style=flat-square&logoColor=white) | Real-time healthcare analytics dashboard powered by ML-driven insights and monitoring pipelines. |
-| [NEURACITY 🏙️](https://github.com/MUKUL-PRASAD-SIGH/NEURACITY) | ![](https://img.shields.io/badge/Urban%20AI-6e40c9?style=flat-square&logoColor=white) | Neural/ML toolkit for city modelling and visualization — traffic optimization, zoning intelligence, and urban simulation. |
 <div align="center">
 
 > 🧠 **Machine Learning · Artificial Intelligence · Multi-Agent Systems · Data Intelligence Pipelines**
@@ -264,15 +281,19 @@ LeetCode • GitHub • Portfolio • Competitive Programming
 
 
 
-<!-- ─── ML Competitions ──────────────────────────────────────────────── -->
+<!-- ─── Hackathons & Achievements ───────────────────────────────────── -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=slice&color=0:f8d847,100:FE428E&height=90&section=header&text=🏆%20ML%20Competitions&fontSize=38&fontColor=ffffff&fontAlign=73&reversal=false" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=slice&color=0:f8d847,100:FE428E&height=90&section=header&text=🏆%20Hackathons%20%26%20Achievements&fontSize=34&fontColor=ffffff&fontAlign=73&reversal=false" width="100%"/>
 </div>
 
 <div align="center">
 
-| 🏆 Competition | 🎯 Task | 🥇 Achievement |
+| 🏆 Competition / Hackathon | 🎯 Domain / Track | 🥇 Achievement |
 | --- | :---: | --- |
+| [🧠 CyreneAI Hackathon](https://github.com/MUKUL-PRASAD-SIGH/Project_NeuroSOC) | ![](https://img.shields.io/badge/Cybersecurity%20AI-8A2BE2?style=flat-square&logoColor=white) | **🥈 1st Runner-Up**. Built **[NeuroSOC](https://github.com/MUKUL-PRASAD-SIGH/Project_NeuroSOC)** — Neuromorphic AI Security Operations Center integrating SNNs, Liquid Neural Networks (LNN), and XGBoost ensemble for real-time threat detection and autonomous sandbox containment. |
+| [⛏️ Smart India Hackathon (SIH 2026)](https://github.com/MUKUL-PRASAD-SIGH/manganese) | ![](https://img.shields.io/badge/Mining%20AI-FF9900?style=flat-square&logoColor=white) | **🏆 Semifinalist 2026 [Currently]** (Problem Statement 26009). Engineered **[MOIL Manganese Copilot](https://github.com/MUKUL-PRASAD-SIGH/manganese)** — an industrial operational copilot transforming telemetry and shift signals into optimal recovery decisions and yield forecasting. |
+| [🔥 Smart India Hackathon (SIH 2026)](https://github.com/MUKUL-PRASAD-SIGH/Jvalyx) | ![](https://img.shields.io/badge/Satellite%20Intelligence-E53935?style=flat-square&logoColor=white) | **🏆 Semifinalist 2026 [Currently]**. Built **[Jvalyx](https://github.com/MUKUL-PRASAD-SIGH/Jvalyx)** — space-based industrial fire triage and consequence intelligence platform classifying orbital satellite thermal feeds to forecast risk tiers and blast boundaries. |
+| [🏛️ TCS Hackathon](https://github.com/MUKUL-PRASAD-SIGH/Project_TCS) | ![](https://img.shields.io/badge/GovTech%20AI-0077B5?style=flat-square&logoColor=white) | **🎖️ Consolation Prize**. Developed **[Project TCS](https://github.com/MUKUL-PRASAD-SIGH/Project_TCS)** (Municipal Permit Assistant) — a Gemini-powered conversational assistant for checking municipal permit eligibility and reasoning through complex civic bylaws. |
 | [🛢️ Wellbore Geology Prediction](https://github.com/MUKUL-PRASAD-SIGH/KAGGLE-Wellbore_Geology_Prediction) | ![](https://img.shields.io/badge/Geological%20ML-FF9900?style=flat-square&logoColor=white) | Currently under **Top 150 teams** among 10,760 Entrants · 3,211 Participants · 2,967 Teams · 42,920 Submissions. Built an ML pipeline to predict subsurface geological formations from wellbore sensor data — combining feature engineering, XGBoost, and ensemble methods for high-accuracy stratigraphy classification. *(First international team participation, led by PyJa)* |
 | [🏎️ F1 Race Result Classification](https://github.com/MUKUL-PRASAD-SIGH/KAGGLE-F1-race-result-classification) | ![](https://img.shields.io/badge/Sports%20Analytics-e10600?style=flat-square&logoColor=white) | Finished under **Top 25 teams** among 348 Entrants · 279 Participants · 145 Teams · 4,161 Submissions. Developed a classification model to predict Formula 1 race results using historical race data, driver stats, and circuit features — leveraging advanced ML techniques for accurate podium finish prediction. |
 | [🚦 Flipkart Gridlock Hackathon 2.0](https://www.hackerearth.com/challenges/competitive/gridlock-hackathon-20/problems/) | ![](https://img.shields.io/badge/Travel%20Demand%20AI-6e40c9?style=flat-square&logoColor=white) | Designed a system to provide valuable insights into passenger travel patterns, booking behavior, and trip cancellations — enabling data-driven demand prediction for the travel industry. Dataset: 77,299 training samples × 11 features across structured travel data. |
@@ -281,7 +302,7 @@ LeetCode • GitHub • Portfolio • Competitive Programming
 
 <div align="center">
 
-> 🏆 **Competing on Kaggle** to sharpen ML skills on real-world datasets across domains — from geoscience to motorsports analytics.
+> 🏆 **Competing in Hackathons & ML Competitions** to build high-impact solutions — from neuromorphic cybersecurity and space intelligence to real-world industrial copilots.
 
 </div>
 
