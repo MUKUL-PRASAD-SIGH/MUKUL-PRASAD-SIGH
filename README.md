@@ -9,7 +9,7 @@
 <br/>
 
 [![Profile Views](https://komarev.com/ghpvc/?username=MUKUL-PRASAD-SIGH&label=👁️+Views&color=blueviolet&style=for-the-badge)](https://github.com/MUKUL-PRASAD-SIGH)
-[![Followers](https://img.shields.io/github/followers/MUKUL-PRASAD-SIGH?label=Followers&style=for-the-badge&color=FE428E&logo=github)](https://github.com/MUKUL-PRASAD-SIGH?tab=followers)
+[![Followers](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/MUKUL-PRASAD-SIGH&query=$.followers&label=Followers&style=for-the-badge&color=FE428E&logo=github&cacheSeconds=3600)](https://github.com/MUKUL-PRASAD-SIGH?tab=followers)
 [![Stars](https://img.shields.io/github/stars/MUKUL-PRASAD-SIGH?label=⭐+Total+Stars&style=for-the-badge&color=f8d847)](https://github.com/MUKUL-PRASAD-SIGH)
 [![Public Repos](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/MUKUL-PRASAD-SIGH&query=$.public_repos&label=📦+Public+Repos&style=for-the-badge&color=A9FEF7&cacheSeconds=3600)](https://github.com/MUKUL-PRASAD-SIGH?tab=repositories)
 
