@@ -205,7 +205,6 @@ LeetCode • GitHub • Portfolio • Competitive Programming
     <td valign="top" width="50%">
       <h4>🎬 <b>Demo Videos</b></h4>
       <ul>
-        <li><b>🚔Project-Falcon</b><br><a href="https://www.youtube.com/watch?v=F9OGUbJrP9w">▶️ Watch Demo</a><br><i>AI-powered crime analytics platform featuring hotspot visualization, criminal network analysis, predictive insights, and intelligent investigation support.</i></li>
         <li><b>⏳ Kairos</b><br>
 <a href="https://youtu.be/Q-XZVE3dy20">▶️ Watch Demo</a><br>
 <i>Full-duplex, interruptible real-time agent (Samsung Hackathon) that dynamically adapts when interrupted or corrected mid-task.</i></li>
@@ -221,7 +220,6 @@ LeetCode • GitHub • Portfolio • Competitive Programming
         <li><b>💳 Rebound</b><br>
 <a href="https://youtu.be/SxgtEXvsAV4">▶️ Watch Demo</a><br>
 <i>Autonomous AI revenue recovery & smart retry engine built for Razorpay AI Buildathon 2026.</i></li>
-        <li><b>🕸️ RegGraph-AI</b><br><a href="https://youtu.be/obgJWt_hpgk">▶️ Watch Demo</a><br><i>AI-powered regulatory knowledge graph system for intelligent compliance mapping and automated regulation analysis.</i></li> 
         <li><b>⚡ ContextOS</b><br>
 <a href="https://youtu.be/eOWGswfy5_E">▶️ Watch Demo</a><br>
 <i>Proactive Android AI agent that autonomously manages meetings, navigation, DND, reminders, and contextual workflows using adaptive on-device intelligence.</i></li>
