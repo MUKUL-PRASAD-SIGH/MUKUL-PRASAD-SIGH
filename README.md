@@ -3,64 +3,52 @@
 </div>
 
 <div align="center">
-  
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=1800&pause=1200&color=A9FEF7&center=true&vCenter=true&width=1200&lines=%F0%9F%9A%80+Full+Stack+Developer;%F0%9F%A4%96+AI+%26+ML+Enthusiast;%F0%9F%A7%A0+Building+Intelligent+Systems;%F0%9F%95%B8+Multi-Agent+System+Architect;%F0%9F%93%8A+Data+Intelligence+Engineer;%F0%9F%92%A1+Turning+Ideas+Into+Deployments;%F0%9F%8E%93+CSE-(AIML)+Pre-final+Year+Student+%40+MSRIT+Bengaluru;%F0%9F%92%BC+ML+Intern+%40+FlyRank;%F0%9F%8F%86+GSSoC%2726+Mentor+%7C+~135+Selected+Worldwide;%F0%9F%94%AC+Research+Intern+%40+IEEE+CS)](https://git.io/typing-svg)
-</div>
-<div align="center">
 
-<a href="#developer-portfolio">
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:FE428E,50:f8d847,100:A9FEF7&height=2"/>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=1800&pause=1200&color=A9FEF7&center=true&vCenter=true&width=1000&lines=%F0%9F%9A%80+Full+Stack+Developer;%F0%9F%A4%96+AI+%26+ML+Enthusiast;%F0%9F%A7%A0+Building+Intelligent+Systems;%F0%9F%95%B8+Multi-Agent+System+Architect;%F0%9F%93%8A+Data+Intelligence+Engineer;%F0%9F%92%A1+Turning+Ideas+Into+Deployments;%F0%9F%8E%93+CSE-(AIML)+Pre-final+Year+Student+%40+MSRIT+Bengaluru;%F0%9F%92%BC+ML+Intern+%40+FlyRank;%F0%9F%8F%86+GSSoC%2726+Mentor+%7C+~135+Selected+Worldwide;%F0%9F%94%AC+Research+Intern+%40+IEEE+CS)](https://git.io/typing-svg)
 
 <br/>
-
-
-<br/>
-
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:A9FEF7,50:FE428E,100:6e40c9&height=2"/>
-
-</a>
-
-</div>
-
-
-
-<br/>
-
-<!-- ─── Live GitHub Stats Badges ─────────────────────────────────────── -->
-<div align="center">
 
 [![Profile Views](https://komarev.com/ghpvc/?username=MUKUL-PRASAD-SIGH&label=👁️+Views&color=blueviolet&style=for-the-badge)](https://github.com/MUKUL-PRASAD-SIGH)
 [![Followers](https://img.shields.io/github/followers/MUKUL-PRASAD-SIGH?label=Followers&style=for-the-badge&color=FE428E&logo=github)](https://github.com/MUKUL-PRASAD-SIGH?tab=followers)
 [![Stars](https://img.shields.io/github/stars/MUKUL-PRASAD-SIGH?label=⭐+Total+Stars&style=for-the-badge&color=f8d847)](https://github.com/MUKUL-PRASAD-SIGH)
 [![Public Repos](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/MUKUL-PRASAD-SIGH&query=$.public_repos&label=📦+Public+Repos&style=for-the-badge&color=A9FEF7&cacheSeconds=3600)](https://github.com/MUKUL-PRASAD-SIGH?tab=repositories)
 
-
 <br/>
 
 [![Portfolio](https://img.shields.io/badge/🌐_Portfolio-FF5733?style=for-the-badge)](https://mukulprasad.netlify.app)
-&nbsp;
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mukul-prasad-a395ba324/)
-&nbsp;
 [![Resume](https://img.shields.io/badge/📄_Resume-Download%20CV-FF0000?style=for-the-badge&logo=adobeacrobatreader&logoColor=white&labelColor=141321)](https://mukul-prasad-sigh.github.io/MyResume/RESUME.pdf)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/mukul_prasad_2030)
-&nbsp;
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mukulprasad958@gmail.com)
-&nbsp;
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/mukul_prasad_2030)
 [![All Links](https://img.shields.io/badge/🔗_Socials-12100E?style=for-the-badge)](https://mukul.taplink.in)
+
+<br/>
+
+<i>Just pushing some things that I build. 🚀</i>
+
+<br/><br/>
+
+<b>
+<a href="#-current-roles">Roles</a> ·
+<a href="#-tech-arsenal">Tech</a> ·
+<a href="#-pinned-highlights">Pinned</a> ·
+<a href="#-live-deployments--demos">Live Demos</a> ·
+<a href="#-all-projects">Projects</a> ·
+<a href="#-hackathons--achievements">Achievements</a> ·
+<a href="#-github-stats--activity">Stats</a> ·
+<a href="#-lets-connect">Connect</a>
+</b>
 
 </div>
 
 <br/>
 
-<br/>
-
-<div align="center"><i>Just pushing some things that I build. 🚀</i></div>
-
-<br/>
-
 <!-- ─── Current Roles ──────────────────────────────────────────────────── -->
+<a id="-current-roles"></a>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=slice&color=0:6e40c9,100:FE428E&height=90&section=header&text=💼%20Current%20Roles&fontSize=38&fontColor=ffffff" width="100%"/>
+</div>
+
 <div align="center">
 
 | 💼 Role | 🏢 Organization | 🌟 Highlight |
@@ -69,49 +57,23 @@
 | **GSSoC'26 Mentor** | **GirlScript Summer of Code** | Among ~135 mentors selected worldwide |
 | **Research Intern** | **IEEE Computer Society** | Building VectorDrug Repurpose |
 
-</div>
-
 <br/>
-
----
-
-
-
-<!-- ─── Developer Portfolio ───────────────────────────────────────── -->
-
-<div align="center" id="developer-portfolio">
-<img src="https://capsule-render.vercel.app/api?type=slice&color=0:6e40c9,100:FE428E&height=90&section=header&text=🚀%20Developer%20Portfolio&fontSize=38&fontColor=ffffff" width="100%"/>
-</div>
-
-
-<br/>
-
-<div align="center">
 
 [![Visit My Codolio](https://img.shields.io/badge/🚀_Visit_My_Codolio_Profile-FF2E88?style=for-the-badge)](https://codolio.com/profile/mukulprasad/devStats/github)
+
+<sub>LeetCode • GitHub • Portfolio • Competitive Programming</sub>
+
 </div>
 
 <br/>
 
-<p align="center">
-LeetCode • GitHub • Portfolio • Competitive Programming
-</p>
-<div align="center">
-
-<img src="https://readme-components.vercel.app/api?component=logo&logo=github&text=Scroll%20Down&fill=FE428E&animation=fadeIn&fontSize=24"/>
-
-</div>
-
-
 <!-- ─── Tech Arsenal ─────────────────────────────────────────────────── -->
+<a id="-tech-arsenal"></a>
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=slice&color=0:6e40c9,100:FE428E&height=90&section=header&text=🛠️%20Tech%20Arsenal&fontSize=38&fontColor=ffffff&fontAlign=76&reversal=false" width="100%"/>
 </div>
 
 <div align="center">
-  
-## 💻 Tech Stack
-
 
 ### ⚡ Languages & Frameworks
 [![Skills](https://skillicons.dev/icons?i=python,java,cpp,c,ts,js,nodejs,react,nextjs,flask,fastapi,django,html,css,tailwind&perline=8)](https://skillicons.dev)
@@ -119,7 +81,7 @@ LeetCode • GitHub • Portfolio • Competitive Programming
 ### 🤖 AI · ML · Data Science
 [![Skills](https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,opencv,numpy,pandas&perline=8)](https://skillicons.dev)
 
-### 🧠 AI · LLM · Agentic AI
+### 🧠 LLM · Agentic AI
 <p>
   <img src="https://img.shields.io/badge/RAG-FF6F00?style=for-the-badge&logo=databricks&logoColor=white"/>
   <img src="https://img.shields.io/badge/LangChain-121212?style=for-the-badge"/>
@@ -161,10 +123,8 @@ LeetCode • GitHub • Portfolio • Competitive Programming
 
 <br/>
 
----
-
-
 <!-- ─── Pinned Repos ─────────────────────────────────────────────────── -->
+<a id="-pinned-highlights"></a>
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=slice&color=0:FE428E,100:f8d847&height=90&section=header&text=📌%20Pinned%20Highlights&fontSize=36&fontColor=ffffff&fontAlign=76&reversal=false" width="100%"/>
 </div>
@@ -181,10 +141,8 @@ LeetCode • GitHub • Portfolio • Competitive Programming
 
 <br/>
 
----
-
-
 <!-- ─── Live Deployments ─────────────────────────────────────────────── -->
+<a id="-live-deployments--demos"></a>
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=slice&color=0:f8d847,100:A9FEF7&height=90&section=header&text=🌐%20Live%20Deployments%20%26%20Demos&fontSize=30&fontColor=141321&fontAlign=74&reversal=false" width="100%"/>
 </div>
@@ -194,39 +152,25 @@ LeetCode • GitHub • Portfolio • Competitive Programming
     <td valign="top" width="50%">
       <h4>🟢 <b>Deployed Projects</b></h4>
       <ul>
-        <li><b>🚔 Project Falcon </b> &nbsp;<img src="https://img.shields.io/badge/LIVE-00C853?style=flat-square&logo=statuspage&logoColor=white"/><br><a href="https://auth-60079106947.development.catalystserverless.in/app/index.html#/login">🔗 Live Deployment</a><br><i>AI-powered crime analytics platform with role-based dashboards, hotspot visualization, criminal network analysis, predictive insights & intelligent investigation support.</i></li>
-        <li><b>🚀 Project Astraeus</b> &nbsp;<img src="https://img.shields.io/badge/LIVE-00C853?style=flat-square&logo=statuspage&logoColor=white"/><br><a href="https://astraeus-frontend.onrender.com/">🔗 Hands-on Demo</a><br><i>AI-powered Mission Control with digital-twin simulation, real-time monitoring & intelligent decision support.</i></li>
-        <li><b>❤️ DonorConnect</b> &nbsp;<img src="https://img.shields.io/badge/LIVE-00C853?style=flat-square&logo=statuspage&logoColor=white"/><br><a href="https://bloodme-frontend.vercel.app/">🔗 Live Deployment</a><br><i>ML & DL powered real-time blood donor-recipient intelligent matching platform.</i></li>
-        <li><b>🧠 Amazon Nova Pulse</b> &nbsp;<img src="https://img.shields.io/badge/LIVE-00C853?style=flat-square&logo=statuspage&logoColor=white"/><br><a href="https://nova-pulse-gilt.vercel.app/">🔗 Live Deployment</a><br><i>ML & DL powered real-time blood donor-recipient intelligent matching platform.</i></li>
-        <li><b>🌐 Portfolio Website</b> &nbsp;<img src="https://img.shields.io/badge/LIVE-00C853?style=flat-square&logo=statuspage&logoColor=white"/><br><a href="https://mukulprasad.netlify.app/">🔗 Visit Portfolio</a><br><i>Personal portfolio showcasing AI, ML, and full-stack development projects & research work.</i></li>
+        <li><b>🚔 Project Falcon</b> &nbsp;<img src="https://img.shields.io/badge/LIVE-00C853?style=flat-square&logo=statuspage&logoColor=white"/><br><a href="https://auth-60079106947.development.catalystserverless.in/app/index.html#/login">🔗 Live Deployment</a><br><i>AI-powered crime analytics platform with role-based dashboards, hotspot visualization, criminal network analysis, predictive insights & intelligent investigation support.</i><br><br></li>
+        <li><b>🚀 Project Astraeus</b> &nbsp;<img src="https://img.shields.io/badge/LIVE-00C853?style=flat-square&logo=statuspage&logoColor=white"/><br><a href="https://astraeus-frontend.onrender.com/">🔗 Hands-on Demo</a><br><i>AI-powered Mission Control with digital-twin simulation, real-time monitoring & intelligent decision support.</i><br><br></li>
+        <li><b>❤️ DonorConnect</b> &nbsp;<img src="https://img.shields.io/badge/SOURCE-6e40c9?style=flat-square&logo=github&logoColor=white"/><br><a href="https://github.com/MUKUL-PRASAD-SIGH/DonorConnectT">🔗 View Repository</a><br><i>ML & DL powered real-time blood donor-recipient intelligent matching platform.</i><br><br></li>
+        <li><b>🧠 Amazon Nova Pulse</b> &nbsp;<img src="https://img.shields.io/badge/LIVE-00C853?style=flat-square&logo=statuspage&logoColor=white"/><br><a href="https://nova-pulse-gilt.vercel.app/">🔗 Live Deployment</a><br><i>Voice-powered multi-agent news intelligence system using Amazon Nova AI.</i><br><br></li>
+        <li><b>🌐 Portfolio Website</b> &nbsp;<img src="https://img.shields.io/badge/LIVE-00C853?style=flat-square&logo=statuspage&logoColor=white"/><br><a href="https://mukulprasad.netlify.app/">🔗 Visit Portfolio</a><br><i>Personal portfolio showcasing AI, ML, and full-stack development projects & research work.</i><br><br></li>
         <li><b>📊 Hackathon Dashboard</b> &nbsp;<img src="https://img.shields.io/badge/LIVE-00C853?style=flat-square&logo=statuspage&logoColor=white"/><br><a href="https://hackersboard.netlify.app/">🔗 Hands-on Demo</a><br><i>Real-time hackathon tracking, participant analysis & event management platform.</i></li>
       </ul>
     </td>
     <td valign="top" width="50%">
       <h4>🎬 <b>Demo Videos</b></h4>
       <ul>
-        <li><b>⏳ Kairos</b><br>
-<a href="https://youtu.be/Q-XZVE3dy20">▶️ Watch Demo</a><br>
-<i>Full-duplex, interruptible real-time agent (Samsung Hackathon) that dynamically adapts when interrupted or corrected mid-task.</i></li>
-        <li><b>🧠 NeuroSOC</b><br>
-<a href="https://youtu.be/eUf58W-rJoE">▶️ Watch Demo</a><br>
-<i>Neuromorphic AI Security Operations Center — real-time threat detection using SNN, LNN, and XGBoost ensemble in autonomous sandbox.</i></li>
-        <li><b>⛏️ MOIL Manganese Copilot</b><br>
-<a href="https://www.youtube.com/watch?v=ZB8utg1Q0WM">▶️ Watch Demo</a><br>
-<i>SIH 2026: AI decision copilot transforming telemetry & mine signals into optimal next-shift recovery decisions.</i></li>
-        <li><b>🔥 Jvalyx</b><br>
-<a href="https://www.youtube.com/watch?v=NJRoPRCKs64">▶️ Watch Demo</a><br>
-<i>SIH 2026: Space-based satellite thermal event triage and industrial fire consequence intelligence system.</i></li>
-        <li><b>💳 Rebound</b><br>
-<a href="https://youtu.be/SxgtEXvsAV4">▶️ Watch Demo</a><br>
-<i>Autonomous AI revenue recovery & smart retry engine built for Razorpay AI Buildathon 2026.</i></li>
-        <li><b>⚡ ContextOS</b><br>
-<a href="https://youtu.be/eOWGswfy5_E">▶️ Watch Demo</a><br>
-<i>Proactive Android AI agent that autonomously manages meetings, navigation, DND, reminders, and contextual workflows using adaptive on-device intelligence.</i></li>
+        <li><b>⏳ Kairos</b><br><a href="https://youtu.be/Q-XZVE3dy20">▶️ Watch Demo</a><br><i>Full-duplex, interruptible real-time agent (Samsung Hackathon) that dynamically adapts when interrupted or corrected mid-task.</i></li>
+        <li><b>🧠 NeuroSOC</b><br><a href="https://youtu.be/eUf58W-rJoE">▶️ Watch Demo</a><br><i>Neuromorphic AI Security Operations Center — real-time threat detection using SNN, LNN, and XGBoost ensemble in autonomous sandbox.</i></li>
+        <li><b>⛏️ MOIL Manganese Copilot</b><br><a href="https://www.youtube.com/watch?v=ZB8utg1Q0WM">▶️ Watch Demo</a><br><i>SIH 2026: AI decision copilot transforming telemetry & mine signals into optimal next-shift recovery decisions.</i></li>
+        <li><b>🔥 Jvalyx</b><br><a href="https://www.youtube.com/watch?v=NJRoPRCKs64">▶️ Watch Demo</a><br><i>SIH 2026: Space-based satellite thermal event triage and industrial fire consequence intelligence system.</i></li>
+        <li><b>💳 Rebound</b><br><a href="https://youtu.be/SxgtEXvsAV4">▶️ Watch Demo</a><br><i>Autonomous AI revenue recovery & smart retry engine built for Razorpay AI Buildathon 2026.</i></li>
+        <li><b>⚡ ContextOS</b><br><a href="https://youtu.be/eOWGswfy5_E">▶️ Watch Demo</a><br><i>Proactive Android AI agent that autonomously manages meetings, navigation, DND, reminders, and contextual workflows using adaptive on-device intelligence.</i></li>
         <li><b>🚀 Project Astraeus</b><br><a href="https://youtu.be/HiNK79Ijav8">▶️ Watch Demo</a><br><i>AI Mission Control — digital-twin simulation, real-time monitoring & intelligent decision support.</i></li>
-        <li><b>🚀 Hackathon Dashboard</b><br>
-<a href="https://youtu.be/o3bw84sPgDA">▶️ Watch Demo</a><br>
-<i>Real-time hackathon management dashboard for tracking teams, projects, and submissions seamlessly.</i></li>
+        <li><b>📊 Hackathon Dashboard</b><br><a href="https://youtu.be/o3bw84sPgDA">▶️ Watch Demo</a><br><i>Real-time hackathon management dashboard for tracking teams, projects, and submissions seamlessly.</i></li>
         <li><b>🌾 KisaanMitra</b><br><a href="https://youtu.be/S1hz6yakK4Y">▶️ Watch Demo</a><br><i>Multi-Agent System for collective agricultural empowerment using AI, IoT & MAS architecture.</i></li>
         <li><b>❤️ DonorConnect</b><br><a href="https://youtu.be/T3-CFJ__JWg">▶️ Watch Demo</a><br><i>ML & DL powered real-time blood donor-recipient intelligent matching system.</i></li>
         <li><b>✂️ ClipBait</b><br><a href="https://youtu.be/AgLqEC7HuPs">▶️ Watch Demo</a><br><i>AI-powered smart clipboard for capturing and analyzing copied content intelligently.</i></li>
@@ -236,14 +180,15 @@ LeetCode • GitHub • Portfolio • Competitive Programming
   </tr>
 </table>
 
----
+<br/>
 
-
-
-<!-- ─── All Projects — Color Graded ─────────────────────────────────── -->
+<!-- ─── All Projects ─────────────────────────────────────────────────── -->
+<a id="-all-projects"></a>
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=slice&color=0:A9FEF7,100:6e40c9&height=90&section=header&text=🧠%20All%20Projects&fontSize=38&fontColor=ffffff&fontAlign=73&reversal=false" width="100%"/>
 </div>
+
+<br/>
 
 | 🧠 Project | 🏷️ Category | 📄 Description |
 | --- | :---: | --- |
@@ -268,6 +213,7 @@ LeetCode • GitHub • Portfolio • Competitive Programming
 | [VoOTEX 🎙️](https://github.com/MUKUL-PRASAD-SIGH/VoOTEX) | ![](https://img.shields.io/badge/Voice%20Tech-f8d847?style=flat-square&logoColor=black) | Voice-to-text transcription pipeline with speaker diarization, noise handling, and post-processing intelligence. |
 | [X-FORECAST 📈](https://github.com/MUKUL-PRASAD-SIGH/X-FORECAST) | ![](https://img.shields.io/badge/Forecasting-FF9900?style=flat-square&logoColor=white) | Advanced time-series forecasting models and dashboards for demand prediction, analytics, and trend intelligence. |
 | [GlamGlow ✨](https://github.com/MUKUL-PRASAD-SIGH/GlamGlow) | ![](https://img.shields.io/badge/ML%20Recommender-E91E63?style=flat-square&logoColor=white) | ML-powered beauty product recommendation engine for personalized skincare and product discovery. |
+
 <div align="center">
 
 > 🧠 **Machine Learning · Artificial Intelligence · Multi-Agent Systems · Data Intelligence Pipelines**
@@ -275,14 +221,15 @@ LeetCode • GitHub • Portfolio • Competitive Programming
 
 </div>
 
----
-
-
+<br/>
 
 <!-- ─── Hackathons & Achievements ───────────────────────────────────── -->
+<a id="-hackathons--achievements"></a>
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=slice&color=0:f8d847,100:FE428E&height=90&section=header&text=🏆%20Hackathons%20%26%20Achievements&fontSize=34&fontColor=ffffff&fontAlign=73&reversal=false" width="100%"/>
 </div>
+
+<br/>
 
 <div align="center">
 
@@ -296,110 +243,51 @@ LeetCode • GitHub • Portfolio • Competitive Programming
 | [🏎️ F1 Race Result Classification](https://github.com/MUKUL-PRASAD-SIGH/KAGGLE-F1-race-result-classification) | ![](https://img.shields.io/badge/Sports%20Analytics-e10600?style=flat-square&logoColor=white) | Finished under **Top 25 teams** among 348 Entrants · 279 Participants · 145 Teams · 4,161 Submissions. Developed a classification model to predict Formula 1 race results using historical race data, driver stats, and circuit features — leveraging advanced ML techniques for accurate podium finish prediction. |
 | [🚦 Flipkart Gridlock Hackathon 2.0](https://www.hackerearth.com/challenges/competitive/gridlock-hackathon-20/problems/) | ![](https://img.shields.io/badge/Travel%20Demand%20AI-6e40c9?style=flat-square&logoColor=white) | Designed a system to provide valuable insights into passenger travel patterns, booking behavior, and trip cancellations — enabling data-driven demand prediction for the travel industry. Dataset: 77,299 training samples × 11 features across structured travel data. |
 
-</div>
-
-<div align="center">
-
 > 🏆 **Competing in Hackathons & ML Competitions** to build high-impact solutions — from neuromorphic cybersecurity and space intelligence to real-world industrial copilots.
 
 </div>
 
----
+<br/>
 
-
-
-<!-- ─── GitHub Stats Mega Section ────────────────────────────────────── -->
+<!-- ─── GitHub Stats ─────────────────────────────────────────────────── -->
+<a id="-github-stats--activity"></a>
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=slice&color=0:141321,50:FE428E,100:A9FEF7&height=90&section=header&text=📊%20GitHub%20Stats%20%26%20Activity&fontSize=32&fontColor=ffffff&fontAlign=74&reversal=false" width="100%"/>
 </div>
 
 <br/>
 
-
-<!-- Profile Summary Dashboard -->
 <div align="center">
 
 [![Profile Details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=MUKUL-PRASAD-SIGH&theme=radical)](https://github.com/MUKUL-PRASAD-SIGH)
 
-</div>
-
-<div align="center">
-
-[![Repos Per Language](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=MUKUL-PRASAD-SIGH&theme=radical)](https://github.com/MUKUL-PRASAD-SIGH)&nbsp;[![Most Commit Language](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=MUKUL-PRASAD-SIGH&theme=radical)](https://github.com/MUKUL-PRASAD-SIGH)&nbsp;[![Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=MUKUL-PRASAD-SIGH&theme=radical)](https://github.com/MUKUL-PRASAD-SIGH)&nbsp;[![Productive Time](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=MUKUL-PRASAD-SIGH&theme=radical&utcOffset=5.5)](https://github.com/MUKUL-PRASAD-SIGH)
-
-</div>
+[![Repos Per Language](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=MUKUL-PRASAD-SIGH&theme=radical)](https://github.com/MUKUL-PRASAD-SIGH)&nbsp;[![Most Commit Language](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=MUKUL-PRASAD-SIGH&theme=radical)](https://github.com/MUKUL-PRASAD-SIGH)
+[![Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=MUKUL-PRASAD-SIGH&theme=radical)](https://github.com/MUKUL-PRASAD-SIGH)&nbsp;[![Productive Time](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=MUKUL-PRASAD-SIGH&theme=radical&utcOffset=5.5)](https://github.com/MUKUL-PRASAD-SIGH)
 
 <br/>
 
+<img height="185" src="assets/github-stats.svg" alt="GitHub Stats"/>&nbsp;<img height="185" src="assets/streak.svg" alt="GitHub Streak"/>
 
-<!-- Core Stats — Side by Side -->
-<div align="center">
+<br/><br/>
 
-<img height="185em" src="https://github-readme-stats.vercel.app/api?username=MUKUL-PRASAD-SIGH&show_icons=true&theme=radical&count_private=true&hide_border=true&rank_icon=github&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage"/>&nbsp;<img height="185em" src="https://streak-stats.demolab.com?user=MUKUL-PRASAD-SIGH&theme=radical&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&ring=FE428E&fire=F8D847&currStreakLabel=F8D847"/>
+<img src="assets/top-langs.svg" alt="Top Languages" height="185"/>
 
-</div>
-
-<br/>
-
-### 📈 Contribution Activity
-
-<div align="center">
-
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=MUKUL-PRASAD-SIGH&theme=react-dark&hide_border=true&area=true&area_color=FE428E&color=A9FEF7&line=FE428E&point=F8D847&custom_title=Mukul%27s%20Contribution%20Activity%20Graph)](https://github.com/MUKUL-PRASAD-SIGH)
-
-</div>
-
-<br/>
-<div align="center">
-
-<img src="https://readme-components.vercel.app/api?component=logo&logo=github&text=Scroll%20Down&fill=FE428E&animation=fadeIn&fontSize=24"/>
-
-</div>
-
-
-### 🌐 3D Isometric Contribution Calendar
-
-<div align="center">
-
-<img src="https://metrics.lecoq.io/MUKUL-PRASAD-SIGH?template=classic&isocalendar=1&isocalendar.duration=full-year&config.timezone=Asia%2FKolkata&config.padding=0&config.presets=default" alt="3D Isometric Contribution Calendar" width="100%"/>
-
-</div>
-
-<div align="center">
-
-<!-- Workflow-generated 3D SVG (appears after first Actions run) -->
-<img src="assets/profile-gitHub.svg" alt="3D Contribution Graph" width="100%" onerror="this.style.display='none'"/>
-
-</div>
-
-<br/>
-
+<br/><br/>
 
 ### 🗓️ Contribution Heatmap
 
-<div align="center">
-
 ![Contribution Heatmap](assets/ghchart.svg)
-
-</div>
-
-<br/>
 
 ### 🐍 Contribution Snake
 
-<div align="center">
-
-![snake](assets/snake.svg)
-
-</div>
-
-<br/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/snake-dark.svg"/>
+  <img alt="Contribution snake" src="assets/snake.svg"/>
+</picture>
 
 ### 🏆 GitHub Trophies
 
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=MUKUL-PRASAD-SIGH&theme=radical&column=7&no-frame=true&margin-w=4" alt="GitHub Trophies"/>
+<img src="assets/trophy.svg" alt="GitHub Trophies" width="100%"/>
 
 <br/><br/>
 
@@ -408,41 +296,30 @@ LeetCode • GitHub • Portfolio • Competitive Programming
 
 <br/>
 
-[![GitHub Skyline 2025](https://img.shields.io/badge/🌆_View_My_3D_Skyline_2025-141321?style=for-the-badge&logo=github&logoColor=A9FEF7)](https://skyline.github.com/MUKUL-PRASAD-SIGH/2025)
-
 </div>
 
----
+<br/>
 
 <!-- ─── Let's Connect ────────────────────────────────────────────────── -->
+<a id="-lets-connect"></a>
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=slice&color=0:A9FEF7,100:141321&height=90&section=header&text=📫%20Let%27s%20Connect!&fontSize=40&fontColor=ffffff&fontAlign=73&reversal=false" width="100%"/>
 </div>
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mukul-prasad-a395ba324/)
-&nbsp;
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5733?style=for-the-badge&logo=firefox&logoColor=white)](https://mukulprasad.netlify.app)
-&nbsp;
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mukulprasad958@gmail.com)
-&nbsp;
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/mukul_prasad_2030)
-&nbsp;
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MUKUL-PRASAD-SIGH)
-
-</div>
-
 <br/>
 
----
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mukul-prasad-a395ba324/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF5733?style=for-the-badge&logo=firefox&logoColor=white)](https://mukulprasad.netlify.app)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mukulprasad958@gmail.com)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/mukul_prasad_2030)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MUKUL-PRASAD-SIGH)
 
-<div align="center">
+<br/>
 
 > *"Innovation is seeing what everybody has seen and thinking what nobody has thought."*<br/>
 > — Dr. APJ Abdul Kalam
-
-<br/>
 
 **Thanks for stopping by! Feel free to check out my repositories or reach out for collaboration. 🚀**
 
