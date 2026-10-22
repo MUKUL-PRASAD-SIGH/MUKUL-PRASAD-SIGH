@@ -27,7 +27,6 @@ OUT = os.path.join(ROOT, "assets", "static")
 SECTIONS = [
     ("about", "👋", "About Me", "who I am & what drives me", CYAN),
     ("experience", "💼", "Experience", "research · mentoring · industry", VIOLET),
-    ("education", "🎓", "Education", "where I study", CYAN),
     ("tech-stack", "🛠️", "Tech Stack", "tools I build with", CYAN),
     ("pinned", "📌", "Pinned Highlights", "flagship projects", PINK),
     ("demos", "🎬", "Demos & Live Deployments", "see the projects in action", YELLOW),

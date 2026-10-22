@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/MUKUL-PRASAD-SIGH"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=22&amp;duration=2800&amp;pause=900&amp;color=A9FEF7&amp;center=true&amp;vCenter=true&amp;width=900&amp;height=50&amp;lines=%F0%9F%A4%96+AI%2FML+Engineer+%C2%B7+Multi-Agent+Systems+Architect;%F0%9F%94%AC+Research+Intern+%40+IEEE+Computer+Society;%F0%9F%8F%85+GSSoC+%2726+Mentor+%E2%80%94+1+of+135+selected+nationally;%F0%9F%92%BC+Ex-ML+Intern+%40+FlyRank+AI;%F0%9F%8E%93+CSE+%28AI+%26+ML%29+%40+MSRIT+Bengaluru+%C2%B7+CGPA+9.32;%F0%9F%8F%86+National+Semifinalist+%E2%80%94+Flipkart+Grid+8.0+%26+JPMC+CFG;%F0%9F%95%B8%EF%B8%8F+Graph+ML+%C2%B7+RAG+%C2%B7+Agentic+AI+%C2%B7+Full-Stack;%F0%9F%92%A1+Turning+ideas+into+deployed+products" alt="AI/ML Engineer · Research Intern @ IEEE Computer Society · GSSoC '26 Mentor · Ex-ML Intern @ FlyRank AI"/></a>
+  <a href="https://github.com/MUKUL-PRASAD-SIGH"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=22&amp;duration=2800&amp;pause=900&amp;color=A9FEF7&amp;center=true&amp;vCenter=true&amp;width=900&amp;height=50&amp;lines=%F0%9F%A4%96+AI%2FML+Engineer+%C2%B7+Multi-Agent+Systems+Architect;%F0%9F%94%AC+Ex-Research+Intern+%40+IEEE+Computer+Society;%F0%9F%8F%85+GSSoC+%2726+Open+Source+Mentor+%E2%80%94+1+of+135+nationally;%F0%9F%92%BC+Ex-ML+Intern+%40+FlyRank+AI;%F0%9F%8E%93+CSE+%28AI+%26+ML%29+%40+MSRIT+Bengaluru+%C2%B7+CGPA+9.32;%F0%9F%8F%86+National+Semifinalist+%E2%80%94+Flipkart+Grid+8.0+%26+JPMC+CFG;%F0%9F%95%B8%EF%B8%8F+Graph+ML+%C2%B7+RAG+%C2%B7+Agentic+AI+%C2%B7+Full-Stack;%F0%9F%92%A1+Turning+ideas+into+deployed+products" alt="AI/ML Engineer · Ex-Research Intern @ IEEE Computer Society · GSSoC '26 Open Source Mentor · Ex-ML Intern @ FlyRank AI"/></a>
 </p>
 
 <!-- Stat badges are rewritten by scripts/update_profile.py every 6 hours — edit that script, not this block. -->
@@ -67,30 +67,11 @@ mukul = {
 <table>
   <tr>
     <td width="32%" valign="top">
-      <b>🔬 Research Intern</b><br/>
-      <sub>AI/ML · Drug Repurposing</sub><br/>
-      <b>IEEE Computer Society</b><br/>
-      <sub>📅 Feb 2026 – Present</sub><br/>
-      <img src="https://img.shields.io/badge/●_Current-2BD67B?style=flat-square" alt="Current role"/>
-    </td>
-    <td valign="top">
-      <ul>
-        <li>Built an AI <b>drug-repurposing pipeline</b> spanning <b>1,500+ drugs, 20K+ genes, 130+ diseases and 50K+ edges</b> with PyTorch Geometric, RDKit, PubMed, WHO data and 2,048-bit Morgan fingerprints.</li>
-        <li>Co-authoring an <b>IEEE research paper</b> on the 4-component <b>NDPI framework</b> — HGT predictions + chemical similarity + PubMed evidence + WHO equity scoring.</li>
-      </ul>
-      <img src="https://img.shields.io/badge/PyTorch_Geometric-EE4C2C?style=flat-square&amp;logo=pytorch&amp;logoColor=white" alt="PyTorch Geometric"/>
-      <img src="https://img.shields.io/badge/RDKit-3C873A?style=flat-square" alt="RDKit"/>
-      <img src="https://img.shields.io/badge/Graph_ML-9333EA?style=flat-square" alt="Graph ML"/>
-      <img src="https://img.shields.io/badge/Research-0A66C2?style=flat-square" alt="Research"/>
-    </td>
-  </tr>
-  <tr>
-    <td width="32%" valign="top">
       <b>🧑‍🏫 Open Source Mentor</b><br/>
       <sub>GSSoC '26</sub><br/>
       <a href="https://gssoc.girlscript.org/profile/3a54f8f3-154d-4d8c-9997-3c06d47f6e17"><b>GirlScript Summer of Code</b></a><br/>
-      <sub>📅 Jun 2026 – Present</sub><br/>
-      <img src="https://img.shields.io/badge/●_Current-2BD67B?style=flat-square" alt="Current role"/>
+      <sub>📅 Jun 2026 – Sep 2026</sub><br/>
+      <img src="https://img.shields.io/badge/✓_Completed-6E40C9?style=flat-square" alt="Completed"/>
     </td>
     <td valign="top">
       <ul>
@@ -120,33 +101,23 @@ mukul = {
       <img src="https://img.shields.io/badge/LLM_Workflows-412991?style=flat-square" alt="LLM workflows"/>
     </td>
   </tr>
-</table>
-
-<!-- ───────────────────────────── Education ───────────────────────────── -->
-<p align="center"><a id="education"></a><img src="assets/static/header-education.svg" width="100%" alt="Education"/></p>
-
-<table>
   <tr>
     <td width="32%" valign="top">
-      <b>🎓 Ramaiah Institute of Technology</b><br/>
-      <sub>MSRIT · Bengaluru, India</sub><br/>
-      <sub>📅 Graduating Jun 2028</sub>
+      <b>🔬 Research Intern</b><br/>
+      <sub>AI/ML · Drug Repurposing</sub><br/>
+      <b>IEEE Computer Society</b><br/>
+      <sub>📅 Apr 2026 – Jun 2026</sub><br/>
+      <img src="https://img.shields.io/badge/✓_Completed-6E40C9?style=flat-square" alt="Completed"/>
     </td>
     <td valign="top">
-      <b>B.E. Computer Science & Engineering (AI & ML)</b> — pre-final year<br/><br/>
-      <img src="https://img.shields.io/badge/CGPA-9.32-F8D847?style=for-the-badge&amp;labelColor=141321" alt="CGPA 9.32"/>
-      <img src="https://img.shields.io/badge/SGPA_Sem_II-9.95-FE428E?style=for-the-badge&amp;labelColor=141321" alt="SGPA 9.95 in semester II"/>
-      <img src="https://img.shields.io/badge/SGPA_Sem_III-9.61-A9FEF7?style=for-the-badge&amp;labelColor=141321" alt="SGPA 9.61 in semester III"/><br/>
-      <sub>Coursework: Data Structures & Algorithms · DBMS · Operating Systems · Compiler Design</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="32%" valign="top">
-      <b>🏫 St. Arnold H.S. School</b><br/>
-      <sub>Indore, India</sub>
-    </td>
-    <td valign="top">
-      Class XII (2023) — <b>91.0%</b> &nbsp;·&nbsp; Class X (2021) — <b>95.0%</b>
+      <ul>
+        <li>Built an AI <b>drug-repurposing pipeline</b> spanning <b>1,500+ drugs, 20K+ genes, 130+ diseases and 50K+ edges</b> with PyTorch Geometric, RDKit, PubMed, WHO data and 2,048-bit Morgan fingerprints.</li>
+        <li>Co-authoring an <b>IEEE research paper</b> on the 4-component <b>NDPI framework</b> — HGT predictions + chemical similarity + PubMed evidence + WHO equity scoring.</li>
+      </ul>
+      <img src="https://img.shields.io/badge/PyTorch_Geometric-EE4C2C?style=flat-square&amp;logo=pytorch&amp;logoColor=white" alt="PyTorch Geometric"/>
+      <img src="https://img.shields.io/badge/RDKit-3C873A?style=flat-square" alt="RDKit"/>
+      <img src="https://img.shields.io/badge/Graph_ML-9333EA?style=flat-square" alt="Graph ML"/>
+      <img src="https://img.shields.io/badge/Research-0A66C2?style=flat-square" alt="Research"/>
     </td>
   </tr>
 </table>
