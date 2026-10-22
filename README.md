@@ -1,359 +1,516 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:141321,22:6e40c9,50:FE428E,78:f8d847,100:A9FEF7&height=300&section=header&text=MUKUL%20PRASAD&fontSize=90&fontColor=ffffff&animation=fadeIn&fontAlignY=44&desc=🤖%20AI%20·%20ML%20·%20Full%20Stack%20·%20Multi-Agent%20Systems%20·%20MSRIT%20Bengaluru&descSize=19&descAlignY=67&descAlign=50&stroke=A9FEF7&strokeWidth=1" width="100%"/>
-</div>
+<a id="top"></a>
 
-<div align="center">
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=1800&pause=1200&color=A9FEF7&center=true&vCenter=true&width=1000&lines=%F0%9F%9A%80+Full+Stack+Developer;%F0%9F%A4%96+AI+%26+ML+Enthusiast;%F0%9F%A7%A0+Building+Intelligent+Systems;%F0%9F%95%B8+Multi-Agent+System+Architect;%F0%9F%93%8A+Data+Intelligence+Engineer;%F0%9F%92%A1+Turning+Ideas+Into+Deployments;%F0%9F%8E%93+CSE-(AIML)+Pre-final+Year+Student+%40+MSRIT+Bengaluru;%F0%9F%92%BC+ML+Intern+%40+FlyRank;%F0%9F%8F%86+GSSoC%2726+Mentor+%7C+~135+Selected+Worldwide;%F0%9F%94%AC+Research+Intern+%40+IEEE+CS)](https://git.io/typing-svg)
-
-<br/>
-
-[![Profile Views](https://komarev.com/ghpvc/?username=MUKUL-PRASAD-SIGH&label=👁️+Views&color=blueviolet&style=for-the-badge)](https://github.com/MUKUL-PRASAD-SIGH)
-[![Followers](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/MUKUL-PRASAD-SIGH&query=$.followers&label=Followers&style=for-the-badge&color=FE428E&logo=github&cacheSeconds=3600)](https://github.com/MUKUL-PRASAD-SIGH?tab=followers)
-[![Stars](https://img.shields.io/github/stars/MUKUL-PRASAD-SIGH?label=⭐+Total+Stars&style=for-the-badge&color=f8d847)](https://github.com/MUKUL-PRASAD-SIGH)
-[![Public Repos](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/MUKUL-PRASAD-SIGH&query=$.public_repos&label=📦+Public+Repos&style=for-the-badge&color=A9FEF7&cacheSeconds=3600)](https://github.com/MUKUL-PRASAD-SIGH?tab=repositories)
-
-<br/>
-
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-FF5733?style=for-the-badge)](https://mukulprasad.netlify.app)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mukul-prasad-a395ba324/)
-[![Resume](https://img.shields.io/badge/📄_Resume-Download%20CV-FF0000?style=for-the-badge&logo=adobeacrobatreader&logoColor=white&labelColor=141321)](https://mukul-prasad-sigh.github.io/MyResume/RESUME.pdf)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mukulprasad958@gmail.com)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/mukul_prasad_2030)
-[![All Links](https://img.shields.io/badge/🔗_Socials-12100E?style=for-the-badge)](https://mukul.taplink.in)
-
-<br/>
-
-<i>Just pushing some things that I build. 🚀</i>
-
-<br/><br/>
-
-<b>
-<a href="#-current-roles">Roles</a> ·
-<a href="#-tech-arsenal">Tech</a> ·
-<a href="#-pinned-highlights">Pinned</a> ·
-<a href="#-live-deployments--demos">Live Demos</a> ·
-<a href="#-all-projects">Projects</a> ·
-<a href="#-hackathons--achievements">Achievements</a> ·
-<a href="#-github-stats--activity">Stats</a> ·
-<a href="#-lets-connect">Connect</a>
-</b>
-
-</div>
-
-<br/>
-
-<!-- ─── Current Roles ──────────────────────────────────────────────────── -->
-<a id="-current-roles"></a>
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=slice&color=0:6e40c9,100:FE428E&height=90&section=header&text=💼%20Current%20Roles&fontSize=38&fontColor=ffffff" width="100%"/>
-</div>
-
-<div align="center">
-
-| 💼 Role | 🏢 Organization | 🌟 Highlight |
-|:---:|:---:|:---:|
-| **ML Intern** | **FlyRank** | Learning to build production-grade ML pipelines |
-| **GSSoC'26 Mentor** | **GirlScript Summer of Code** | Among ~135 mentors selected worldwide |
-| **Research Intern** | **IEEE Computer Society** | Building VectorDrug Repurpose |
-
-<br/>
-
-[![Visit My Codolio](https://img.shields.io/badge/🚀_Visit_My_Codolio_Profile-FF2E88?style=for-the-badge)](https://codolio.com/profile/mukulprasad/devStats/github)
-
-<sub>LeetCode • GitHub • Portfolio • Competitive Programming</sub>
-
-</div>
-
-<br/>
-
-<!-- ─── Tech Arsenal ─────────────────────────────────────────────────── -->
-<a id="-tech-arsenal"></a>
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=slice&color=0:6e40c9,100:FE428E&height=90&section=header&text=🛠️%20Tech%20Arsenal&fontSize=38&fontColor=ffffff&fontAlign=76&reversal=false" width="100%"/>
-</div>
-
-<div align="center">
-
-### ⚡ Languages & Frameworks
-[![Skills](https://skillicons.dev/icons?i=python,java,cpp,c,ts,js,nodejs,react,nextjs,flask,fastapi,django,html,css,tailwind&perline=8)](https://skillicons.dev)
-
-### 🤖 AI · ML · Data Science
-[![Skills](https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,opencv,numpy,pandas&perline=8)](https://skillicons.dev)
-
-### 🧠 LLM · Agentic AI
-<p>
-  <img src="https://img.shields.io/badge/RAG-FF6F00?style=for-the-badge&logo=databricks&logoColor=white"/>
-  <img src="https://img.shields.io/badge/LangChain-121212?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/LangGraph-0A0A0A?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/HuggingFace-FFD21F?style=for-the-badge&logo=huggingface&logoColor=black"/>
-  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Multi--Agent%20Systems-2563EB?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Knowledge%20Graphs-16A34A?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Graph%20AI-9333EA?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/GNNs-DC2626?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Reinforcement%20Learning-0F766E?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/MCP-111827?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Vector%20Databases-7C3AED?style=for-the-badge"/>
+<p align="center">
+  <img src="assets/static/hero.svg" width="100%" alt="Mukul Prasad — AI/ML Engineer · Multi-Agent Systems · Graph ML · Full-Stack · B.E. CSE (AI & ML), Ramaiah Institute of Technology, Bengaluru"/>
 </p>
 
-### ☁️ Cloud · DevOps
-[![Skills](https://skillicons.dev/icons?i=aws,docker,git,github,linux,githubactions&perline=8)](https://skillicons.dev)
-
-<p>
-  <img src="https://img.shields.io/badge/AWS%20Lambda-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Amazon%20SageMaker-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white"/>
-  <img src="https://img.shields.io/badge/AWS%20S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white"/>
-  <img src="https://img.shields.io/badge/CI/CD-2563EB?style=for-the-badge"/>
+<p align="center">
+  <a href="https://github.com/MUKUL-PRASAD-SIGH"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=900&color=A9FEF7&center=true&vCenter=true&width=900&height=50&lines=%F0%9F%A4%96+AI%2FML+Engineer+%C2%B7+Multi-Agent+Systems+Architect;%F0%9F%94%AC+Research+Intern+%40+IEEE+Computer+Society;%F0%9F%8F%85+GSSoC+%2726+Mentor+%E2%80%94+1+of+135+selected+nationally;%F0%9F%92%BC+Ex-ML+Intern+%40+FlyRank+AI;%F0%9F%8E%93+CSE+%28AI+%26+ML%29+%40+MSRIT+Bengaluru+%C2%B7+CGPA+9.32;%F0%9F%8F%86+National+Semifinalist+%E2%80%94+Flipkart+Grid+8.0+%26+JPMC+CFG;%F0%9F%95%B8%EF%B8%8F+Graph+ML+%C2%B7+RAG+%C2%B7+Agentic+AI+%C2%B7+Full-Stack;%F0%9F%92%A1+Turning+ideas+into+deployed+products" alt="AI/ML Engineer · Research Intern @ IEEE Computer Society · GSSoC '26 Mentor · Ex-ML Intern @ FlyRank AI"/></a>
 </p>
 
-### 🗄️ Databases
-[![Skills](https://skillicons.dev/icons?i=postgres,mongodb,mysql,redis,supabase&perline=8)](https://skillicons.dev)
-
-<p>
-  <img src="https://img.shields.io/badge/Neo4j-4581C3?style=for-the-badge&logo=neo4j&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Hive-FDEE21?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/HBase-B71C1C?style=for-the-badge"/>
+<!-- Stat badges are rewritten by scripts/update_profile.py every 6 hours — edit that script, not this block. -->
+<p align="center">
+<!-- STATS-BADGES:START -->
+<a href="https://hits.sh/github.com/MUKUL-PRASAD-SIGH/"><img src="https://hits.sh/github.com/MUKUL-PRASAD-SIGH.svg?style=for-the-badge&amp;label=Profile%20Views&amp;color=6E40C9&amp;labelColor=141321&amp;logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyLjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI%2BPHBhdGggZD0iTTEuNSAxMlM1LjUgNC41IDEyIDQuNSAyMi41IDEyIDIyLjUgMTIgMTguNSAxOS41IDEyIDE5LjUgMS41IDEyIDEuNSAxMnoiLz48Y2lyY2xlIGN4PSIxMiIgY3k9IjEyIiByPSIzLjIiLz48L3N2Zz4%3D" alt="Profile views"/></a>
+<a href="https://github.com/MUKUL-PRASAD-SIGH?tab=followers"><img src="https://img.shields.io/badge/Followers-61-FE428E?style=for-the-badge&amp;labelColor=141321&amp;logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyLjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI%2BPHBhdGggZD0iTTE3IDIxdi0yYTQgNCAwIDAgMC00LTRINWE0IDQgMCAwIDAtNCA0djIiLz48Y2lyY2xlIGN4PSI5IiBjeT0iNyIgcj0iNCIvPjxwYXRoIGQ9Ik0yMyAyMXYtMmE0IDQgMCAwIDAtMy0zLjg3Ii8%2BPHBhdGggZD0iTTE2IDMuMTNhNCA0IDAgMCAxIDAgNy43NSIvPjwvc3ZnPg%3D%3D" alt="Followers: 61"/></a>
+<a href="https://github.com/MUKUL-PRASAD-SIGH?tab=repositories&amp;sort=stargazers"><img src="https://img.shields.io/badge/Total%20Stars-264-F8D847?style=for-the-badge&amp;labelColor=141321&amp;logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyLjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI%2BPHBhdGggZmlsbD0id2hpdGUiIHN0cm9rZT0ibm9uZSIgZD0iTTEyIDIuNWwyLjk0IDUuOTYgNi41Ni45NS00Ljc1IDQuNjMgMS4xMiA2LjU0TDEyIDE3LjVsLTUuODcgMy4wOCAxLjEyLTYuNTRMMi41IDkuNDFsNi41Ni0uOTV6Ii8%2BPC9zdmc%2B" alt="Total stars: 264"/></a>
+<a href="https://github.com/MUKUL-PRASAD-SIGH?tab=repositories"><img src="https://img.shields.io/badge/Public%20Repos-86-A9FEF7?style=for-the-badge&amp;labelColor=141321&amp;logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyLjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI%2BPHBhdGggZD0iTTQgMTkuNUEyLjUgMi41IDAgMCAxIDYuNSAxN0gyMCIvPjxwYXRoIGQ9Ik02LjUgMkgyMHYyMEg2LjVBMi41IDIuNSAwIDAgMSA0IDE5LjV2LTE1QTIuNSAyLjUgMCAwIDEgNi41IDJ6Ii8%2BPC9zdmc%2B" alt="Public repositories: 86"/></a>
+<a href="https://github.com/MUKUL-PRASAD-SIGH"><img src="https://img.shields.io/badge/Contributions-2%2C801-2BD67B?style=for-the-badge&amp;labelColor=141321&amp;logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyLjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI%2BPHBvbHlsaW5lIHBvaW50cz0iMjIgMTIgMTggMTIgMTUgMjEgOSAzIDYgMTIgMiAxMiIvPjwvc3ZnPg%3D%3D" alt="All-time contributions: 2,801"/></a>
+<!-- STATS-BADGES:END -->
 </p>
 
-### 🛠️ Developer Tools
-[![Skills](https://skillicons.dev/icons?i=vscode,postman,vite,npm&perline=8)](https://skillicons.dev)
+<p align="center">
+  <a href="https://mukulprasad.netlify.app"><img src="https://img.shields.io/badge/Portfolio-FF5733?style=for-the-badge&logo=firefoxbrowser&logoColor=white" alt="Portfolio"/></a>
+  <a href="https://www.linkedin.com/in/mukulprasad1"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://mukul-prasad-sigh.github.io/MyResume/RESUME.pdf"><img src="https://img.shields.io/badge/Resume-Download_CV-E11D48?style=for-the-badge&logo=adobeacrobatreader&logoColor=white&labelColor=141321" alt="Resume (PDF)"/></a>
+  <a href="mailto:mukulprasad958@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="https://mukul.taplink.in"><img src="https://img.shields.io/badge/All_Links-12100E?style=for-the-badge&logo=linktree&logoColor=white" alt="All links"/></a>
+  <a href="https://instagram.com/mukul_prasad_2030"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
+</p>
 
-</div>
+<p align="center"><i>Just pushing some things that I build. 🚀</i></p>
+
+<p align="center">
+  <a href="#experience"><img src="assets/static/nav-experience.svg" height="42" alt="Experience"/></a>
+  <a href="#tech-stack"><img src="assets/static/nav-tech-stack.svg" height="42" alt="Tech Stack"/></a>
+  <a href="#pinned"><img src="assets/static/nav-pinned.svg" height="42" alt="Pinned"/></a>
+  <a href="#demos"><img src="assets/static/nav-demos.svg" height="42" alt="Demos"/></a>
+  <br/>
+  <a href="#projects"><img src="assets/static/nav-projects.svg" height="42" alt="Projects"/></a>
+  <a href="#achievements"><img src="assets/static/nav-achievements.svg" height="42" alt="Achievements"/></a>
+  <a href="#stats"><img src="assets/static/nav-stats.svg" height="42" alt="Stats"/></a>
+  <a href="#connect"><img src="assets/static/nav-connect.svg" height="42" alt="Connect"/></a>
+</p>
 
 <br/>
 
-<!-- ─── Pinned Repos ─────────────────────────────────────────────────── -->
-<a id="-pinned-highlights"></a>
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=slice&color=0:FE428E,100:f8d847&height=90&section=header&text=📌%20Pinned%20Highlights&fontSize=36&fontColor=ffffff&fontAlign=76&reversal=false" width="100%"/>
-</div>
+<!-- ─────────────────────────────── About ─────────────────────────────── -->
+<p align="center"><a id="about"></a><img src="assets/static/header-about.svg" width="100%" alt="About me"/></p>
 
-<div align="center">
+I'm **Mukul Prasad**, a pre-final-year **B.E. Computer Science (AI & ML)** student at **Ramaiah Institute of Technology, Bengaluru** (CGPA **9.32**). I like taking research-grade AI — multi-agent systems, graph ML, retrieval-augmented LLMs — and shipping it as products people can actually use.
 
-[![NovaPulse](https://github-readme-stats.vercel.app/api/pin/?username=MUKUL-PRASAD-SIGH&repo=NovaPulse&theme=radical&hide_border=true)](https://github.com/MUKUL-PRASAD-SIGH/NovaPulse)&nbsp;
-[![KisaanMitra](https://github-readme-stats.vercel.app/api/pin/?username=MUKUL-PRASAD-SIGH&repo=KisaanMitra&theme=radical&hide_border=true)](https://github.com/MUKUL-PRASAD-SIGH/KisaanMitra)
+```python
+mukul = {
+    "now":        ["🔬 Research Intern — AI drug repurposing @ IEEE Computer Society",
+                   "🧑‍🏫 Open Source Mentor @ GirlScript Summer of Code '26"],
+    "previously": "💼 ML Intern @ FlyRank AI — search ranking & discoverability",
+    "writing":    "📝 Co-authoring an IEEE paper on the NDPI drug-repurposing framework",
+    "focus":      ["Agentic AI", "Multi-Agent Systems", "Graph ML", "RAG", "MLOps"],
+    "community":  "👥 Leading the MSRIT '28 & '29 communities — 3.5K+ members",
+    "reach_me":   "mukulprasad958@gmail.com",
+}
+```
 
-[![PROJECT_ENTANGLEMENT](https://github-readme-stats.vercel.app/api/pin/?username=MUKUL-PRASAD-SIGH&repo=PROJECT_ENTANGLEMENT&theme=radical&hide_border=true)](https://github.com/MUKUL-PRASAD-SIGH/PROJECT_ENTANGLEMENT)&nbsp;
-[![DonorConnectT](https://github-readme-stats.vercel.app/api/pin/?username=MUKUL-PRASAD-SIGH&repo=DonorConnectT&theme=radical&hide_border=true)](https://github.com/MUKUL-PRASAD-SIGH/DonorConnectT)
-
-</div>
-
-<br/>
-
-<!-- ─── Live Deployments ─────────────────────────────────────────────── -->
-<a id="-live-deployments--demos"></a>
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=slice&color=0:f8d847,100:A9FEF7&height=90&section=header&text=🌐%20Live%20Deployments%20%26%20Demos&fontSize=30&fontColor=141321&fontAlign=74&reversal=false" width="100%"/>
-</div>
+<!-- ───────────────────────────── Experience ──────────────────────────── -->
+<p align="center"><a id="experience"></a><img src="assets/static/header-experience.svg" width="100%" alt="Experience"/></p>
 
 <table>
   <tr>
-    <td valign="top" width="50%">
-      <h4>🟢 <b>Deployed Projects</b></h4>
+    <td width="32%" valign="top">
+      <b>🔬 Research Intern</b><br/>
+      <sub>AI/ML · Drug Repurposing</sub><br/>
+      <b>IEEE Computer Society</b><br/>
+      <sub>📅 Feb 2026 – Present</sub><br/>
+      <img src="https://img.shields.io/badge/●_Current-2BD67B?style=flat-square" alt="Current role"/>
+    </td>
+    <td valign="top">
       <ul>
-        <li><b>🚔 Project Falcon</b> &nbsp;<img src="https://img.shields.io/badge/LIVE-00C853?style=flat-square&logo=statuspage&logoColor=white"/><br><a href="https://auth-60079106947.development.catalystserverless.in/app/index.html#/login">🔗 Live Deployment</a><br><i>AI-powered crime analytics platform with role-based dashboards, hotspot visualization, criminal network analysis, predictive insights & intelligent investigation support.</i><br><br></li>
-        <li><b>🚀 Project Astraeus</b> &nbsp;<img src="https://img.shields.io/badge/LIVE-00C853?style=flat-square&logo=statuspage&logoColor=white"/><br><a href="https://astraeus-frontend.onrender.com/">🔗 Hands-on Demo</a><br><i>AI-powered Mission Control with digital-twin simulation, real-time monitoring & intelligent decision support.</i><br><br></li>
-        <li><b>❤️ DonorConnect</b> &nbsp;<img src="https://img.shields.io/badge/SOURCE-6e40c9?style=flat-square&logo=github&logoColor=white"/><br><a href="https://github.com/MUKUL-PRASAD-SIGH/DonorConnectT">🔗 View Repository</a><br><i>ML & DL powered real-time blood donor-recipient intelligent matching platform.</i><br><br></li>
-        <li><b>🧠 Amazon Nova Pulse</b> &nbsp;<img src="https://img.shields.io/badge/LIVE-00C853?style=flat-square&logo=statuspage&logoColor=white"/><br><a href="https://nova-pulse-gilt.vercel.app/">🔗 Live Deployment</a><br><i>Voice-powered multi-agent news intelligence system using Amazon Nova AI.</i><br><br></li>
-        <li><b>🌐 Portfolio Website</b> &nbsp;<img src="https://img.shields.io/badge/LIVE-00C853?style=flat-square&logo=statuspage&logoColor=white"/><br><a href="https://mukulprasad.netlify.app/">🔗 Visit Portfolio</a><br><i>Personal portfolio showcasing AI, ML, and full-stack development projects & research work.</i><br><br></li>
-        <li><b>📊 Hackathon Dashboard</b> &nbsp;<img src="https://img.shields.io/badge/LIVE-00C853?style=flat-square&logo=statuspage&logoColor=white"/><br><a href="https://hackersboard.netlify.app/">🔗 Hands-on Demo</a><br><i>Real-time hackathon tracking, participant analysis & event management platform.</i></li>
+        <li>Built an AI <b>drug-repurposing pipeline</b> spanning <b>1,500+ drugs, 20K+ genes, 130+ diseases and 50K+ edges</b> with PyTorch Geometric, RDKit, PubMed, WHO data and 2,048-bit Morgan fingerprints.</li>
+        <li>Co-authoring an <b>IEEE research paper</b> on the 4-component <b>NDPI framework</b> — HGT predictions + chemical similarity + PubMed evidence + WHO equity scoring.</li>
+      </ul>
+      <img src="https://img.shields.io/badge/PyTorch_Geometric-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch Geometric"/>
+      <img src="https://img.shields.io/badge/RDKit-3C873A?style=flat-square" alt="RDKit"/>
+      <img src="https://img.shields.io/badge/Graph_ML-9333EA?style=flat-square" alt="Graph ML"/>
+      <img src="https://img.shields.io/badge/Research-0A66C2?style=flat-square" alt="Research"/>
+    </td>
+  </tr>
+  <tr>
+    <td width="32%" valign="top">
+      <b>🧑‍🏫 Open Source Mentor</b><br/>
+      <sub>GSSoC '26</sub><br/>
+      <a href="https://gssoc.girlscript.org/profile/3a54f8f3-154d-4d8c-9997-3c06d47f6e17"><b>GirlScript Summer of Code</b></a><br/>
+      <sub>📅 Jun 2026 – Present</sub><br/>
+      <img src="https://img.shields.io/badge/●_Current-2BD67B?style=flat-square" alt="Current role"/>
+    </td>
+    <td valign="top">
+      <ul>
+        <li>Selected among <b>135 mentors nationally</b>, supporting developers across <b>6 domains</b> — AI/ML, Web, DevOps/Cloud, Data Science, Security and Open Source.</li>
+        <li>Guided <b>3 developers</b> across <b>5+ engineering areas</b> (React state management, async workflows, CI automation, debugging, code review) and earned <b>60 mentor points</b>.</li>
+      </ul>
+      <img src="https://img.shields.io/badge/Open_Source-F97316?style=flat-square&logo=opensourceinitiative&logoColor=white" alt="Open Source"/>
+      <img src="https://img.shields.io/badge/Mentoring-FE428E?style=flat-square" alt="Mentoring"/>
+      <img src="https://img.shields.io/badge/Code_Review-6E40C9?style=flat-square" alt="Code review"/>
+    </td>
+  </tr>
+  <tr>
+    <td width="32%" valign="top">
+      <b>💼 ML Intern</b><br/>
+      <sub>Search Intelligence</sub><br/>
+      <b>FlyRank AI</b><br/>
+      <sub>📅 Jul 2026 – Aug 2026</sub><br/>
+      <img src="https://img.shields.io/badge/✓_Completed-6E40C9?style=flat-square" alt="Completed"/>
+    </td>
+    <td valign="top">
+      <ul>
+        <li>Worked on <b>search intelligence, data contracts, action scoring and ML experimentation</b>.</li>
+        <li>Built a <b>Google Search Ranking & Discoverability</b> capstone with Python, PyTorch, scikit-learn and LLM workflows.</li>
+      </ul>
+      <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch"/>
+      <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="scikit-learn"/>
+      <img src="https://img.shields.io/badge/LLM_Workflows-412991?style=flat-square" alt="LLM workflows"/>
+    </td>
+  </tr>
+</table>
+
+<!-- ───────────────────────────── Education ───────────────────────────── -->
+<p align="center"><a id="education"></a><img src="assets/static/header-education.svg" width="100%" alt="Education"/></p>
+
+<table>
+  <tr>
+    <td width="32%" valign="top">
+      <b>🎓 Ramaiah Institute of Technology</b><br/>
+      <sub>MSRIT · Bengaluru, India</sub><br/>
+      <sub>📅 Graduating Jun 2028</sub>
+    </td>
+    <td valign="top">
+      <b>B.E. Computer Science & Engineering (AI & ML)</b> — pre-final year<br/><br/>
+      <img src="https://img.shields.io/badge/CGPA-9.32-F8D847?style=for-the-badge&labelColor=141321" alt="CGPA 9.32"/>
+      <img src="https://img.shields.io/badge/SGPA_Sem_II-9.95-FE428E?style=for-the-badge&labelColor=141321" alt="SGPA 9.95 in semester II"/>
+      <img src="https://img.shields.io/badge/SGPA_Sem_III-9.61-A9FEF7?style=for-the-badge&labelColor=141321" alt="SGPA 9.61 in semester III"/><br/>
+      <sub>Coursework: Data Structures & Algorithms · DBMS · Operating Systems · Compiler Design</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="32%" valign="top">
+      <b>🏫 St. Arnold H.S. School</b><br/>
+      <sub>Indore, India</sub>
+    </td>
+    <td valign="top">
+      Class XII (2023) — <b>91.0%</b> &nbsp;·&nbsp; Class X (2021) — <b>95.0%</b>
+    </td>
+  </tr>
+</table>
+
+<!-- ───────────────────────────── Tech Stack ──────────────────────────── -->
+<p align="center"><a id="tech-stack"></a><img src="assets/static/header-tech-stack.svg" width="100%" alt="Tech stack"/></p>
+
+<table>
+  <tr>
+    <td width="20%" align="center"><b>💻 Languages</b></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=python,c,cpp,java,js,ts,html,css" height="44" alt="Python, C, C++, Java, JavaScript, TypeScript, HTML, CSS"/><br/>
+      <img src="https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white" alt="SQL"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>🤖 AI · ML · Data</b></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,opencv,anaconda" height="44" alt="PyTorch, TensorFlow, scikit-learn, OpenCV, Anaconda"/><br/>
+      <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face"/>
+      <img src="https://img.shields.io/badge/PyTorch_Geometric-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch Geometric"/>
+      <img src="https://img.shields.io/badge/XGBoost-1A73E8?style=flat-square" alt="XGBoost"/>
+      <img src="https://img.shields.io/badge/RDKit-3C873A?style=flat-square" alt="RDKit"/>
+      <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy"/>
+      <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas"/>
+      <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>🧠 LLMs & Agentic AI</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain"/>
+      <img src="https://img.shields.io/badge/LangGraph-0A0A0A?style=flat-square&logo=langgraph&logoColor=white" alt="LangGraph"/>
+      <img src="https://img.shields.io/badge/RAG_Pipelines-FF6F00?style=flat-square" alt="RAG pipelines"/>
+      <img src="https://img.shields.io/badge/Multi--Agent_Systems-2563EB?style=flat-square" alt="Multi-agent systems"/>
+      <img src="https://img.shields.io/badge/MCP-111827?style=flat-square&logo=modelcontextprotocol&logoColor=white" alt="Model Context Protocol"/>
+      <img src="https://img.shields.io/badge/Knowledge_Graphs-16A34A?style=flat-square" alt="Knowledge graphs"/>
+      <img src="https://img.shields.io/badge/GNNs-DC2626?style=flat-square" alt="Graph neural networks"/>
+      <img src="https://img.shields.io/badge/Reinforcement_Learning-0F766E?style=flat-square" alt="Reinforcement learning"/>
+      <img src="https://img.shields.io/badge/Vector_Databases-7C3AED?style=flat-square" alt="Vector databases"/>
+      <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI"/>
+      <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Google Gemini"/>
+      <img src="https://img.shields.io/badge/Amazon_Nova-232F3E?style=flat-square" alt="Amazon Nova"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>🌐 Web & Backend</b></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=nodejs,express,react,nextjs,nestjs,flask,fastapi,django,tailwind,firebase" height="44" alt="Node.js, Express, React, Next.js, NestJS, Flask, FastAPI, Django, Tailwind, Firebase"/><br/>
+      <img src="https://img.shields.io/badge/REST_APIs-0EA5E9?style=flat-square" alt="REST APIs"/>
+      <img src="https://img.shields.io/badge/Socket.IO-010101?style=flat-square&logo=socketdotio&logoColor=white" alt="Socket.IO"/>
+      <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" alt="JWT"/>
+      <img src="https://img.shields.io/badge/MERN_Stack-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MERN stack"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>☁️ Cloud & MLOps</b></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=aws,docker,githubactions,linux,git,github" height="44" alt="AWS, Docker, GitHub Actions, Linux, Git, GitHub"/><br/>
+      <img src="https://img.shields.io/badge/AWS_Lambda-FF9900?style=flat-square&logo=awslambda&logoColor=white" alt="AWS Lambda"/>
+      <img src="https://img.shields.io/badge/Amazon_S3-569A31?style=flat-square&logo=amazons3&logoColor=white" alt="Amazon S3"/>
+      <img src="https://img.shields.io/badge/SageMaker-232F3E?style=flat-square" alt="Amazon SageMaker"/>
+      <img src="https://img.shields.io/badge/Amazon_EC2-FF9900?style=flat-square&logo=amazonec2&logoColor=white" alt="Amazon EC2"/>
+      <img src="https://img.shields.io/badge/IAM-DD344C?style=flat-square" alt="AWS IAM"/>
+      <img src="https://img.shields.io/badge/CI%2FCD-2563EB?style=flat-square" alt="CI/CD"/>
+      <img src="https://img.shields.io/badge/Model_Deployment-0F766E?style=flat-square" alt="Model deployment"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>🗄️ Databases</b></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql,redis,supabase" height="44" alt="PostgreSQL, MongoDB, MySQL, Redis, Supabase"/><br/>
+      <img src="https://img.shields.io/badge/Neo4j-4581C3?style=flat-square&logo=neo4j&logoColor=white" alt="Neo4j"/>
+      <img src="https://img.shields.io/badge/Apache_Hive-FDEE21?style=flat-square&logo=apachehive&logoColor=black" alt="Apache Hive"/>
+      <img src="https://img.shields.io/badge/HBase-B71C1C?style=flat-square" alt="HBase"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>🛠️ Tools</b></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=vscode,postman,vite,npm" height="44" alt="VS Code, Postman, Vite, npm"/>
+    </td>
+  </tr>
+</table>
+
+<!-- ─────────────────────────── Pinned Highlights ─────────────────────── -->
+<p align="center"><a id="pinned"></a><img src="assets/static/header-pinned.svg" width="100%" alt="Pinned highlights"/></p>
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/MUKUL-PRASAD-SIGH/Project_NeuroSOC"><img src="assets/generated/pin-neurosoc.svg" width="100%" alt="NeuroSOC — Neuromorphic AI Security Operations Center: real-time threat detection using SNN, LNN and XGBoost ensemble in an autonomous sandbox"/></a>
+      <p align="center">
+        <a href="https://youtu.be/eUf58W-rJoE"><img src="assets/static/btn-demo.svg" height="30" alt="▶️ Watch demo"/></a>
+        <a href="https://github.com/MUKUL-PRASAD-SIGH/Project_NeuroSOC"><img src="assets/static/btn-code.svg" height="30" alt="Source code"/></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/MUKUL-PRASAD-SIGH/Jvalyx"><img src="assets/generated/pin-jvalyx.svg" width="100%" alt="Jvalyx — SIH 2026: space-based satellite thermal event triage and industrial fire consequence intelligence system"/></a>
+      <p align="center">
+        <a href="https://www.youtube.com/watch?v=NJRoPRCKs64"><img src="assets/static/btn-demo.svg" height="30" alt="▶️ Watch demo"/></a>
+        <a href="https://github.com/MUKUL-PRASAD-SIGH/Jvalyx"><img src="assets/static/btn-code.svg" height="30" alt="Source code"/></a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/MUKUL-PRASAD-SIGH/PROJECT_ENTANGLEMENT"><img src="assets/generated/pin-astraeus.svg" width="100%" alt="Project Astraeus — AI Mission Control: digital-twin simulation, real-time monitoring and intelligent decision support"/></a>
+      <p align="center">
+        <a href="https://youtu.be/HiNK79Ijav8"><img src="assets/static/btn-demo.svg" height="30" alt="▶️ Watch demo"/></a>
+        <a href="https://astraeus-frontend.onrender.com/"><img src="assets/static/btn-live.svg" height="30" alt="Live site"/></a>
+        <a href="https://github.com/MUKUL-PRASAD-SIGH/PROJECT_ENTANGLEMENT"><img src="assets/static/btn-code.svg" height="30" alt="Source code"/></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/MUKUL-PRASAD-SIGH/RegGraph-AI"><img src="assets/generated/pin-reggraph.svg" width="100%" alt="RegGraph-AI — AI-powered regulatory knowledge graph for compliance mapping, regulation analysis and graph-based reasoning over legal and policy documents"/></a>
+      <p align="center">
+        <a href="https://drive.google.com/file/d/1djHr1MN3IEXG5-McdXZwj8YXoBm-ktkx/view?usp=drive_link"><img src="assets/static/btn-demo.svg" height="30" alt="▶️ Watch demo"/></a>
+        <a href="https://github.com/MUKUL-PRASAD-SIGH/RegGraph-AI"><img src="assets/static/btn-code.svg" height="30" alt="Source code"/></a>
+      </p>
+    </td>
+  </tr>
+</table>
+
+<!-- ──────────────────────── Demos & Live Deployments ─────────────────── -->
+<p align="center"><a id="demos"></a><img src="assets/static/header-demos.svg" width="100%" alt="Demos and live deployments"/></p>
+
+<h3 align="center">🎬 Demo videos</h3>
+
+<table>
+  <tr>
+    <td width="33%" align="center" valign="top">
+      <a href="https://youtu.be/eUf58W-rJoE"><img src="https://img.youtube.com/vi/eUf58W-rJoE/mqdefault.jpg" width="100%" alt="NeuroSOC demo video"/></a><br/>
+      <b>🧠 NeuroSOC</b><br/>
+      <sub>Neuromorphic AI SOC — SNN + LNN + XGBoost threat detection</sub>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <a href="https://www.youtube.com/watch?v=NJRoPRCKs64"><img src="https://img.youtube.com/vi/NJRoPRCKs64/mqdefault.jpg" width="100%" alt="Jvalyx demo video"/></a><br/>
+      <b>🔥 Jvalyx</b><br/>
+      <sub>SIH 2026 · satellite thermal-event & industrial fire intelligence</sub>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <a href="https://youtu.be/HiNK79Ijav8"><img src="https://img.youtube.com/vi/HiNK79Ijav8/mqdefault.jpg" width="100%" alt="Project Astraeus demo video"/></a><br/>
+      <b>🚀 Project Astraeus</b><br/>
+      <sub>AI mission control with digital-twin simulation</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" align="center" valign="top">
+      <a href="https://youtu.be/Q-XZVE3dy20"><img src="https://img.youtube.com/vi/Q-XZVE3dy20/mqdefault.jpg" width="100%" alt="Kairos demo video"/></a><br/>
+      <b>⏳ Kairos</b><br/>
+      <sub>Full-duplex, interruptible real-time voice agent</sub>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <a href="https://www.youtube.com/watch?v=ZB8utg1Q0WM"><img src="https://img.youtube.com/vi/ZB8utg1Q0WM/mqdefault.jpg" width="100%" alt="MOIL Manganese Copilot demo video"/></a><br/>
+      <b>⛏️ MOIL Manganese Copilot</b><br/>
+      <sub>SIH 2026 · AI copilot for next-shift recovery decisions</sub>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <a href="https://youtu.be/eOWGswfy5_E"><img src="https://img.youtube.com/vi/eOWGswfy5_E/mqdefault.jpg" width="100%" alt="ContextOS demo video"/></a><br/>
+      <b>⚡ ContextOS</b><br/>
+      <sub>Proactive Android agent for contextual workflows</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" align="center" valign="top">
+      <a href="https://youtu.be/SxgtEXvsAV4"><img src="https://img.youtube.com/vi/SxgtEXvsAV4/mqdefault.jpg" width="100%" alt="Rebound demo video"/></a><br/>
+      <b>💳 Rebound</b><br/>
+      <sub>Razorpay AI Buildathon '26 · autonomous revenue recovery</sub>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <a href="https://youtu.be/S1hz6yakK4Y"><img src="https://img.youtube.com/vi/S1hz6yakK4Y/mqdefault.jpg" width="100%" alt="KisaanMitra demo video"/></a><br/>
+      <b>🌾 KisaanMitra</b><br/>
+      <sub>5-agent system for collective agricultural intelligence</sub>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <a href="https://youtu.be/T3-CFJ__JWg"><img src="https://img.youtube.com/vi/T3-CFJ__JWg/mqdefault.jpg" width="100%" alt="DonorConnect demo video"/></a><br/>
+      <b>❤️ DonorConnect</b><br/>
+      <sub>Real-time intelligent blood donor matching</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" align="center" valign="top">
+      <a href="https://youtu.be/KBmNAY7ayVg"><img src="https://img.youtube.com/vi/KBmNAY7ayVg/mqdefault.jpg" width="100%" alt="NovaPulse demo video"/></a><br/>
+      <b>📰 NovaPulse</b><br/>
+      <sub>Voice-powered multi-agent news intelligence on Amazon Nova</sub>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <a href="https://youtu.be/o3bw84sPgDA"><img src="https://img.youtube.com/vi/o3bw84sPgDA/mqdefault.jpg" width="100%" alt="Hackathon Dashboard demo video"/></a><br/>
+      <b>📊 Hackathon Dashboard</b><br/>
+      <sub>Real-time hackathon & submission tracking</sub>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <a href="https://youtu.be/AgLqEC7HuPs"><img src="https://img.youtube.com/vi/AgLqEC7HuPs/mqdefault.jpg" width="100%" alt="ClipBait demo video"/></a><br/>
+      <b>✂️ ClipBait</b><br/>
+      <sub>AI-powered smart clipboard</sub>
+    </td>
+  </tr>
+</table>
+
+<h3 align="center">🌐 Live deployments</h3>
+
+<div align="center">
+
+| | Project | What it does | |
+|:-:|:--|:--|:-:|
+| 🚔 | **Project Falcon** | AI crime-analytics platform — role-based dashboards, hotspot maps, criminal-network analysis & predictive insights | [**Open&nbsp;app&nbsp;↗**](https://auth-60079106947.development.catalystserverless.in/app/index.html#/login) |
+| 🚀 | **Project Astraeus** | AI mission control with digital-twin simulation, real-time monitoring & decision support | [**Open&nbsp;app&nbsp;↗**](https://astraeus-frontend.onrender.com/) |
+| ❤️ | **DonorConnect** | Intelligent geospatial blood-donor matching with real-time emergency alerts | [**Open&nbsp;app&nbsp;↗**](https://bloodme-frontend.vercel.app/) |
+| 📰 | **Amazon Nova Pulse** | Voice-powered multi-agent news intelligence using Amazon Nova | [**Open&nbsp;app&nbsp;↗**](https://nova-pulse-gilt.vercel.app/) |
+| 📊 | **Hackathon Dashboard** | Real-time hackathon tracking, participant analytics & event management | [**Open&nbsp;app&nbsp;↗**](https://hackersboard.netlify.app/) |
+| 🌐 | **Portfolio** | My personal site — projects, research & experience | [**Visit ↗**](https://mukulprasad.netlify.app/) |
+
+<sub>Free-tier hosts can take a few seconds to wake up on the first visit.</sub>
+
+</div>
+
+<!-- ───────────────────────────── All Projects ────────────────────────── -->
+<p align="center"><a id="projects"></a><img src="assets/static/header-projects.svg" width="100%" alt="All projects"/></p>
+
+| Project | Category | What it is |
+| :-- | :-: | :-- |
+| [**NeuroSOC** 🧠](https://github.com/MUKUL-PRASAD-SIGH/Project_NeuroSOC) | ![Cybersecurity AI](https://img.shields.io/badge/Cybersecurity_AI-FF3B5C?style=flat-square) | 🥈 *CyreneAI Hackathon — 1st Runner-Up.* Neuromorphic AI SOC analyst: real-time threat detection with SNN, LNN and XGBoost ensembles, behavioural profiling, sandbox isolation and feedback retraining. |
+| [**RegGraph-AI** 🕸️](https://github.com/MUKUL-PRASAD-SIGH/RegGraph-AI) | ![Knowledge Graph AI](https://img.shields.io/badge/Knowledge_Graph_AI-FE428E?style=flat-square) | 🏆 *HackArena 2.0 (IIIT Delhi) — Zonal Champion & Finalist.* Graph-AI pipeline for regulatory intelligence — knowledge graphs, NLP entity extraction and RAG for explainable compliance retrieval that surfaces regulatory risk pathways. |
+| [**Project Astraeus** 🚀](https://github.com/MUKUL-PRASAD-SIGH/PROJECT_ENTANGLEMENT) | ![Mission Control AI](https://img.shields.io/badge/Mission_Control_AI-6E40C9?style=flat-square) | 🏅 *SIH 2025 — Merit.* AI-powered digital twin for satellite mission control: real-time telemetry, GNN + PPO communication scheduling and 91% predictive failure-detection accuracy. |
+| [**Jvalyx** 🔥](https://github.com/MUKUL-PRASAD-SIGH/Jvalyx) | ![Satellite AI](https://img.shields.io/badge/Satellite_AI-E53935?style=flat-square) | 🏆 *SIH 2026 — Semifinalist.* Space-based industrial fire classification and consequence intelligence, triaging satellite thermal feeds to assess hazard zones and cascading risks. |
+| [**MOIL Manganese Copilot** ⛏️](https://github.com/MUKUL-PRASAD-SIGH/manganese) | ![Industrial AI](https://img.shields.io/badge/Industrial_AI-FF9900?style=flat-square) | 🏆 *SIH 2026 — Semifinalist (PS 26009).* AI decision copilot for MOIL mining operations, turning mine signals and sensor telemetry into next-shift recovery decisions and yield intelligence. |
+| [**KisaanMitra** 🌾](https://github.com/MUKUL-PRASAD-SIGH/KisaanMitra) | ![Multi-Agent AI](https://img.shields.io/badge/Multi--Agent_AI-16A34A?style=flat-square) | 🥈 *Agentic AI Hackathon — 1st Runner-up.* 5-agent system for crop advisory, market intelligence, weather monitoring, IoT integration and alerting — trained on 12K+ agricultural records with 87% accuracy and sub-2 s inference. |
+| [**DonorConnect** ❤️](https://github.com/MUKUL-PRASAD-SIGH/DonorConnectT) | ![HealthTech](https://img.shields.io/badge/HealthTech-F44336?style=flat-square) | 🔟 *BIT Mesra Hack '24 — Top 10 / 1,000 teams.* Full-stack blood-donation platform with geospatial donor matching, 3-channel emergency notifications, real-time WebSocket updates and JWT auth (NestJS · Next.js · MongoDB · Socket.IO · Docker). |
+| [**Project Falcon** 🦅](https://github.com/MUKUL-PRASAD-SIGH/Project-Falcon) | ![Public Safety AI](https://img.shields.io/badge/Public_Safety_AI-DC2626?style=flat-square) | AI public-safety intelligence platform — explainable RAG, geospatial crime-hotspot detection, criminal-network analysis, predictive analytics, anomaly detection and multilingual assistants. |
+| [**Kairos** ⏳](https://github.com/MUKUL-PRASAD-SIGH/Samsung) | ![Voice AI Agent](https://img.shields.io/badge/Voice_AI_Agent-6E40C9?style=flat-square) | Full-duplex, interruptible real-time voice agent built for a Samsung hackathon — barge-in turn-taking, mid-task corrections and adaptive execution. |
+| [**Project TCS** 🏛️](https://github.com/MUKUL-PRASAD-SIGH/Project_TCS) | ![GovTech AI](https://img.shields.io/badge/GovTech_AI-0077B5?style=flat-square) | 🎖️ *TCS Hackathon — Consolation Prize.* Gemini-powered conversational assistant for municipal permit eligibility, reasoning across civic regulations and licensing bylaws. |
+| [**Rebound** 💳](https://github.com/MUKUL-PRASAD-SIGH/Rebound) | ![FinTech AI](https://img.shields.io/badge/FinTech_AI-0A2540?style=flat-square) | *Razorpay AI Buildathon 2026.* Autonomous AI revenue-recovery engine orchestrating intelligent payment-retry routing and churn mitigation. |
+| [**ContextOS** ⚡](https://github.com/MUKUL-PRASAD-SIGH/ContextOS) | ![Autonomous AI Agent](https://img.shields.io/badge/Autonomous_AI_Agent-7C3AED?style=flat-square) | Proactive Android background agent that automates meetings, navigation, DND, reminders and contextual workflows with on-device AI, memory and Google API integrations. |
+| [**GitHopper** 🦘](https://github.com/MUKUL-PRASAD-SIGH/GITHOPPER) | ![AI DevTool](https://img.shields.io/badge/AI_DevTool-00B894?style=flat-square) | Git repository analysis platform — deep code scanning, technical-debt detection, health scoring and real-time monitoring with MCP and AI-powered synthesis. |
+| [**LLM Benchmark Game** 🎮](https://github.com/MUKUL-PRASAD-SIGH/LLM_BENCHMARK_GAME) | ![AI Benchmark](https://img.shields.io/badge/AI_Benchmark-6E40C9?style=flat-square) | Interactive platform that compares LLMs through real-time game challenges and reasoning tasks to evaluate intelligence, speed and accuracy. |
+| [**NovaPulse** 📰](https://github.com/MUKUL-PRASAD-SIGH/NovaPulse) | ![Voice AI](https://img.shields.io/badge/Voice_AI-0E7490?style=flat-square) | Voice-powered multi-agent news intelligence on Amazon Nova — sentiment analysis, trend detection and automated executive summaries. |
+| [**Hackathon Dashboard** 📊](https://github.com/MUKUL-PRASAD-SIGH/Hackathon-Dashboard) | ![Dashboard](https://img.shields.io/badge/Dashboard-3178C6?style=flat-square) | Real-time hackathon management dashboard for event tracking, analytics and participant intelligence. |
+| [**ClipBait** ✂️](https://github.com/MUKUL-PRASAD-SIGH/Clipbait) | ![AI Tool](https://img.shields.io/badge/AI_Tool-9C27B0?style=flat-square) | AI-powered smart clipboard that captures, analyses and understands copied content using ML & DL. |
+| [**VAAYA** ✈️](https://github.com/MUKUL-PRASAD-SIGH/VAAYA-PROJECT) | ![Full Stack](https://img.shields.io/badge/Full_Stack-0077B5?style=flat-square) | Smart travel platform blending Google Maps, reels-style discovery and gamified exploration quests for travellers and local earners. |
+| [**VoOTEX** 🎙️](https://github.com/MUKUL-PRASAD-SIGH/VoOTEX) | ![Voice Tech](https://img.shields.io/badge/Voice_Tech-B45309?style=flat-square) | Voice-to-text transcription pipeline with speaker diarization, noise handling and post-processing intelligence. |
+| [**X-FORECAST** 📈](https://github.com/MUKUL-PRASAD-SIGH/X-FORECAST) | ![Forecasting](https://img.shields.io/badge/Forecasting-FF9900?style=flat-square) | Time-series forecasting models and dashboards for demand prediction, analytics and trend intelligence. |
+| [**GlamGlow** ✨](https://github.com/MUKUL-PRASAD-SIGH/GlamGlow) | ![ML Recommender](https://img.shields.io/badge/ML_Recommender-E91E63?style=flat-square) | ML-powered beauty-product recommendation engine for personalised skincare discovery. |
+
+<!-- ─────────────────────── Hackathons & Achievements ─────────────────── -->
+<p align="center"><a id="achievements"></a><img src="assets/static/header-achievements.svg" width="100%" alt="Hackathons and achievements"/></p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/National_Semifinalist-Flipkart_Grid_8.0-F8D847?style=for-the-badge&labelColor=141321" alt="National Semifinalist — Flipkart Grid 8.0"/>
+  <img src="https://img.shields.io/badge/National_Semifinalist-JPMC_Code_for_Good_'26-F8D847?style=for-the-badge&labelColor=141321" alt="National Semifinalist — JPMorgan Chase Code for Good '26"/>
+  <img src="https://img.shields.io/badge/Zonal_Champion-HackArena_2.0_·_IIIT_Delhi-FE428E?style=for-the-badge&labelColor=141321" alt="Zonal Champion — HackArena 2.0, IIIT Delhi"/>
+  <img src="https://img.shields.io/badge/Kaggle-Top_150_of_10,760-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white&labelColor=141321" alt="Kaggle — Top 150 of 10,760"/>
+</p>
+
+| 🏆 Competition | 🧩 Project | 🥇 Result |
+| :-- | :-- | :-- |
+| **Flipkart Grid 8.0** | — | 🏅 **National Semifinalist** |
+| **JPMorgan Chase — Code for Good '26** | — | 🏅 **National Semifinalist** |
+| **HackArena 2.0 · IIIT Delhi** | [RegGraph-AI](https://github.com/MUKUL-PRASAD-SIGH/RegGraph-AI) | 🏆 **Zonal Champion** · Finalist |
+| **GenAI Fusion '25 Hack** | — | 🥈 **1st Runner-up** |
+| **Agentic AI Hackathon** | [KisaanMitra](https://github.com/MUKUL-PRASAD-SIGH/KisaanMitra) | 🥈 **1st Runner-up** |
+| **CyreneAI Hackathon** | [NeuroSOC](https://github.com/MUKUL-PRASAD-SIGH/Project_NeuroSOC) | 🥈 **1st Runner-up** |
+| **Smart India Hackathon 2026** | [MOIL Manganese Copilot](https://github.com/MUKUL-PRASAD-SIGH/manganese) · [Jvalyx](https://github.com/MUKUL-PRASAD-SIGH/Jvalyx) | 🏆 **Semifinalist** |
+| **Smart India Hackathon 2025** | [Project Astraeus](https://github.com/MUKUL-PRASAD-SIGH/PROJECT_ENTANGLEMENT) | 🏅 **Merit** |
+| **BIT Mesra Hack '24 · ECE Society** | [DonorConnect](https://github.com/MUKUL-PRASAD-SIGH/DonorConnectT) | 🔟 **Top 10 / 1,000 teams** |
+| **TCS Hackathon** | [Project TCS](https://github.com/MUKUL-PRASAD-SIGH/Project_TCS) | 🎖️ **Consolation Prize** |
+| **Hack-A-War '25** | — | **Top 10** · Finalist |
+| **Samsung PRISM '25 & '26** | — | **Finalist** |
+| **wHACKiest '26 · Codecrafter '26 · HackMalenadu '26** | — | **Finalist** |
+| **Kaggle — Wellbore Geology Prediction** <br/><sub>international team led by PyJa</sub> | [Solution](https://github.com/MUKUL-PRASAD-SIGH/KAGGLE-Wellbore_Geology_Prediction) | 📈 **Top 150 / 10,760 entrants** <sub>(Jul 2026)</sub> |
+| **Kaggle — F1 Race Result Classification** <br/><sub>Polaris Institute of Technology</sub> | [Solution](https://github.com/MUKUL-PRASAD-SIGH/KAGGLE-F1-race-result-classification) | 📈 **Top 25 / 348 entrants** |
+| **Flipkart Gridlock Hackathon 2.0** | [Travel-demand ML](https://www.hackerearth.com/challenges/competitive/gridlock-hackathon-20/problems/) | Travel-pattern, booking & cancellation insights for demand prediction <sub>(77,299 × 11 dataset)</sub> |
+
+<!-- ───────────────────── Certifications & Leadership ─────────────────── -->
+<p align="center"><a id="certifications"></a><img src="assets/static/header-certifications.svg" width="100%" alt="Certifications and leadership"/></p>
+
+<table>
+  <tr>
+    <th width="50%">📜 Certifications</th>
+    <th width="50%">🌟 Leadership & Community</th>
+  </tr>
+  <tr>
+    <td valign="top">
+      <ul>
+        <li><b>AWS Cloud Practitioner Essentials</b> — Amazon Web Services</li>
+        <li><b>AWS Fundamentals of AI / ML</b> — Amazon Web Services</li>
+        <li><b>India Impact GenAI Program</b> — IBM × IISc Bengaluru</li>
+        <li><b>AI Fluency: Framework & Foundations</b> — Anthropic</li>
       </ul>
     </td>
-    <td valign="top" width="50%">
-      <h4>🎬 <b>Demo Videos</b></h4>
+    <td valign="top">
       <ul>
-        <li><b>⏳ Kairos</b><br><a href="https://youtu.be/Q-XZVE3dy20">▶️ Watch Demo</a><br><i>Full-duplex, interruptible real-time agent (Samsung Hackathon) that dynamically adapts when interrupted or corrected mid-task.</i></li>
-        <li><b>🧠 NeuroSOC</b><br><a href="https://youtu.be/eUf58W-rJoE">▶️ Watch Demo</a><br><i>Neuromorphic AI Security Operations Center — real-time threat detection using SNN, LNN, and XGBoost ensemble in autonomous sandbox.</i></li>
-        <li><b>⛏️ MOIL Manganese Copilot</b><br><a href="https://www.youtube.com/watch?v=ZB8utg1Q0WM">▶️ Watch Demo</a><br><i>SIH 2026: AI decision copilot transforming telemetry & mine signals into optimal next-shift recovery decisions.</i></li>
-        <li><b>🔥 Jvalyx</b><br><a href="https://www.youtube.com/watch?v=NJRoPRCKs64">▶️ Watch Demo</a><br><i>SIH 2026: Space-based satellite thermal event triage and industrial fire consequence intelligence system.</i></li>
-        <li><b>💳 Rebound</b><br><a href="https://youtu.be/SxgtEXvsAV4">▶️ Watch Demo</a><br><i>Autonomous AI revenue recovery & smart retry engine built for Razorpay AI Buildathon 2026.</i></li>
-        <li><b>⚡ ContextOS</b><br><a href="https://youtu.be/eOWGswfy5_E">▶️ Watch Demo</a><br><i>Proactive Android AI agent that autonomously manages meetings, navigation, DND, reminders, and contextual workflows using adaptive on-device intelligence.</i></li>
-        <li><b>🚀 Project Astraeus</b><br><a href="https://youtu.be/HiNK79Ijav8">▶️ Watch Demo</a><br><i>AI Mission Control — digital-twin simulation, real-time monitoring & intelligent decision support.</i></li>
-        <li><b>📊 Hackathon Dashboard</b><br><a href="https://youtu.be/o3bw84sPgDA">▶️ Watch Demo</a><br><i>Real-time hackathon management dashboard for tracking teams, projects, and submissions seamlessly.</i></li>
-        <li><b>🌾 KisaanMitra</b><br><a href="https://youtu.be/S1hz6yakK4Y">▶️ Watch Demo</a><br><i>Multi-Agent System for collective agricultural empowerment using AI, IoT & MAS architecture.</i></li>
-        <li><b>❤️ DonorConnect</b><br><a href="https://youtu.be/T3-CFJ__JWg">▶️ Watch Demo</a><br><i>ML & DL powered real-time blood donor-recipient intelligent matching system.</i></li>
-        <li><b>✂️ ClipBait</b><br><a href="https://youtu.be/AgLqEC7HuPs">▶️ Watch Demo</a><br><i>AI-powered smart clipboard for capturing and analyzing copied content intelligently.</i></li>
-        <li><b>🧠 NovaPulse</b><br><a href="https://youtu.be/KBmNAY7ayVg">▶️ Watch Demo</a><br><i>Voice-powered multi-agent news intelligence system using Amazon Nova AI.</i></li>
+        <li>👥 Leading the <b>MSRIT '28 & '29</b> student communities — <b>3.5K+ active members</b></li>
+        <li>☁️ <b>Founding Core Member</b> — AWS Cloud Club</li>
+        <li>⚛️ <b>Core Member</b> — Quantum Cluster (QpiAI industry MoU)</li>
+        <li>🌐 <b>Webmaster</b> — IEEE CIS</li>
+        <li>🧑‍💻 <b>Hack Organizer</b> — DeepStation (US) × Google for Developers</li>
+        <li>🚀 Member — E-Cell · DSC (formerly GDG)</li>
       </ul>
     </td>
   </tr>
 </table>
 
-<br/>
+<!-- ──────────────────────────── GitHub Stats ─────────────────────────── -->
+<p align="center"><a id="stats"></a><img src="assets/static/header-stats.svg" width="100%" alt="GitHub stats and activity"/></p>
 
-<!-- ─── All Projects ─────────────────────────────────────────────────── -->
-<a id="-all-projects"></a>
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=slice&color=0:A9FEF7,100:6e40c9&height=90&section=header&text=🧠%20All%20Projects&fontSize=38&fontColor=ffffff&fontAlign=73&reversal=false" width="100%"/>
-</div>
+<p align="center">
+  <img src="assets/github-stats.svg" height="165" alt="GitHub stats"/>
+  <img src="assets/streak.svg" height="165" alt="GitHub contribution streak"/>
+</p>
 
-<br/>
+<p align="center">
+  <img src="profile-summary-card-output/radical/0-profile-details.svg" width="100%" alt="Profile details and contribution history"/>
+</p>
 
-| 🧠 Project | 🏷️ Category | 📄 Description |
-| --- | :---: | --- |
-| [Project Falcon 🦅](https://github.com/MUKUL-PRASAD-SIGH/Project-Falcon) | ![](https://img.shields.io/badge/Public%20Safety%20AI-DC2626?style=flat-square&logoColor=white) | AI-powered public safety intelligence platform leveraging explainable RAG, geospatial crime hotspot detection, criminal network analysis, predictive analytics, anomaly detection, and multilingual AI assistants to support data-driven law enforcement investigations. |
-| [NeuroSOC 🧠](https://github.com/MUKUL-PRASAD-SIGH/Project_NeuroSOC) | ![](https://img.shields.io/badge/Cybersecurity%20AI-ff3b5c?style=flat-square&logoColor=white) | Neuromorphic AI SOC analyst system performing real-time threat detection using SNN, LNN, and XGBoost ensemble models with behavioral profiling, sandbox isolation, and feedback retraining. |
-| [Kairos ⏳](https://github.com/MUKUL-PRASAD-SIGH/Samsung) | ![](https://img.shields.io/badge/Voice%20AI%20Agent-6e40c9?style=flat-square&logoColor=white) | Full-duplex, interruptible real-time voice agent built for Samsung Hackathon — supports barge-in conversational turn-taking, mid-task corrections, and adaptive execution. |
-| [Manganese Copilot ⛏️](https://github.com/MUKUL-PRASAD-SIGH/manganese) | ![](https://img.shields.io/badge/Industrial%20AI-FF9900?style=flat-square&logoColor=white) | SIH 2026: AI-driven decision copilot for MOIL mining operations, turning mine signals and sensor telemetry into optimal next-shift recovery decisions and yield intelligence. |
-| [Jvalyx 🔥](https://github.com/MUKUL-PRASAD-SIGH/Jvalyx) | ![](https://img.shields.io/badge/Satellite%20AI-E53935?style=flat-square&logoColor=white) | SIH 2026: Space-based industrial fire classification and consequence intelligence system triaging satellite thermal feeds to assess hazard zones and cascading risks. |
-| [Project TCS 🏛️](https://github.com/MUKUL-PRASAD-SIGH/Project_TCS) | ![](https://img.shields.io/badge/GovTech%20AI-0077B5?style=flat-square&logoColor=white) | TCS Hackathon: Conversational municipal permit eligibility assistant powered by Google Gemini, reasoning across local civic regulations and licensing bylaws. |
-| [Rebound 💳](https://github.com/MUKUL-PRASAD-SIGH/Rebound) | ![](https://img.shields.io/badge/FinTech%20AI-0A2540?style=flat-square&logoColor=white) | Razorpay AI Buildathon 2026: Autonomous AI revenue recovery engine orchestrating intelligent payment retry routing and customer churn mitigation. |
-| [RegGraph-AI 🕸️](https://github.com/MUKUL-PRASAD-SIGH/RegGraph-AI) | ![](https://img.shields.io/badge/Knowledge%20Graph%20AI-FE428E?style=flat-square&logoColor=white) | AI-powered regulatory knowledge graph system for intelligent compliance mapping, automated regulation analysis, and graph-based reasoning over legal and policy documents. |
-| [ContextOS ⚡](https://github.com/MUKUL-PRASAD-SIGH/ContextOS) | ![](https://img.shields.io/badge/Autonomous%20AI%20Agent-7c3aed?style=flat-square&logoColor=white) | Intelligent Android background agent that proactively automates user workflows using contextual situation modeling, adaptive decision-making, autonomous action execution, Google API integrations, memory systems, and on-device AI-powered orchestration. |
-| [GitHopper 🦘](https://github.com/MUKUL-PRASAD-SIGH/GITHOPPER) | ![](https://img.shields.io/badge/AI%20DevTool-00b894?style=flat-square&logoColor=white) | Intelligent Git repository analysis platform that performs deep code scanning, technical debt detection, health scoring, and real-time monitoring using MCP and AI-powered synthesis for actionable developer insights. |
-| [LLM Benchmark Game 🎮](https://github.com/MUKUL-PRASAD-SIGH/LLM_BENCHMARK_GAME) | ![](https://img.shields.io/badge/AI%20Benchmark-6e40c9?style=flat-square&logoColor=white) | Interactive AI benchmark platform that compares multiple LLMs through real-time game-based challenges and reasoning tasks to evaluate model intelligence, speed, and accuracy. |
-| [PROJECT_ENTANGLEMENT 🚀](https://github.com/MUKUL-PRASAD-SIGH/PROJECT_ENTANGLEMENT) | ![](https://img.shields.io/badge/Mission%20Control-FE428E?style=flat-square&logoColor=white) | SIH 2025: Project Astraeus — AI-powered Mission Control with digital twin simulation and predictive system monitoring. |
-| [Hackathon-Dashboard 📊](https://github.com/MUKUL-PRASAD-SIGH/Hackathon-Dashboard) | ![](https://img.shields.io/badge/Dashboard-3178C6?style=flat-square&logoColor=white) | Real-time hackathon management dashboard for event tracking, analytics, and participant intelligence. |
-| [NovaPulse 🧠](https://github.com/MUKUL-PRASAD-SIGH/NovaPulse) | ![](https://img.shields.io/badge/Voice%20AI-A9FEF7?style=flat-square&logoColor=black) | Voice-powered multi-agent news intelligence system using Amazon Nova AI for sentiment analysis, trend detection, and automated executive summaries. |
-| [Clipbait ✂️](https://github.com/MUKUL-PRASAD-SIGH/Clipbait) | ![](https://img.shields.io/badge/AI%20Tool-9C27B0?style=flat-square&logoColor=white) | AI-powered smart clipboard system to capture, analyze, and understand copied content using ML & DL. |
-| [DonorConnectT ❤️](https://github.com/MUKUL-PRASAD-SIGH/DonorConnectT) | ![](https://img.shields.io/badge/HealthTech-F44336?style=flat-square&logoColor=white) | ML & DL based real-time blood donor-recipient intelligent matching and healthcare support system. |
-| [KisaanMitra 🌾](https://github.com/MUKUL-PRASAD-SIGH/KisaanMitra) | ![](https://img.shields.io/badge/Multi--Agent%20AI-FE428E?style=flat-square&logoColor=white) | Multi-Agent System for collective agricultural intelligence — climate insights, autonomous irrigation, market intelligence, and financial inclusion for farmers. |
-| [VAAYA-PROJECT ✈️](https://github.com/MUKUL-PRASAD-SIGH/VAAYA-PROJECT) | ![](https://img.shields.io/badge/Full%20Stack-0077B5?style=flat-square&logoColor=white) | Smart travel platform blending Google Maps + Reels discovery + gamified exploration quests for travelers and local earners. |
-| [VoOTEX 🎙️](https://github.com/MUKUL-PRASAD-SIGH/VoOTEX) | ![](https://img.shields.io/badge/Voice%20Tech-f8d847?style=flat-square&logoColor=black) | Voice-to-text transcription pipeline with speaker diarization, noise handling, and post-processing intelligence. |
-| [X-FORECAST 📈](https://github.com/MUKUL-PRASAD-SIGH/X-FORECAST) | ![](https://img.shields.io/badge/Forecasting-FF9900?style=flat-square&logoColor=white) | Advanced time-series forecasting models and dashboards for demand prediction, analytics, and trend intelligence. |
-| [GlamGlow ✨](https://github.com/MUKUL-PRASAD-SIGH/GlamGlow) | ![](https://img.shields.io/badge/ML%20Recommender-E91E63?style=flat-square&logoColor=white) | ML-powered beauty product recommendation engine for personalized skincare and product discovery. |
+<p align="center">
+  <img src="assets/top-langs.svg" height="160" alt="Most used languages"/>
+  <img src="profile-summary-card-output/radical/2-most-commit-language.svg" height="160" alt="Top languages by commits"/>
+  <img src="profile-summary-card-output/radical/4-productive-time.svg" height="160" alt="Commits by hour of day"/>
+</p>
 
-<div align="center">
+<p align="center">
+  <img src="assets/generated/contributions-monthly.svg" width="100%" alt="Contributions per month over the last 12 months"/>
+</p>
 
-> 🧠 **Machine Learning · Artificial Intelligence · Multi-Agent Systems · Data Intelligence Pipelines**
-> Going beyond traditional software into *intelligent system engineering.*
+<p align="center">
+  <img src="profile-3d-contrib/profile-radical.svg" width="100%" alt="3D contribution calendar"/>
+</p>
 
-</div>
+<p align="center">
+  <img src="assets/generated/trophies.svg" width="100%" alt="GitHub trophies"/>
+</p>
 
-<br/>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/snake-dark.svg"/>
+    <img src="assets/snake.svg" width="100%" alt="Snake eating my contribution graph"/>
+  </picture>
+</p>
 
-<!-- ─── Hackathons & Achievements ───────────────────────────────────── -->
-<a id="-hackathons--achievements"></a>
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=slice&color=0:f8d847,100:FE428E&height=90&section=header&text=🏆%20Hackathons%20%26%20Achievements&fontSize=34&fontColor=ffffff&fontAlign=73&reversal=false" width="100%"/>
-</div>
+<!-- ─────────────────────────── Let's Connect ─────────────────────────── -->
+<p align="center"><a id="connect"></a><img src="assets/static/header-connect.svg" width="100%" alt="Let's connect"/></p>
 
-<br/>
+<p align="center">
+  <a href="https://www.linkedin.com/in/mukulprasad1"><img src="https://img.shields.io/badge/LinkedIn-mukulprasad1-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=141321" alt="LinkedIn"/></a>
+  <a href="mailto:mukulprasad958@gmail.com"><img src="https://img.shields.io/badge/Email-mukulprasad958@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=141321" alt="Email"/></a>
+  <br/>
+  <a href="https://mukulprasad.netlify.app"><img src="https://img.shields.io/badge/Portfolio-mukulprasad.netlify.app-FF5733?style=for-the-badge&logo=firefoxbrowser&logoColor=white&labelColor=141321" alt="Portfolio"/></a>
+  <a href="https://mukul.taplink.in"><img src="https://img.shields.io/badge/All_Links-mukul.taplink.in-A9FEF7?style=for-the-badge&logo=linktree&logoColor=white&labelColor=141321" alt="All links"/></a>
+  <br/>
+  <a href="https://codolio.com/profile/mukulprasad/devStats/github"><img src="https://img.shields.io/badge/Codolio-coding_profiles-FF2E88?style=for-the-badge&labelColor=141321" alt="Codolio — LeetCode, GitHub & competitive programming"/></a>
+  <a href="https://instagram.com/mukul_prasad_2030"><img src="https://img.shields.io/badge/Instagram-@mukul__prasad__2030-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=141321" alt="Instagram"/></a>
+  <a href="https://mukul-prasad-sigh.github.io/MyResume/RESUME.pdf"><img src="https://img.shields.io/badge/Resume-PDF-6E40C9?style=for-the-badge&logo=adobeacrobatreader&logoColor=white&labelColor=141321" alt="Resume (PDF)"/></a>
+</p>
 
-<div align="center">
+<p align="center">
+  <i>"Discovery consists of seeing what everybody has seen and thinking what nobody has thought."</i><br/>
+  <sub>— Albert Szent-Györgyi</sub>
+</p>
 
-| 🏆 Competition / Hackathon | 🎯 Domain / Track | 🥇 Achievement |
-| --- | :---: | --- |
-| [🧠 CyreneAI Hackathon](https://github.com/MUKUL-PRASAD-SIGH/Project_NeuroSOC) | ![](https://img.shields.io/badge/Cybersecurity%20AI-8A2BE2?style=flat-square&logoColor=white) | **🥈 1st Runner-Up**. Built **[NeuroSOC](https://github.com/MUKUL-PRASAD-SIGH/Project_NeuroSOC)** — Neuromorphic AI Security Operations Center integrating SNNs, Liquid Neural Networks (LNN), and XGBoost ensemble for real-time threat detection and autonomous sandbox containment. |
-| [⛏️ Smart India Hackathon (SIH 2026)](https://github.com/MUKUL-PRASAD-SIGH/manganese) | ![](https://img.shields.io/badge/Mining%20AI-FF9900?style=flat-square&logoColor=white) | **🏆 Semifinalist 2026 [Currently]** (Problem Statement 26009). Engineered **[MOIL Manganese Copilot](https://github.com/MUKUL-PRASAD-SIGH/manganese)** — an industrial operational copilot transforming telemetry and shift signals into optimal recovery decisions and yield forecasting. |
-| [🔥 Smart India Hackathon (SIH 2026)](https://github.com/MUKUL-PRASAD-SIGH/Jvalyx) | ![](https://img.shields.io/badge/Satellite%20Intelligence-E53935?style=flat-square&logoColor=white) | **🏆 Semifinalist 2026 [Currently]**. Built **[Jvalyx](https://github.com/MUKUL-PRASAD-SIGH/Jvalyx)** — space-based industrial fire triage and consequence intelligence platform classifying orbital satellite thermal feeds to forecast risk tiers and blast boundaries. |
-| [🏛️ TCS Hackathon](https://github.com/MUKUL-PRASAD-SIGH/Project_TCS) | ![](https://img.shields.io/badge/GovTech%20AI-0077B5?style=flat-square&logoColor=white) | **🎖️ Consolation Prize**. Developed **[Project TCS](https://github.com/MUKUL-PRASAD-SIGH/Project_TCS)** (Municipal Permit Assistant) — a Gemini-powered conversational assistant for checking municipal permit eligibility and reasoning through complex civic bylaws. |
-| [🛢️ Wellbore Geology Prediction](https://github.com/MUKUL-PRASAD-SIGH/KAGGLE-Wellbore_Geology_Prediction) | ![](https://img.shields.io/badge/Geological%20ML-FF9900?style=flat-square&logoColor=white) | Currently under **Top 150 teams** among 10,760 Entrants · 3,211 Participants · 2,967 Teams · 42,920 Submissions. Built an ML pipeline to predict subsurface geological formations from wellbore sensor data — combining feature engineering, XGBoost, and ensemble methods for high-accuracy stratigraphy classification. *(First international team participation, led by PyJa)* |
-| [🏎️ F1 Race Result Classification](https://github.com/MUKUL-PRASAD-SIGH/KAGGLE-F1-race-result-classification) | ![](https://img.shields.io/badge/Sports%20Analytics-e10600?style=flat-square&logoColor=white) | Finished under **Top 25 teams** among 348 Entrants · 279 Participants · 145 Teams · 4,161 Submissions. Developed a classification model to predict Formula 1 race results using historical race data, driver stats, and circuit features — leveraging advanced ML techniques for accurate podium finish prediction. |
-| [🚦 Flipkart Gridlock Hackathon 2.0](https://www.hackerearth.com/challenges/competitive/gridlock-hackathon-20/problems/) | ![](https://img.shields.io/badge/Travel%20Demand%20AI-6e40c9?style=flat-square&logoColor=white) | Designed a system to provide valuable insights into passenger travel patterns, booking behavior, and trip cancellations — enabling data-driven demand prediction for the travel industry. Dataset: 77,299 training samples × 11 features across structured travel data. |
+<p align="center"><b>Thanks for stopping by! Feel free to explore my repositories or reach out for a collaboration. 🚀</b></p>
 
-> 🏆 **Competing in Hackathons & ML Competitions** to build high-impact solutions — from neuromorphic cybersecurity and space intelligence to real-world industrial copilots.
+<p align="center"><a href="#top"><img src="assets/static/footer.svg" width="100%" alt="Code. Commit. Conquer. — back to top"/></a></p>
 
-</div>
-
-<br/>
-
-<!-- ─── GitHub Stats ─────────────────────────────────────────────────── -->
-<a id="-github-stats--activity"></a>
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=slice&color=0:141321,50:FE428E,100:A9FEF7&height=90&section=header&text=📊%20GitHub%20Stats%20%26%20Activity&fontSize=32&fontColor=ffffff&fontAlign=74&reversal=false" width="100%"/>
-</div>
-
-<br/>
-
-<div align="center">
-
-[![Profile Details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=MUKUL-PRASAD-SIGH&theme=radical)](https://github.com/MUKUL-PRASAD-SIGH)
-
-[![Repos Per Language](https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=MUKUL-PRASAD-SIGH&theme=radical)](https://github.com/MUKUL-PRASAD-SIGH)&nbsp;[![Most Commit Language](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=MUKUL-PRASAD-SIGH&theme=radical)](https://github.com/MUKUL-PRASAD-SIGH)
-[![Stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=MUKUL-PRASAD-SIGH&theme=radical)](https://github.com/MUKUL-PRASAD-SIGH)&nbsp;[![Productive Time](https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=MUKUL-PRASAD-SIGH&theme=radical&utcOffset=5.5)](https://github.com/MUKUL-PRASAD-SIGH)
-
-<br/>
-
-<img height="185" src="assets/github-stats.svg" alt="GitHub Stats"/>&nbsp;<img height="185" src="assets/streak.svg" alt="GitHub Streak"/>
-
-<br/><br/>
-
-<img src="assets/top-langs.svg" alt="Top Languages" height="185"/>
-
-<br/><br/>
-
-### 🗓️ Contribution Heatmap
-
-![Contribution Heatmap](assets/ghchart.svg)
-
-### 🐍 Contribution Snake
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/snake-dark.svg"/>
-  <img alt="Contribution snake" src="assets/snake.svg"/>
-</picture>
-
-### 🏆 GitHub Trophies
-
-<img src="assets/trophy.svg" alt="GitHub Trophies" width="100%"/>
-
-<br/><br/>
-
-**🔥 Code. Commit. Conquer.**<br/>
-*Consistency beats talent when talent doesn't commit.*
-
-<br/>
-
-</div>
-
-<br/>
-
-<!-- ─── Let's Connect ────────────────────────────────────────────────── -->
-<a id="-lets-connect"></a>
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=slice&color=0:A9FEF7,100:141321&height=90&section=header&text=📫%20Let%27s%20Connect!&fontSize=40&fontColor=ffffff&fontAlign=73&reversal=false" width="100%"/>
-</div>
-
-<div align="center">
-
-<br/>
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mukul-prasad-a395ba324/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5733?style=for-the-badge&logo=firefox&logoColor=white)](https://mukulprasad.netlify.app)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mukulprasad958@gmail.com)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/mukul_prasad_2030)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/MUKUL-PRASAD-SIGH)
-
-<br/>
-
-> *"Innovation is seeing what everybody has seen and thinking what nobody has thought."*<br/>
-> — Dr. APJ Abdul Kalam
-
-**Thanks for stopping by! Feel free to check out my repositories or reach out for collaboration. 🚀**
-
-</div>
-
-<br/>
-
-<!-- PULSE_START -->
-> 🤖 **Auto-synced** · Last refreshed: `2026-10-22 02:16 UTC` (Thursday) · Run #1202
-<!-- PULSE_END -->
-
-<!-- COMMITS_START -->
-## Contribution stats
-
-- All-time contributions (since 2008-01-01): **2764**
-
-### Contributions per month (last 12 months)
-
-| Month | Contributions |
-|---:|---:|
-| 2025-11 | 116 |
-| 2025-12 | 60 |
-| 2026-01 | 17 |
-| 2026-02 | 137 |
-| 2026-03 | 215 |
-| 2026-04 | 308 |
-| 2026-05 | 236 |
-| 2026-06 | 240 |
-| 2026-07 | 330 |
-| 2026-08 | 356 |
-| 2026-09 | 300 |
-| 2026-10 | 188 |
-<!-- COMMITS_END -->
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:A9FEF7,28:f8d847,55:FE428E,80:6e40c9,100:141321&height=170&section=footer" width="100%"/>
-</div>
+<!-- PULSE:START -->
+<p align="center"><sub>🤖 Auto-synced every 6 hours by GitHub Actions · last refreshed <code>2026-10-22 10:48 UTC</code> (Thursday)</sub></p>
+<!-- PULSE:END -->

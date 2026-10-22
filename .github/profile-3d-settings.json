@@ -1,0 +1,11 @@
+{
+  "type": "normal",
+  "fileName": "profile-radical.svg",
+  "backgroundColor": "#141321",
+  "foregroundColor": "#A9FEF7",
+  "strongColor": "#FE428E",
+  "weakColor": "#A49FC4",
+  "radarColor": "#F8D847",
+  "growingAnimation": true,
+  "contribColors": ["#221F36", "#4B2A6E", "#8A2F84", "#C93A8C", "#FE428E"]
+}

@@ -4,121 +4,99 @@ on:
   schedule:
     - cron: "0 */6 * * *"   # every 6 hours
   workflow_dispatch:
+  push:                     # re-render right away when the generators change
+    branches: [main]
+    paths:
+      - ".github/workflows/update-profile-assets.yml"
+      - ".github/profile-3d-settings.json"
+      - "scripts/**"
+
+permissions:
+  contents: write
 
 concurrency:
-  group: github-actions
-  cancel-in-progress: true
+  group: profile-assets-${{ github.ref }}
+  cancel-in-progress: false   # never kill a run halfway through its push
 
 jobs:
   update-assets:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           token: ${{ secrets.GH_TOKEN }}   # use PAT so commits are attributed to you
           fetch-depth: 0
 
-      - name: Create assets directory
-        run: mkdir -p assets
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
 
-      - name: Fetch GitHub Stats
+      # The generators below are optional: when one fails, the last good images stay.
+      - name: Generate profile summary cards
+        id: summary
         continue-on-error: true
-        run: |
-          # NOTE: include_all_commits causes "Could not fetch total commits" on public Vercel — removed
-          curl --retry 3 --retry-delay 5 -L \
-            "https://github-readme-stats.vercel.app/api?username=MUKUL-PRASAD-SIGH&show_icons=true&theme=radical&count_private=true&hide_border=true&rank_icon=github" \
-            -o assets/github-stats.svg || echo "Failed to fetch GitHub stats"
-
-      - name: Fetch Top Languages
-        continue-on-error: true
-        run: |
-          # Excluding Python-heavy AI/ML repos so other languages show up properly.
-          # These repos have massive Python codebases that skew to 96%+ Python.
-          curl --retry 3 --retry-delay 5 -L \
-            "https://github-readme-stats.vercel.app/api/top-langs/?username=MUKUL-PRASAD-SIGH&layout=compact&theme=radical&langs_count=10&hide_border=true&exclude_repo=KisaanMitra,NovaPulse,NEURACITY,X-FORECAST,GlamGlow,HealthCare-System-Dashboard,URBAN-PLANNING,DonorConnectT,VoOTEX,finance-bud,Clipbait" \
-            -o assets/top-langs.svg || echo "Failed to fetch top languages"
-
-      - name: Fetch GitHub Streak
-        continue-on-error: true
-        run: |
-          TIMESTAMP=$(date +%s)
-          curl --retry 3 --retry-delay 5 -L \
-            "https://streak-stats.demolab.com?user=MUKUL-PRASAD-SIGH&theme=radical&hide_border=true&date_format=M%20j%5B%2C%20Y%5D&ring=FE428E&fire=F8D847&currStreakLabel=F8D847&t=${TIMESTAMP}" \
-            -o assets/streak.svg || echo "Failed to fetch streak stats"
-
-      - name: Fetch Contribution Graph
-        continue-on-error: true
-        run: |
-          curl --retry 3 --retry-delay 5 -L \
-            "https://ghchart.rshah.org/MUKUL-PRASAD-SIGH" \
-            -o assets/ghchart.svg || echo "Failed to fetch contribution graph"
-
-      - name: Fetch Profile Trophies
-        continue-on-error: true
-        run: |
-          # ryo-ma/github-profile-trophy is a web service, NOT a GitHub Action
-          # curl with heavy retries since vercel free tier is flaky
-          for i in 1 2 3 4 5; do
-            curl -fsSL --max-time 30 \
-              "https://github-profile-trophy.vercel.app/?username=MUKUL-PRASAD-SIGH&theme=radical&column=7&no-frame=true&margin-w=4" \
-              -o assets/trophy.svg && echo "Trophy fetched on attempt $i" && break
-            echo "Attempt $i failed, retrying in 15s..."
-            sleep 15
-          done || echo "Trophy fetch failed after 5 attempts — will use live URL in README"
-
-      - name: Generate 3D Contribution Calendar
-        continue-on-error: true
-        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-          USERNAME: MUKUL-PRASAD-SIGH
-          BACKGROUND_COLOR: "#141321"
-          TIME_ZONE: "Asia/Kolkata"
         with:
-          outputDir: assets
+          USERNAME: ${{ github.repository_owner }}
+          THEME: radical
+          UTC_OFFSET: 5.5
+          AUTO_PUSH: false
 
-      - name: Generate Contribution Snake
+      - name: Restore previous summary cards if generation failed
+        if: steps.summary.outcome != 'success'
+        run: git checkout HEAD -- profile-summary-card-output 2>/dev/null || echo "No previous summary cards to restore"
+
+      - name: Generate 3D contribution calendar
+        continue-on-error: true
+        uses: yoshi389111/github-profile-3d-contrib@v0.9.3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+          SETTING_JSON: .github/profile-3d-settings.json
+
+      - name: Generate contribution snake
+        continue-on-error: true
         uses: Platane/snk@v3
         with:
-          github_user_name: MUKUL-PRASAD-SIGH
+          github_user_name: ${{ github.repository_owner }}
           outputs: |
             assets/snake.svg
             assets/snake-dark.svg?palette=github-dark
 
-      # ─── Pulse: write a live timestamp into README so there's ALWAYS a diff ───
-      - name: Update Live Pulse in README
-        run: |
-          NOW=$(date -u "+%Y-%m-%d %H:%M UTC")
-          DAY=$(date -u "+%A")
-          RUN_NUM=${{ github.run_number }}
-          PULSE_BLOCK="<!-- PULSE_START -->
-          > 🤖 **Auto-synced** · Last refreshed: \`${NOW}\` (${DAY}) · Run #${RUN_NUM}
-          <!-- PULSE_END -->"
-
-          # Replace between markers (or append if missing)
-          if grep -q "<!-- PULSE_START -->" README.md; then
-            perl -i -0pe 's|<!-- PULSE_START -->.*?<!-- PULSE_END -->|'"${PULSE_BLOCK}"'|s' README.md
-          else
-            echo "" >> README.md
-            echo "${PULSE_BLOCK}" >> README.md
-          fi
+      # Stats/streak/language cards (validated — a failed fetch keeps the old image),
+      # pinned project cards, trophies, monthly chart, stat badges and the pulse line.
+      - name: Refresh cards and README
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: python3 scripts/update_profile.py
 
       # ─── Commit as YOU so it shows on your contribution graph ───────────────
       - name: Commit and push (counts as your contribution)
         run: |
-          # Author = your real identity → GitHub counts this in your graph ✅
           git config user.name "Mukul Prasad"
           git config user.email "mukulprasad958@gmail.com"
 
-          git add assets/ README.md
+          for path in README.md assets profile-summary-card-output profile-3d-contrib; do
+            if [ -e "$path" ]; then git add -A -- "$path"; fi
+          done
+          if git diff --cached --quiet; then
+            echo "Nothing changed, skipping."
+            exit 0
+          fi
+          git commit -m "🔄 profile sync · $(date -u '+%Y-%m-%d %H:%M UTC')"
 
-          # If genuinely nothing changed, skip (shouldn't happen — pulse always differs)
-          git diff --cached --quiet && echo "Nothing changed, skipping." && exit 0
-
-          NOW=$(date -u "+%Y-%m-%d %H:%M UTC")
-          git commit -m "🔄 profile sync · ${NOW}"
-
-          git pull --rebase origin main || true
-          git push origin main
+          # Push to the branch this run was started from (main for scheduled runs).
+          for attempt in 1 2 3; do
+            if git pull --rebase origin "$GITHUB_REF_NAME" && git push origin "HEAD:$GITHUB_REF_NAME"; then
+              exit 0
+            fi
+            sleep $((attempt * 10))
+          done
+          echo "::error::Could not push after 3 attempts"
+          exit 1
