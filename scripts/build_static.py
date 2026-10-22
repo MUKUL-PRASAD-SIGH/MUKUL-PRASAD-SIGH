@@ -208,13 +208,15 @@ def section_header(index: int, emoji: str, title: str, subtitle: str, accent: st
 
 # Contents tiles: a "table of contents" grid under the hero (2 rows x 5). Each tile
 # is its own <a href="#slug"><img></a> in the README, so every tile is clickable.
-TILE_W, TILE_H = 150, 52        # README shows tiles at height=52 (1:1)
-TILE_PX = 2                     # transparent side margin; column gap = 2*PX + one space
+# The README puts no whitespace between tiles, so a row of 5 is exactly 5*TILE_W
+# (730px) wide and stays 2x5 in any column at least that wide.
+TILE_W, TILE_H = 146, 52        # README shows tiles at height=52 (1:1)
+TILE_PX = 3                     # transparent side margin; visible gap between tiles = 2*PX
 CARD_W = TILE_W - 2 * TILE_PX
-STUB = 40                       # width of the number stub
+STUB = 38                       # width of the number stub
 TILE_TX = STUB + 8              # where the entry text starts
 TILE_R = 7
-CAPTION_W, CAPTION_H = 762, 30  # spans the visible width of a row of 5 tiles
+CAPTION_H = 30
 
 
 def _arrow(x: float, y: float, colour: str) -> str:
@@ -267,26 +269,31 @@ def nav_tile(number: int, emoji: str, label: str, accent: str) -> str:
 
 
 def nav_caption() -> str:
-    """Strip above the contents grid that says what the tiles do."""
-    w, h = CAPTION_W, CAPTION_H
-    defs = (linear("ink", [(0, CYAN), (0.5, VIOLET), (1, PINK)])
-            + linear("lead", [(0, VIOLET, 0.25), (0.5, VIOLET, 0.8), (1, PINK, 0.3)], 0, 0, w, 0,
-                     ' gradientUnits="userSpaceOnUse"'))
+    """Compact pill above the contents grid saying what the tiles do.
+
+    Sized to its text (not to the grid) so it stays legible when phones scale it down.
+    """
+    h = CAPTION_H
     left = "CONTENTS"
     left_w = len(left) * 0.6 * 12 + 7 * 3.2               # monospace width + letter-spacing
     bold, rest = "click a tile", " to jump to that section"
     hint_w = (text_width(bold, 13.5, True) + text_width(rest, 13.5)) * 1.06
-    lead_x1, lead_x2 = 16 + 20 + left_w + 14, w - 32 - hint_w - 14
+    x_word = 16 + 21
+    x_dot = x_word + left_w + 12
+    x_hint = x_dot + 12
+    x_arrow = x_hint + hint_w + 12
+    w = round(x_arrow + 3.4 + 16)
+    defs = linear("ink", [(0, CYAN), (0.5, VIOLET), (1, PINK)])
     body = (
-        f'<rect x="0.5" y="0.5" width="{w - 1}" height="{h - 1}" rx="{TILE_R}" fill="{BG}" stroke="{BORDER}"/>'
+        f'<rect x="0.5" y="0.5" width="{w - 1}" height="{h - 1}" rx="{(h - 1) / 2}" fill="{BG}" '
+        f'stroke="{BORDER}"/>'
         '<text x="16" y="20.5" font-size="13">📖</text>'
-        f'<text x="36" y="19.5" font-family="{MONO}" font-size="12" font-weight="800" fill="url(#ink)" '
+        f'<text x="{x_word}" y="19.5" font-family="{MONO}" font-size="12" font-weight="800" fill="url(#ink)" '
         f'letter-spacing="3.2">{left}</text>'
-        f'<line x1="{lead_x1:.1f}" y1="15.5" x2="{lead_x2:.1f}" y2="15.5" stroke="url(#lead)" '
-        'stroke-width="1.6" stroke-dasharray="1.2 4.5" stroke-linecap="round"/>'
-        f'<text x="{w - 32}" y="20" text-anchor="end" font-size="13.5" fill="{TEXT_SOFT}">'
+        f'<circle cx="{x_dot:.1f}" cy="15" r="1.8" fill="{VIOLET}"/>'
+        f'<text x="{x_hint:.1f}" y="20" font-size="13.5" fill="{TEXT_SOFT}">'
         f'<tspan font-weight="700" fill="{TEXT}">{bold}</tspan>{rest}</text>'
-        + _arrow(w - 21, 20.5, YELLOW)
+        + _arrow(x_arrow, 20.5, YELLOW)
     )
     style = ("@keyframes bob{0%,55%,100%{transform:translateY(0)}25%{transform:translateY(2.5px)}}"
              ".a{animation:bob 2.4s ease-in-out infinite}")
