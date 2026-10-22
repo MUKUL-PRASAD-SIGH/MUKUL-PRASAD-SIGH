@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/MUKUL-PRASAD-SIGH"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2800&pause=900&color=A9FEF7&center=true&vCenter=true&width=900&height=50&lines=%F0%9F%A4%96+AI%2FML+Engineer+%C2%B7+Multi-Agent+Systems+Architect;%F0%9F%94%AC+Research+Intern+%40+IEEE+Computer+Society;%F0%9F%8F%85+GSSoC+%2726+Mentor+%E2%80%94+1+of+135+selected+nationally;%F0%9F%92%BC+Ex-ML+Intern+%40+FlyRank+AI;%F0%9F%8E%93+CSE+%28AI+%26+ML%29+%40+MSRIT+Bengaluru+%C2%B7+CGPA+9.32;%F0%9F%8F%86+National+Semifinalist+%E2%80%94+Flipkart+Grid+8.0+%26+JPMC+CFG;%F0%9F%95%B8%EF%B8%8F+Graph+ML+%C2%B7+RAG+%C2%B7+Agentic+AI+%C2%B7+Full-Stack;%F0%9F%92%A1+Turning+ideas+into+deployed+products" alt="AI/ML Engineer · Research Intern @ IEEE Computer Society · GSSoC '26 Mentor · Ex-ML Intern @ FlyRank AI"/></a>
+  <a href="https://github.com/MUKUL-PRASAD-SIGH"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=600&amp;size=22&amp;duration=2800&amp;pause=900&amp;color=A9FEF7&amp;center=true&amp;vCenter=true&amp;width=900&amp;height=50&amp;lines=%F0%9F%A4%96+AI%2FML+Engineer+%C2%B7+Multi-Agent+Systems+Architect;%F0%9F%94%AC+Research+Intern+%40+IEEE+Computer+Society;%F0%9F%8F%85+GSSoC+%2726+Mentor+%E2%80%94+1+of+135+selected+nationally;%F0%9F%92%BC+Ex-ML+Intern+%40+FlyRank+AI;%F0%9F%8E%93+CSE+%28AI+%26+ML%29+%40+MSRIT+Bengaluru+%C2%B7+CGPA+9.32;%F0%9F%8F%86+National+Semifinalist+%E2%80%94+Flipkart+Grid+8.0+%26+JPMC+CFG;%F0%9F%95%B8%EF%B8%8F+Graph+ML+%C2%B7+RAG+%C2%B7+Agentic+AI+%C2%B7+Full-Stack;%F0%9F%92%A1+Turning+ideas+into+deployed+products" alt="AI/ML Engineer · Research Intern @ IEEE Computer Society · GSSoC '26 Mentor · Ex-ML Intern @ FlyRank AI"/></a>
 </p>
 
 <!-- Stat badges are rewritten by scripts/update_profile.py every 6 hours — edit that script, not this block. -->
@@ -20,12 +20,12 @@
 </p>
 
 <p align="center">
-  <a href="https://mukulprasad.netlify.app"><img src="https://img.shields.io/badge/Portfolio-FF5733?style=for-the-badge&logo=firefoxbrowser&logoColor=white" alt="Portfolio"/></a>
-  <a href="https://www.linkedin.com/in/mukulprasad1"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="https://mukul-prasad-sigh.github.io/MyResume/RESUME.pdf"><img src="https://img.shields.io/badge/Resume-Download_CV-E11D48?style=for-the-badge&logo=adobeacrobatreader&logoColor=white&labelColor=141321" alt="Resume (PDF)"/></a>
-  <a href="mailto:mukulprasad958@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <a href="https://mukul.taplink.in"><img src="https://img.shields.io/badge/All_Links-12100E?style=for-the-badge&logo=linktree&logoColor=white" alt="All links"/></a>
-  <a href="https://instagram.com/mukul_prasad_2030"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
+  <a href="https://mukulprasad.netlify.app"><img src="https://img.shields.io/badge/Portfolio-FF5733?style=for-the-badge&amp;logo=firefoxbrowser&amp;logoColor=white" alt="Portfolio"/></a>
+  <a href="https://www.linkedin.com/in/mukulprasad1"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://mukul-prasad-sigh.github.io/MyResume/RESUME.pdf"><img src="https://img.shields.io/badge/Resume-Download_CV-E11D48?style=for-the-badge&amp;logo=adobeacrobatreader&amp;logoColor=white&amp;labelColor=141321" alt="Resume (PDF)"/></a>
+  <a href="mailto:mukulprasad958@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email"/></a>
+  <a href="https://mukul.taplink.in"><img src="https://img.shields.io/badge/All_Links-12100E?style=for-the-badge&amp;logo=linktree&amp;logoColor=white" alt="All links"/></a>
+  <a href="https://instagram.com/mukul_prasad_2030"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&amp;logo=instagram&amp;logoColor=white" alt="Instagram"/></a>
 </p>
 
 <p align="center"><i>Just pushing some things that I build. 🚀</i></p>
@@ -78,7 +78,7 @@ mukul = {
         <li>Built an AI <b>drug-repurposing pipeline</b> spanning <b>1,500+ drugs, 20K+ genes, 130+ diseases and 50K+ edges</b> with PyTorch Geometric, RDKit, PubMed, WHO data and 2,048-bit Morgan fingerprints.</li>
         <li>Co-authoring an <b>IEEE research paper</b> on the 4-component <b>NDPI framework</b> — HGT predictions + chemical similarity + PubMed evidence + WHO equity scoring.</li>
       </ul>
-      <img src="https://img.shields.io/badge/PyTorch_Geometric-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch Geometric"/>
+      <img src="https://img.shields.io/badge/PyTorch_Geometric-EE4C2C?style=flat-square&amp;logo=pytorch&amp;logoColor=white" alt="PyTorch Geometric"/>
       <img src="https://img.shields.io/badge/RDKit-3C873A?style=flat-square" alt="RDKit"/>
       <img src="https://img.shields.io/badge/Graph_ML-9333EA?style=flat-square" alt="Graph ML"/>
       <img src="https://img.shields.io/badge/Research-0A66C2?style=flat-square" alt="Research"/>
@@ -97,7 +97,7 @@ mukul = {
         <li>Selected among <b>135 mentors nationally</b>, supporting developers across <b>6 domains</b> — AI/ML, Web, DevOps/Cloud, Data Science, Security and Open Source.</li>
         <li>Guided <b>3 developers</b> across <b>5+ engineering areas</b> (React state management, async workflows, CI automation, debugging, code review) and earned <b>60 mentor points</b>.</li>
       </ul>
-      <img src="https://img.shields.io/badge/Open_Source-F97316?style=flat-square&logo=opensourceinitiative&logoColor=white" alt="Open Source"/>
+      <img src="https://img.shields.io/badge/Open_Source-F97316?style=flat-square&amp;logo=opensourceinitiative&amp;logoColor=white" alt="Open Source"/>
       <img src="https://img.shields.io/badge/Mentoring-FE428E?style=flat-square" alt="Mentoring"/>
       <img src="https://img.shields.io/badge/Code_Review-6E40C9?style=flat-square" alt="Code review"/>
     </td>
@@ -115,8 +115,8 @@ mukul = {
         <li>Worked on <b>search intelligence, data contracts, action scoring and ML experimentation</b>.</li>
         <li>Built a <b>Google Search Ranking & Discoverability</b> capstone with Python, PyTorch, scikit-learn and LLM workflows.</li>
       </ul>
-      <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch"/>
-      <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" alt="scikit-learn"/>
+      <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&amp;logo=pytorch&amp;logoColor=white" alt="PyTorch"/>
+      <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&amp;logo=scikitlearn&amp;logoColor=white" alt="scikit-learn"/>
       <img src="https://img.shields.io/badge/LLM_Workflows-412991?style=flat-square" alt="LLM workflows"/>
     </td>
   </tr>
@@ -134,9 +134,9 @@ mukul = {
     </td>
     <td valign="top">
       <b>B.E. Computer Science & Engineering (AI & ML)</b> — pre-final year<br/><br/>
-      <img src="https://img.shields.io/badge/CGPA-9.32-F8D847?style=for-the-badge&labelColor=141321" alt="CGPA 9.32"/>
-      <img src="https://img.shields.io/badge/SGPA_Sem_II-9.95-FE428E?style=for-the-badge&labelColor=141321" alt="SGPA 9.95 in semester II"/>
-      <img src="https://img.shields.io/badge/SGPA_Sem_III-9.61-A9FEF7?style=for-the-badge&labelColor=141321" alt="SGPA 9.61 in semester III"/><br/>
+      <img src="https://img.shields.io/badge/CGPA-9.32-F8D847?style=for-the-badge&amp;labelColor=141321" alt="CGPA 9.32"/>
+      <img src="https://img.shields.io/badge/SGPA_Sem_II-9.95-FE428E?style=for-the-badge&amp;labelColor=141321" alt="SGPA 9.95 in semester II"/>
+      <img src="https://img.shields.io/badge/SGPA_Sem_III-9.61-A9FEF7?style=for-the-badge&amp;labelColor=141321" alt="SGPA 9.61 in semester III"/><br/>
       <sub>Coursework: Data Structures & Algorithms · DBMS · Operating Systems · Compiler Design</sub>
     </td>
   </tr>
@@ -159,36 +159,36 @@ mukul = {
     <td width="20%" align="center"><b>💻 Languages</b></td>
     <td>
       <img src="https://skillicons.dev/icons?i=python,c,cpp,java,js,ts,html,css" height="44" alt="Python, C, C++, Java, JavaScript, TypeScript, HTML, CSS"/><br/>
-      <img src="https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white" alt="SQL"/>
+      <img src="https://img.shields.io/badge/SQL-336791?style=flat-square&amp;logo=postgresql&amp;logoColor=white" alt="SQL"/>
     </td>
   </tr>
   <tr>
     <td align="center"><b>🤖 AI · ML · Data</b></td>
     <td>
       <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,opencv,anaconda" height="44" alt="PyTorch, TensorFlow, scikit-learn, OpenCV, Anaconda"/><br/>
-      <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="Hugging Face"/>
-      <img src="https://img.shields.io/badge/PyTorch_Geometric-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch Geometric"/>
+      <img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&amp;logo=huggingface&amp;logoColor=black" alt="Hugging Face"/>
+      <img src="https://img.shields.io/badge/PyTorch_Geometric-EE4C2C?style=flat-square&amp;logo=pytorch&amp;logoColor=white" alt="PyTorch Geometric"/>
       <img src="https://img.shields.io/badge/XGBoost-1A73E8?style=flat-square" alt="XGBoost"/>
       <img src="https://img.shields.io/badge/RDKit-3C873A?style=flat-square" alt="RDKit"/>
-      <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" alt="NumPy"/>
-      <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" alt="Pandas"/>
-      <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter"/>
+      <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&amp;logo=numpy&amp;logoColor=white" alt="NumPy"/>
+      <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&amp;logo=pandas&amp;logoColor=white" alt="Pandas"/>
+      <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&amp;logo=jupyter&amp;logoColor=white" alt="Jupyter"/>
     </td>
   </tr>
   <tr>
     <td align="center"><b>🧠 LLMs & Agentic AI</b></td>
     <td>
-      <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain"/>
-      <img src="https://img.shields.io/badge/LangGraph-0A0A0A?style=flat-square&logo=langgraph&logoColor=white" alt="LangGraph"/>
+      <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&amp;logo=langchain&amp;logoColor=white" alt="LangChain"/>
+      <img src="https://img.shields.io/badge/LangGraph-0A0A0A?style=flat-square&amp;logo=langgraph&amp;logoColor=white" alt="LangGraph"/>
       <img src="https://img.shields.io/badge/RAG_Pipelines-FF6F00?style=flat-square" alt="RAG pipelines"/>
       <img src="https://img.shields.io/badge/Multi--Agent_Systems-2563EB?style=flat-square" alt="Multi-agent systems"/>
-      <img src="https://img.shields.io/badge/MCP-111827?style=flat-square&logo=modelcontextprotocol&logoColor=white" alt="Model Context Protocol"/>
+      <img src="https://img.shields.io/badge/MCP-111827?style=flat-square&amp;logo=modelcontextprotocol&amp;logoColor=white" alt="Model Context Protocol"/>
       <img src="https://img.shields.io/badge/Knowledge_Graphs-16A34A?style=flat-square" alt="Knowledge graphs"/>
       <img src="https://img.shields.io/badge/GNNs-DC2626?style=flat-square" alt="Graph neural networks"/>
       <img src="https://img.shields.io/badge/Reinforcement_Learning-0F766E?style=flat-square" alt="Reinforcement learning"/>
       <img src="https://img.shields.io/badge/Vector_Databases-7C3AED?style=flat-square" alt="Vector databases"/>
-      <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI"/>
-      <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white" alt="Google Gemini"/>
+      <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&amp;logo=openai&amp;logoColor=white" alt="OpenAI"/>
+      <img src="https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&amp;logo=googlegemini&amp;logoColor=white" alt="Google Gemini"/>
       <img src="https://img.shields.io/badge/Amazon_Nova-232F3E?style=flat-square" alt="Amazon Nova"/>
     </td>
   </tr>
@@ -197,19 +197,19 @@ mukul = {
     <td>
       <img src="https://skillicons.dev/icons?i=nodejs,express,react,nextjs,nestjs,flask,fastapi,django,tailwind,firebase" height="44" alt="Node.js, Express, React, Next.js, NestJS, Flask, FastAPI, Django, Tailwind, Firebase"/><br/>
       <img src="https://img.shields.io/badge/REST_APIs-0EA5E9?style=flat-square" alt="REST APIs"/>
-      <img src="https://img.shields.io/badge/Socket.IO-010101?style=flat-square&logo=socketdotio&logoColor=white" alt="Socket.IO"/>
-      <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white" alt="JWT"/>
-      <img src="https://img.shields.io/badge/MERN_Stack-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MERN stack"/>
+      <img src="https://img.shields.io/badge/Socket.IO-010101?style=flat-square&amp;logo=socketdotio&amp;logoColor=white" alt="Socket.IO"/>
+      <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&amp;logo=jsonwebtokens&amp;logoColor=white" alt="JWT"/>
+      <img src="https://img.shields.io/badge/MERN_Stack-47A248?style=flat-square&amp;logo=mongodb&amp;logoColor=white" alt="MERN stack"/>
     </td>
   </tr>
   <tr>
     <td align="center"><b>☁️ Cloud & MLOps</b></td>
     <td>
       <img src="https://skillicons.dev/icons?i=aws,docker,githubactions,linux,git,github" height="44" alt="AWS, Docker, GitHub Actions, Linux, Git, GitHub"/><br/>
-      <img src="https://img.shields.io/badge/AWS_Lambda-FF9900?style=flat-square&logo=awslambda&logoColor=white" alt="AWS Lambda"/>
-      <img src="https://img.shields.io/badge/Amazon_S3-569A31?style=flat-square&logo=amazons3&logoColor=white" alt="Amazon S3"/>
+      <img src="https://img.shields.io/badge/AWS_Lambda-FF9900?style=flat-square&amp;logo=awslambda&amp;logoColor=white" alt="AWS Lambda"/>
+      <img src="https://img.shields.io/badge/Amazon_S3-569A31?style=flat-square&amp;logo=amazons3&amp;logoColor=white" alt="Amazon S3"/>
       <img src="https://img.shields.io/badge/SageMaker-232F3E?style=flat-square" alt="Amazon SageMaker"/>
-      <img src="https://img.shields.io/badge/Amazon_EC2-FF9900?style=flat-square&logo=amazonec2&logoColor=white" alt="Amazon EC2"/>
+      <img src="https://img.shields.io/badge/Amazon_EC2-FF9900?style=flat-square&amp;logo=amazonec2&amp;logoColor=white" alt="Amazon EC2"/>
       <img src="https://img.shields.io/badge/IAM-DD344C?style=flat-square" alt="AWS IAM"/>
       <img src="https://img.shields.io/badge/CI%2FCD-2563EB?style=flat-square" alt="CI/CD"/>
       <img src="https://img.shields.io/badge/Model_Deployment-0F766E?style=flat-square" alt="Model deployment"/>
@@ -219,8 +219,8 @@ mukul = {
     <td align="center"><b>🗄️ Databases</b></td>
     <td>
       <img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql,redis,supabase" height="44" alt="PostgreSQL, MongoDB, MySQL, Redis, Supabase"/><br/>
-      <img src="https://img.shields.io/badge/Neo4j-4581C3?style=flat-square&logo=neo4j&logoColor=white" alt="Neo4j"/>
-      <img src="https://img.shields.io/badge/Apache_Hive-FDEE21?style=flat-square&logo=apachehive&logoColor=black" alt="Apache Hive"/>
+      <img src="https://img.shields.io/badge/Neo4j-4581C3?style=flat-square&amp;logo=neo4j&amp;logoColor=white" alt="Neo4j"/>
+      <img src="https://img.shields.io/badge/Apache_Hive-FDEE21?style=flat-square&amp;logo=apachehive&amp;logoColor=black" alt="Apache Hive"/>
       <img src="https://img.shields.io/badge/HBase-B71C1C?style=flat-square" alt="HBase"/>
     </td>
   </tr>
@@ -395,10 +395,10 @@ mukul = {
 <p align="center"><a id="achievements"></a><img src="assets/static/header-achievements.svg" width="100%" alt="Hackathons and achievements"/></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/National_Semifinalist-Flipkart_Grid_8.0-F8D847?style=for-the-badge&labelColor=141321" alt="National Semifinalist — Flipkart Grid 8.0"/>
-  <img src="https://img.shields.io/badge/National_Semifinalist-JPMC_Code_for_Good_'26-F8D847?style=for-the-badge&labelColor=141321" alt="National Semifinalist — JPMorgan Chase Code for Good '26"/>
-  <img src="https://img.shields.io/badge/Zonal_Champion-HackArena_2.0_·_IIIT_Delhi-FE428E?style=for-the-badge&labelColor=141321" alt="Zonal Champion — HackArena 2.0, IIIT Delhi"/>
-  <img src="https://img.shields.io/badge/Kaggle-Top_150_of_10,760-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white&labelColor=141321" alt="Kaggle — Top 150 of 10,760"/>
+  <img src="https://img.shields.io/badge/National_Semifinalist-Flipkart_Grid_8.0-F8D847?style=for-the-badge&amp;labelColor=141321" alt="National Semifinalist — Flipkart Grid 8.0"/>
+  <img src="https://img.shields.io/badge/National_Semifinalist-JPMC_Code_for_Good_'26-F8D847?style=for-the-badge&amp;labelColor=141321" alt="National Semifinalist — JPMorgan Chase Code for Good '26"/>
+  <img src="https://img.shields.io/badge/Zonal_Champion-HackArena_2.0_·_IIIT_Delhi-FE428E?style=for-the-badge&amp;labelColor=141321" alt="Zonal Champion — HackArena 2.0, IIIT Delhi"/>
+  <img src="https://img.shields.io/badge/Kaggle-Top_150_of_10,760-20BEFF?style=for-the-badge&amp;logo=kaggle&amp;logoColor=white&amp;labelColor=141321" alt="Kaggle — Top 150 of 10,760"/>
 </p>
 
 | 🏆 Competition | 🧩 Project | 🥇 Result |
@@ -459,7 +459,7 @@ mukul = {
 </p>
 
 <p align="center">
-  <img src="profile-summary-card-output/radical/0-profile-details.svg" width="100%" alt="Profile details and contribution history"/>
+  <img src="profile-3d-contrib/profile-radical.svg" width="100%" alt="3D contribution calendar with activity radar and language breakdown"/>
 </p>
 
 <p align="center">
@@ -470,10 +470,6 @@ mukul = {
 
 <p align="center">
   <img src="assets/generated/contributions-monthly.svg" width="100%" alt="Contributions per month over the last 12 months"/>
-</p>
-
-<p align="center">
-  <img src="profile-3d-contrib/profile-radical.svg" width="100%" alt="3D contribution calendar"/>
 </p>
 
 <p align="center">
@@ -491,15 +487,15 @@ mukul = {
 <p align="center"><a id="connect"></a><img src="assets/static/header-connect.svg" width="100%" alt="Let's connect"/></p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/mukulprasad1"><img src="https://img.shields.io/badge/LinkedIn-mukulprasad1-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=141321" alt="LinkedIn"/></a>
-  <a href="mailto:mukulprasad958@gmail.com"><img src="https://img.shields.io/badge/Email-mukulprasad958@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=141321" alt="Email"/></a>
+  <a href="https://www.linkedin.com/in/mukulprasad1"><img src="https://img.shields.io/badge/LinkedIn-mukulprasad1-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white&amp;labelColor=141321" alt="LinkedIn"/></a>
+  <a href="mailto:mukulprasad958@gmail.com"><img src="https://img.shields.io/badge/Email-mukulprasad958@gmail.com-D14836?style=for-the-badge&amp;logo=gmail&amp;logoColor=white&amp;labelColor=141321" alt="Email"/></a>
   <br/>
-  <a href="https://mukulprasad.netlify.app"><img src="https://img.shields.io/badge/Portfolio-mukulprasad.netlify.app-FF5733?style=for-the-badge&logo=firefoxbrowser&logoColor=white&labelColor=141321" alt="Portfolio"/></a>
-  <a href="https://mukul.taplink.in"><img src="https://img.shields.io/badge/All_Links-mukul.taplink.in-A9FEF7?style=for-the-badge&logo=linktree&logoColor=white&labelColor=141321" alt="All links"/></a>
+  <a href="https://mukulprasad.netlify.app"><img src="https://img.shields.io/badge/Portfolio-mukulprasad.netlify.app-FF5733?style=for-the-badge&amp;logo=firefoxbrowser&amp;logoColor=white&amp;labelColor=141321" alt="Portfolio"/></a>
+  <a href="https://mukul.taplink.in"><img src="https://img.shields.io/badge/All_Links-mukul.taplink.in-A9FEF7?style=for-the-badge&amp;logo=linktree&amp;logoColor=white&amp;labelColor=141321" alt="All links"/></a>
   <br/>
-  <a href="https://codolio.com/profile/mukulprasad/devStats/github"><img src="https://img.shields.io/badge/Codolio-coding_profiles-FF2E88?style=for-the-badge&labelColor=141321" alt="Codolio — LeetCode, GitHub & competitive programming"/></a>
-  <a href="https://instagram.com/mukul_prasad_2030"><img src="https://img.shields.io/badge/Instagram-@mukul__prasad__2030-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=141321" alt="Instagram"/></a>
-  <a href="https://mukul-prasad-sigh.github.io/MyResume/RESUME.pdf"><img src="https://img.shields.io/badge/Resume-PDF-6E40C9?style=for-the-badge&logo=adobeacrobatreader&logoColor=white&labelColor=141321" alt="Resume (PDF)"/></a>
+  <a href="https://codolio.com/profile/mukulprasad/devStats/github"><img src="https://img.shields.io/badge/Codolio-coding_profiles-FF2E88?style=for-the-badge&amp;labelColor=141321" alt="Codolio — LeetCode, GitHub & competitive programming"/></a>
+  <a href="https://instagram.com/mukul_prasad_2030"><img src="https://img.shields.io/badge/Instagram-@mukul__prasad__2030-E4405F?style=for-the-badge&amp;logo=instagram&amp;logoColor=white&amp;labelColor=141321" alt="Instagram"/></a>
+  <a href="https://mukul-prasad-sigh.github.io/MyResume/RESUME.pdf"><img src="https://img.shields.io/badge/Resume-PDF-6E40C9?style=for-the-badge&amp;logo=adobeacrobatreader&amp;logoColor=white&amp;labelColor=141321" alt="Resume (PDF)"/></a>
 </p>
 
 <p align="center">

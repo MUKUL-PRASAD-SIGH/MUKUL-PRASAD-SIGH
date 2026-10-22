@@ -5,7 +5,7 @@ on:
     - cron: "0 */6 * * *"   # every 6 hours
   workflow_dispatch:
   push:                     # re-render right away when the generators change
-    branches: [main, claude/youthful-maxwell-kozlkw]   # TEMP: test run on the feature branch
+    branches: [main]
     paths:
       - ".github/workflows/update-profile-assets.yml"
       - ".github/profile-3d-settings.json"

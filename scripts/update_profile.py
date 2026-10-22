@@ -53,7 +53,7 @@ STAT_CARDS = {
         "&count_private=true&hide_border=true&rank_icon=github",
     "assets/top-langs.svg":
         f"https://github-readme-stats.vercel.app/api/top-langs/?username={USERNAME}&layout=compact"
-        "&theme=radical&langs_count=10&hide_border=true&hide=postscript,visual%20basic%206.0"
+        "&theme=radical&langs_count=10&hide_border=true&hide=postscript,visual%20basic%206.0,batchfile"
         f"&exclude_repo={_LANG_EXCLUDED_REPOS}",
     "assets/streak.svg":
         f"https://streak-stats.demolab.com?user={USERNAME}&theme=radical&hide_border=true"
