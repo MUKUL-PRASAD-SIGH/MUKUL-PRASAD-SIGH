@@ -2,7 +2,7 @@
 """Generate the static design assets of the profile README.
 
 These images never change between runs (hero banner, footer, section headers,
-navigation pills and link buttons), so they are generated once, committed, and
+contents tiles and link buttons), so they are generated once, committed, and
 served straight from this repository — no third-party image service involved.
 
     python3 scripts/build_static.py
@@ -16,37 +16,26 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from svgkit import (BG, BG_DEEP, BORDER, CYAN, FONT, GREEN, PINK, PURPLE, RED,  # noqa: E402
+from svgkit import (BG, BG_DEEP, BORDER, CYAN, FONT, GREEN, MONO, PINK, PURPLE, RED,  # noqa: E402
                     TEXT, TEXT_MUTED, TEXT_SOFT, VIOLET, YELLOW, document, esc,
                     linear, save, text_width, wave_path)
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "assets", "static")
 
-# Sections in README order: (slug, emoji, title, subtitle, accent colour).
+# Sections in README order: (slug, emoji, header title, contents label, subtitle, accent).
+# The position in this list is the number shown on both the header and its contents tile.
 SECTIONS = [
-    ("about", "👋", "About Me", "who I am & what drives me", CYAN),
-    ("experience", "💼", "Experience", "research · mentoring · industry", VIOLET),
-    ("tech-stack", "🛠️", "Tech Stack", "tools I build with", CYAN),
-    ("pinned", "📌", "Pinned Highlights", "flagship projects", PINK),
-    ("demos", "🎬", "Demos & Live Deployments", "see the projects in action", YELLOW),
-    ("projects", "🧠", "All Projects", "everything I've shipped", CYAN),
-    ("achievements", "🏆", "Hackathons & Achievements", "competitions · rankings · awards", YELLOW),
-    ("certifications", "📜", "Certifications & Leadership", "learning · community · roles", VIOLET),
-    ("stats", "📊", "GitHub Stats & Activity", "auto-refreshed every 6 hours", PINK),
-    ("connect", "📫", "Let's Connect", "always happy to collaborate", CYAN),
-]
-
-# Navigation pills shown under the hero: (slug, emoji, label, accent).
-NAV = [
-    ("experience", "💼", "Experience", VIOLET),
-    ("tech-stack", "🛠️", "Tech Stack", CYAN),
-    ("pinned", "📌", "Pinned", PINK),
-    ("demos", "🎬", "Demos", YELLOW),
-    ("projects", "🧠", "Projects", CYAN),
-    ("achievements", "🏆", "Achievements", YELLOW),
-    ("stats", "📊", "Stats", PINK),
-    ("connect", "📫", "Connect", VIOLET),
+    ("about", "👋", "About Me", "About", "who I am & what drives me", CYAN),
+    ("experience", "💼", "Experience", "Experience", "research · mentoring · industry", VIOLET),
+    ("tech-stack", "🛠️", "Tech Stack", "Tech Stack", "tools I build with", CYAN),
+    ("pinned", "📌", "Pinned Highlights", "Pinned", "flagship projects", PINK),
+    ("demos", "🎬", "Demos & Live Deployments", "Demos", "see the projects in action", YELLOW),
+    ("projects", "🧠", "All Projects", "Projects", "everything I've shipped", CYAN),
+    ("achievements", "🏆", "Hackathons & Achievements", "Achievements", "competitions · rankings · awards", YELLOW),
+    ("certifications", "📜", "Certifications & Leadership", "Certifications", "learning · community · roles", VIOLET),
+    ("stats", "📊", "GitHub Stats & Activity", "Stats", "auto-refreshed every 6 hours", PINK),
+    ("connect", "📫", "Let's Connect", "Connect", "always happy to collaborate", CYAN),
 ]
 
 # Call-to-action buttons used under the pinned project cards.
@@ -217,20 +206,93 @@ def section_header(index: int, emoji: str, title: str, subtitle: str, accent: st
     return document(w, h, body, title=title, desc=subtitle, defs=defs, style=style)
 
 
-def nav_pill(emoji: str, label: str, accent: str) -> str:
-    w, h = 200, 46
-    defs = linear("edge", [(0, accent, 0.95), (1, PURPLE, 0.55)], 0, 0, 1, 1)
-    tw = text_width(label, 15.5, bold=True)
-    content = 28 + tw                     # emoji box + gap + label
-    x0 = (w - content) / 2
+# Contents tiles: a "table of contents" grid under the hero (2 rows x 5). Each tile
+# is its own <a href="#slug"><img></a> in the README, so every tile is clickable.
+TILE_W, TILE_H = 150, 52        # README shows tiles at height=52 (1:1)
+TILE_PX = 2                     # transparent side margin; column gap = 2*PX + one space
+CARD_W = TILE_W - 2 * TILE_PX
+STUB = 40                       # width of the number stub
+TILE_TX = STUB + 8              # where the entry text starts
+TILE_R = 7
+CAPTION_W, CAPTION_H = 762, 30  # spans the visible width of a row of 5 tiles
+
+
+def _arrow(x: float, y: float, colour: str) -> str:
+    """A small down arrow (shaft + chevron) with its tip at (x, y); gently bobs."""
+    return (f'<g class="a"><path d="M{x},{y - 8.5} V{y - 0.8} M{x - 3.4},{y - 4} L{x},{y - 0.6} '
+            f'L{x + 3.4},{y - 4}" fill="none" stroke="{colour}" stroke-width="1.6" '
+            'stroke-linecap="round" stroke-linejoin="round"/></g>')
+
+
+def nav_tile(number: int, emoji: str, label: str, accent: str) -> str:
+    num = f"{number:02d}"
+    title_size = 13
+    budget = CARD_W - TILE_TX - 7
+    # squeeze long titles ("Achievements") rather than let wide fonts overflow the card
+    fit = (f' textLength="{budget:.0f}" lengthAdjust="spacingAndGlyphs"'
+           if text_width(label, title_size, bold=True) * 1.08 > budget else "")
+    defs = (f'<clipPath id="c"><rect width="{CARD_W}" height="{TILE_H}" rx="{TILE_R}"/></clipPath>'
+            + linear("stub", [(0, accent, 0.24), (1, accent, 0.06)], 0, 0, 1, 1)
+            + linear("rule", [(0, accent, 0.0), (0.35, accent, 0.6), (1, accent, 0.0)]))
+    style = ("@keyframes bob{0%,55%,100%{transform:translateY(0)}25%{transform:translateY(2.5px)}}"
+             f".a{{animation:bob 2.4s ease-in-out {0.12 * (number - 1):.2f}s infinite}}")
+    kick_y, title_y = 20.5, 38.5
+    kick = "JUMP TO"
+    kick_w = len(kick) * (0.6 * 9.5 + 1.0)       # monospace advance + letter-spacing
     body = (
-        f'<rect x="0.75" y="0.75" width="{w - 1.5}" height="{h - 1.5}" rx="{(h - 1.5) / 2}" '
-        f'fill="{BG}" stroke="url(#edge)" stroke-width="1.5"/>'
-        f'<rect x="4" y="4" width="{w - 8}" height="{h - 8}" rx="{(h - 8) / 2}" fill="{accent}" fill-opacity="0.07"/>'
-        f'<text x="{x0:.1f}" y="29.5" font-size="17">{emoji}</text>'
-        f'<text x="{x0 + 28:.1f}" y="28.5" font-size="15.5" font-weight="700" fill="{TEXT}">{esc(label)}</text>'
+        f'<g transform="translate({TILE_PX} 0)"><g clip-path="url(#c)">'
+        f'<rect width="{CARD_W}" height="{TILE_H}" fill="{BG}"/>'
+        f'<rect width="{STUB}" height="{TILE_H}" fill="{BG_DEEP}"/>'
+        f'<rect width="{STUB}" height="{TILE_H}" fill="url(#stub)"/>'
+        f'<rect width="3" height="{TILE_H}" fill="{accent}"/>'
+        f'<rect x="8" y="1" width="{CARD_W - 16}" height="1" fill="#FFFFFF" fill-opacity="0.1"/>'
+        f'<rect x="{STUB}" y="{TILE_H - 1.5}" width="{CARD_W - STUB}" height="1.5" fill="url(#rule)"/>'
+        '</g>'
+        f'<rect x="0.5" y="0.5" width="{CARD_W - 1}" height="{TILE_H - 1}" rx="{TILE_R - 0.5}" fill="none" '
+        f'stroke="{BORDER}"/>'
+        f'<line x1="{STUB}" y1="7" x2="{STUB}" y2="{TILE_H - 7}" stroke="{accent}" stroke-opacity="0.5" '
+        'stroke-width="1.2" stroke-dasharray="1.2 3" stroke-linecap="round"/>'
+        f'<text x="{STUB / 2 + 1.5:.1f}" y="34.5" text-anchor="middle" font-family="{MONO}" '
+        f'font-size="22" font-weight="800" fill="{accent}" letter-spacing="-0.5">{num}</text>'
+        f'<text x="{TILE_TX}" y="{kick_y}" font-family="{MONO}" font-size="9.5" font-weight="700" '
+        f'fill="{accent}" letter-spacing="1">{kick}</text>'
+        + _arrow(TILE_TX + kick_w + 9.5, kick_y + 1.2, accent)
+        + f'<text x="{CARD_W - 7}" y="{kick_y + 2}" text-anchor="end" font-size="14">{emoji}</text>'
+        f'<text x="{TILE_TX}" y="{title_y}" font-size="{title_size}" font-weight="700" fill="{TEXT}"{fit}>'
+        f'{esc(label)}</text></g>'
     )
-    return document(w, h, body, title=label, defs=defs)
+    return document(TILE_W, TILE_H, body, title=f"{num} {label} — jump to section",
+                    desc=f"Contents entry {num}: click to jump to the {label} section",
+                    defs=defs, style=style)
+
+
+def nav_caption() -> str:
+    """Strip above the contents grid that says what the tiles do."""
+    w, h = CAPTION_W, CAPTION_H
+    defs = (linear("ink", [(0, CYAN), (0.5, VIOLET), (1, PINK)])
+            + linear("lead", [(0, VIOLET, 0.25), (0.5, VIOLET, 0.8), (1, PINK, 0.3)], 0, 0, w, 0,
+                     ' gradientUnits="userSpaceOnUse"'))
+    left = "CONTENTS"
+    left_w = len(left) * 0.6 * 12 + 7 * 3.2               # monospace width + letter-spacing
+    bold, rest = "click a tile", " to jump to that section"
+    hint_w = (text_width(bold, 13.5, True) + text_width(rest, 13.5)) * 1.06
+    lead_x1, lead_x2 = 16 + 20 + left_w + 14, w - 32 - hint_w - 14
+    body = (
+        f'<rect x="0.5" y="0.5" width="{w - 1}" height="{h - 1}" rx="{TILE_R}" fill="{BG}" stroke="{BORDER}"/>'
+        '<text x="16" y="20.5" font-size="13">📖</text>'
+        f'<text x="36" y="19.5" font-family="{MONO}" font-size="12" font-weight="800" fill="url(#ink)" '
+        f'letter-spacing="3.2">{left}</text>'
+        f'<line x1="{lead_x1:.1f}" y1="15.5" x2="{lead_x2:.1f}" y2="15.5" stroke="url(#lead)" '
+        'stroke-width="1.6" stroke-dasharray="1.2 4.5" stroke-linecap="round"/>'
+        f'<text x="{w - 32}" y="20" text-anchor="end" font-size="13.5" fill="{TEXT_SOFT}">'
+        f'<tspan font-weight="700" fill="{TEXT}">{bold}</tspan>{rest}</text>'
+        + _arrow(w - 21, 20.5, YELLOW)
+    )
+    style = ("@keyframes bob{0%,55%,100%{transform:translateY(0)}25%{transform:translateY(2.5px)}}"
+             ".a{animation:bob 2.4s ease-in-out infinite}")
+    return document(w, h, body, title="Contents — click a tile to jump to that section",
+                    desc="Ten numbered tiles below link to the sections of this profile",
+                    defs=defs, style=style)
 
 
 def button(icon: str, label: str, accent: str) -> str:
@@ -258,10 +320,10 @@ def main() -> None:
 
     emit("hero.svg", hero())
     emit("footer.svg", footer())
-    for i, (slug, emoji, title, subtitle, accent) in enumerate(SECTIONS, 1):
+    for i, (slug, emoji, title, label, subtitle, accent) in enumerate(SECTIONS, 1):
         emit(f"header-{slug}.svg", section_header(i, emoji, title, subtitle, accent))
-    for slug, emoji, label, accent in NAV:
-        emit(f"nav-{slug}.svg", nav_pill(emoji, label, accent))
+        emit(f"nav-{slug}.svg", nav_tile(i, emoji, label, accent))
+    emit("nav-caption.svg", nav_caption())
     for slug, icon, label, accent in BUTTONS:
         emit(f"btn-{slug}.svg", button(icon, label, accent))
     print(f"static assets: {len(written)} updated" + (f" ({', '.join(written)})" if written else ""))

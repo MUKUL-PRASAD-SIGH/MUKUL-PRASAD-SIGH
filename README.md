@@ -30,16 +30,21 @@
 
 <p align="center"><i>Just pushing some things that I build. 🚀</i></p>
 
+<!-- Contents: each tile jumps to its section (tiles come from scripts/build_static.py). -->
 <p align="center">
-  <a href="#experience"><img src="assets/static/nav-experience.svg" height="42" alt="Experience"/></a>
-  <a href="#tech-stack"><img src="assets/static/nav-tech-stack.svg" height="42" alt="Tech Stack"/></a>
-  <a href="#pinned"><img src="assets/static/nav-pinned.svg" height="42" alt="Pinned"/></a>
-  <a href="#demos"><img src="assets/static/nav-demos.svg" height="42" alt="Demos"/></a>
+  <a href="#about"><img src="assets/static/nav-caption.svg" height="30" alt="📖 Contents — click any tile below to jump straight to that section"/></a>
   <br/>
-  <a href="#projects"><img src="assets/static/nav-projects.svg" height="42" alt="Projects"/></a>
-  <a href="#achievements"><img src="assets/static/nav-achievements.svg" height="42" alt="Achievements"/></a>
-  <a href="#stats"><img src="assets/static/nav-stats.svg" height="42" alt="Stats"/></a>
-  <a href="#connect"><img src="assets/static/nav-connect.svg" height="42" alt="Connect"/></a>
+  <a href="#about"><img src="assets/static/nav-about.svg" height="52" alt="Jump to 01 · About"/></a>
+  <a href="#experience"><img src="assets/static/nav-experience.svg" height="52" alt="Jump to 02 · Experience"/></a>
+  <a href="#tech-stack"><img src="assets/static/nav-tech-stack.svg" height="52" alt="Jump to 03 · Tech Stack"/></a>
+  <a href="#pinned"><img src="assets/static/nav-pinned.svg" height="52" alt="Jump to 04 · Pinned"/></a>
+  <a href="#demos"><img src="assets/static/nav-demos.svg" height="52" alt="Jump to 05 · Demos"/></a>
+  <br/>
+  <a href="#projects"><img src="assets/static/nav-projects.svg" height="52" alt="Jump to 06 · Projects"/></a>
+  <a href="#achievements"><img src="assets/static/nav-achievements.svg" height="52" alt="Jump to 07 · Achievements"/></a>
+  <a href="#certifications"><img src="assets/static/nav-certifications.svg" height="52" alt="Jump to 08 · Certifications"/></a>
+  <a href="#stats"><img src="assets/static/nav-stats.svg" height="52" alt="Jump to 09 · Stats"/></a>
+  <a href="#connect"><img src="assets/static/nav-connect.svg" height="52" alt="Jump to 10 · Connect"/></a>
 </p>
 
 <br/>
@@ -47,17 +52,19 @@
 <!-- ─────────────────────────────── About ─────────────────────────────── -->
 <p align="center"><a id="about"></a><img src="assets/static/header-about.svg" width="100%" alt="About me"/></p>
 
-I'm **Mukul Prasad**, a pre-final-year **B.E. Computer Science (AI & ML)** student at **Ramaiah Institute of Technology, Bengaluru** (CGPA **9.32**). I like taking research-grade AI — multi-agent systems, graph ML, retrieval-augmented LLMs — and shipping it as products people can actually use.
+I'm **Mukul Prasad**, a pre-final-year **B.E. CSE (AI & ML)** student at **Ramaiah Institute of Technology (MSRIT), Bengaluru** with a **9.32 CGPA**. I build **agentic AI, graph ML and RAG systems**, from research pipeline to full-stack product. Previously a Research Intern at **IEEE Computer Society**, an ML Intern at **FlyRank AI**, and one of **135 mentors selected nationally** for **GirlScript Summer of Code '26**.
+
+- 📝 **Co-authoring an IEEE research paper** on the NDPI drug-repurposing framework · built an AI pipeline spanning **1,500+ drugs, 20K+ genes and 50K+ edges**
+- 🏆 **National Semifinalist** at Flipkart Grid 8.0 & JPMorgan Chase Code for Good '26 · **Zonal Champion & Finalist**, HackArena 2.0 (IIIT Delhi) · **3× 1st Runner-up** · **SIH 2026 Semifinalist** → [all wins](#achievements)
+- 📊 **Kaggle:** Top 150 of 10,760 (Wellbore Geology Prediction) · Top 25 of 348 (F1 Race Result Classification)
+- 👥 Leads the **MSRIT '28 & '29 student communities** (3.5K+ active members) · Founding Core Member, **AWS Cloud Club**
 
 ```python
 mukul = {
-    "now":        ["🔬 Research Intern — AI drug repurposing @ IEEE Computer Society",
-                   "🧑‍🏫 Open Source Mentor @ GirlScript Summer of Code '26"],
-    "previously": "💼 ML Intern @ FlyRank AI — search ranking & discoverability",
-    "writing":    "📝 Co-authoring an IEEE paper on the NDPI drug-repurposing framework",
-    "focus":      ["Agentic AI", "Multi-Agent Systems", "Graph ML", "RAG", "MLOps"],
-    "community":  "👥 Leading the MSRIT '28 & '29 communities — 3.5K+ members",
-    "reach_me":   "mukulprasad958@gmail.com",
+    "built":    ["NeuroSOC", "Project Astraeus", "RegGraph-AI", "KisaanMitra", "Jvalyx"],
+    "focus":    ["Agentic AI", "Multi-Agent Systems", "Graph ML", "RAG", "LLM workflows"],
+    "stack":    ["PyTorch", "TensorFlow", "FastAPI", "Next.js", "NestJS", "AWS", "Docker"],
+    "reach_me": "mukulprasad958@gmail.com",
 }
 ```
 
