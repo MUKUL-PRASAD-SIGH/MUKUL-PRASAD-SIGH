@@ -391,9 +391,9 @@ mukul = {
 | **Smart India Hackathon 2025** | [Project Astraeus](https://github.com/MUKUL-PRASAD-SIGH/PROJECT_ENTANGLEMENT) | 🏅 **Merit** |
 | **BIT Mesra Hack '24 · ECE Society** | [DonorConnect](https://github.com/MUKUL-PRASAD-SIGH/DonorConnectT) | 🔟 **Top 10 / 1,000 teams** |
 | **TCS Hackathon** | [Project TCS](https://github.com/MUKUL-PRASAD-SIGH/Project_TCS) | 🎖️ **Consolation Prize** |
-| **Hack-A-War '25** | — | **Top 10** · Finalist |
-| **Samsung PRISM '25 & '26** | — | **Finalist** |
-| **wHACKiest '26 · Codecrafter '26 · HackMalenadu '26** | — | **Finalist** |
+| **Hack-A-War '25** | [Githopper](https://github.com/MUKUL-PRASAD-SIGH/GITHOPPER) | **Top 10** · Finalist |
+| **Samsung PRISM '25 & '26** | [Kairos](https://github.com/MUKUL-PRASAD-SIGH/Samsung) | **Finalist** |
+| **wHACKiest '26 · Codecrafter '26 · HackMalenadu '26** | [Vaaya](https://github.com/MUKUL-PRASAD-SIGH/VAAYA-PROJECT) | **Finalist** |
 | **Kaggle — Wellbore Geology Prediction** <br/><sub>international team led by PyJa</sub> | [Solution](https://github.com/MUKUL-PRASAD-SIGH/KAGGLE-Wellbore_Geology_Prediction) | 📈 **Top 150 / 10,760 entrants** <sub>(Jul 2026)</sub> |
 | **Kaggle — F1 Race Result Classification** <br/><sub>Polaris Institute of Technology</sub> | [Solution](https://github.com/MUKUL-PRASAD-SIGH/KAGGLE-F1-race-result-classification) | 📈 **Top 25 / 348 entrants** |
 | **Flipkart Gridlock Hackathon 2.0** | [Travel-demand ML](https://www.hackerearth.com/challenges/competitive/gridlock-hackathon-20/problems/) | Travel-pattern, booking & cancellation insights for demand prediction <sub>(77,299 × 11 dataset)</sub> |
