@@ -384,8 +384,7 @@ mukul = {
 | **Flipkart Grid 8.0** | — | 🏅 **National Semifinalist** |
 | **JPMorgan Chase — Code for Good '26** | — | 🏅 **National Semifinalist** |
 | **HackArena 2.0 · IIIT Delhi** | [RegGraph-AI](https://github.com/MUKUL-PRASAD-SIGH/RegGraph-AI) | 🏆 **Zonal Champion** · Finalist |
-| **GenAI Fusion '25 Hack** | — | 🥈 **1st Runner-up** |
-| **Agentic AI Hackathon** | [KisaanMitra](https://github.com/MUKUL-PRASAD-SIGH/KisaanMitra) | 🥈 **1st Runner-up** |
+| **GenAI Fusion Hackathon** | [KisaanMitra](https://github.com/MUKUL-PRASAD-SIGH/KisaanMitra) | 🥈 **1st Runner-up** |
 | **CyreneAI Hackathon** | [NeuroSOC](https://github.com/MUKUL-PRASAD-SIGH/Project_NeuroSOC) | 🥈 **1st Runner-up** |
 | **Smart India Hackathon 2026** | [MOIL Manganese Copilot](https://github.com/MUKUL-PRASAD-SIGH/manganese) · [Jvalyx](https://github.com/MUKUL-PRASAD-SIGH/Jvalyx) | 🏆 **Semifinalist** |
 | **Smart India Hackathon 2025** | [Project Astraeus](https://github.com/MUKUL-PRASAD-SIGH/PROJECT_ENTANGLEMENT) | 🏅 **Merit** |
