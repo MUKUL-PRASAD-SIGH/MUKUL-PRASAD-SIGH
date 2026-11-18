@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">MUKUL PRASAD's GitHub Stats, Rank: A-</title>
-        <desc id="descId">Total Stars Earned: 264, Total Commits  (last year) : 2234, Total PRs: 31, Total Issues: 1, Contributed to (last year): 25</desc>
+        <desc id="descId">Total Stars Earned: 264, Total Commits  (last year) : 2541, Total PRs: 49, Total Issues: 1, Contributed to (last year): 25</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 78.09236979018547;
+        stroke-dashoffset: 68.64956384123069;
       }
     }
   
@@ -177,7 +177,7 @@
         x="219.01"
         y="12.5"
         data-testid="commits"
-      >2.2k</text>
+      >2.5k</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
@@ -192,7 +192,7 @@
         x="219.01"
         y="12.5"
         data-testid="prs"
-      >31</text>
+      >49</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
